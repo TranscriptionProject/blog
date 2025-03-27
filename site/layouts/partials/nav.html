@@ -1,0 +1,31 @@
+<!-- Custom navbar for zainrizvi.io style -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="site-header-inside">
+            <!-- Brand and toggle -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="site-branding">
+                    <h1 class="site-title"><a class="navbar-brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a></h1>
+                </div>
+            </div>
+
+            <!-- Nav links -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="menu-item current-menu-item"><a href="{{ "/" | relLangURL }}">Start Here</a></li>
+                        <li class="menu-item"><a href="{{ "/" | relLangURL }}blog/">Essays</a></li>
+                        <li class="menu-item"><a href="{{ "/" | relLangURL }}categories/career-advice/">Career Advice</a></li>
+                        <li class="menu-item"><a href="{{ "/" | relLangURL }}categories/software-engineering/">Software Engineering</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
