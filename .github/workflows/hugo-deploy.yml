@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # or master, depending on your default branch name
+      - main
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch Hugo themes
+          submodules: false  # Don't try to get submodules
           fetch-depth: 0    # Fetch all history
 
       - name: Setup Hugo
@@ -19,6 +19,11 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+          
+      - name: Clone theme
+        run: |
+          mkdir -p site/themes
+          git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git site/themes/hugo-theme-cleanwhite
 
       - name: Build
         run: cd site && hugo --minify  # Change to site directory first
