@@ -1,4 +1,4 @@
-baseURL = "https://github.com/TranscriptionProject/blog/"
+baseURL = "https://transcriptionproject.github.io/blog/"
 disablePathToLower = true
 languageCode = "en-us"
 title = "Zain Rizvi"
