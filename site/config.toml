@@ -3,6 +3,8 @@ disablePathToLower = true
 languageCode = "en-us"
 title = "Zain Rizvi"
 theme = "hugo-theme-cleanwhite"
+relativeURLs = true
+canonifyURLs = true
 
 [markup]
   [markup.goldmark]
