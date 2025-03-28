@@ -2,7 +2,7 @@
 date = 2020-08-14T07:06:00Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2020/08/01-camouflaged-animals-1556947_uploadsmember25523yourshot-25523-1556947jpg_67m4i5ts7ciah4emivyjuicxr4zxs2udwatjavjxeftgooyp4jfa_2000x1500-1-.jpg"
+image = "/blog/img/the-impostors-advantage/01-camouflaged-animals-1556947_uploadsmember25523yourshot-25523-1556947jpg_67m4i5ts7ciah4emivyjuicxr4zxs2udwatjavjxeftgooyp4jfa_2000x1500-1-.jpg"
 slug = "the-impostors-advantage"
 url = "the-impostors-advantage"
 summary = "My heart was racing. My palms sweating. I was going to be fired.\nPerformance reviews had just ended, and it was time to meet my manager and be told my results. Except I knew what it would say. How else do you rate a programmer who doesn’t code?"

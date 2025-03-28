@@ -2,7 +2,7 @@
 date = 2020-09-30T16:41:48Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2020/09/Fake-it-image-1-.jpg"
+image = "/blog/img/how-banks-help-scammers-with-their-bad-ui/Fake-it-image-1-.jpg"
 slug = "how-banks-help-scammers-with-their-bad-ui"
 url = "how-banks-help-scammers-with-their-bad-ui"
 summary = "My sister wanted a summer job before starting college. Instead she was scammed out of thousands"

@@ -2,7 +2,7 @@
 date = 2019-11-27T08:00:00Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2020/07/1-LPnY8nOLg4S6_TG0DEXwsg-1-1-.png"
+image = "/blog/img/using-gpus-with-r-in-jupyter-lab/1-LPnY8nOLg4S6_TG0DEXwsg-1-2-.png"
 slug = "using-gpus-with-r-in-jupyter-lab"
 url = "using-gpus-with-r-in-jupyter-lab"
 title = "How to Use GPUs with R in Jupyter Lab"

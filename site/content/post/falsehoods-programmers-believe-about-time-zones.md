@@ -2,7 +2,7 @@
 date = 2020-10-22T15:57:40Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2020/10/pasted-image-0--1--1.png"
+image = "/blog/img/falsehoods-programmers-believe-about-time-zones/pasted-image-0--1--1.png"
 slug = "falsehoods-programmers-believe-about-time-zones"
 url = "falsehoods-programmers-believe-about-time-zones"
 summary = "I decided to make a time zone converter. It had seemed like an easy project, but I was horribly mistaken"
