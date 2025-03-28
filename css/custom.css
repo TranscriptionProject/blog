@@ -72,3 +72,26 @@
         padding: 10px 15px;
     }
 }
+
+
+header.intro-header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header.intro-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  header.intro-header .container {
+    position: relative;
+    z-index: 2; /* Place the content above the overlay */
+  }
