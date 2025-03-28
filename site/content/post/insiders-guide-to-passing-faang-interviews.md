@@ -2,7 +2,7 @@
 date = 2022-06-07T00:22:27Z
 description = ""
 draft = false
-image = "img/insiders-guide-to-passing-faang-interviews/Blog-cover-blank-1.png"
+image = "/blog/img/insiders-guide-to-passing-faang-interviews/Blog-cover-blank-1.png"
 slug = "insiders-guide-to-passing-faang-interviews"
 url = "insiders-guide-to-passing-faang-interviews"
 summary = "My 12+ years as both the interviewer and interviewee at Google, Microsoft, and Stripe taught me one thing:\nStandard interviewing advice falls woefully short. Grinding interview questions isn't enough. Here's what to do."
