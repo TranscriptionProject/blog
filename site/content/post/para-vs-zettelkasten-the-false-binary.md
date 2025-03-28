@@ -2,7 +2,7 @@
 date = 2022-01-23T10:48:23Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2022/01/Note-Taking-Strategies-1-.jpg"
+image = "/blog/img/para-vs-zettelkasten-the-false-binary/Note-Taking-Strategies-1.png"
 slug = "para-vs-zettelkasten-the-false-binary"
 url = "para-vs-zettelkasten-the-false-binary"
 title = "PARA vs Zettelkasten: The false binary"
