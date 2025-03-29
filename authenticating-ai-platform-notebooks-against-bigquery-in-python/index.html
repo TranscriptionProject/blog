@@ -1,21 +1,438 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta property="og:site_name" content="Zain Rizvi"><meta property="og:type" content="article"><meta property="og:image" content="https://images.unsplash.com/photo-1560787338-43fcd3b87500?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ"><meta property="twitter:image" content="https://images.unsplash.com/photo-1560787338-43fcd3b87500?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ"><meta name=title content="Authenticating AI Platform Notebooks against BigQuery in Python"><meta property="og:title" content="Authenticating AI Platform Notebooks against BigQuery in Python"><meta property="twitter:title" content="Authenticating AI Platform Notebooks against BigQuery in Python"><meta name=description content><meta property="og:description" content><meta property="twitter:description" content><meta property="twitter:card" content="summary"><meta name=keyword content><link rel="shortcut icon" href=../img/favicon.ico><title>Authenticating AI Platform Notebooks against BigQuery in Python | </title><link rel=canonical href=../authenticating-ai-platform-notebooks-against-bigquery-in-python/><link rel=stylesheet href=../css/bootstrap.min.css><link rel=stylesheet href=../css/hugo-theme-cleanwhite.min.css><link rel=stylesheet href=../css/zanshang.css><link rel=stylesheet href=../css/font-awesome.all.min.css><link rel=stylesheet href=https://transcriptionproject.github.io/blog/css/custom.css><script src=../js/jquery.min.js></script><script src=../js/bootstrap.min.js></script><script src=../js/hux-blog.min.js></script><script src=../js/lazysizes.min.js></script></head><nav class="navbar navbar-default navbar-custom navbar-fixed-top"><div class=container-fluid><div class=site-header-inside><div class="navbar-header page-scroll"><button type=button class=navbar-toggle>
-<span class=sr-only>Toggle navigation</span>
-<span class=icon-bar></span>
-<span class=icon-bar></span>
-<span class=icon-bar></span></button><div class=site-branding><h1 class=site-title><a class=navbar-brand href=../>Zain Rizvi</a></h1></div></div><div id=huxblog_navbar><div class=navbar-collapse><ul class="nav navbar-nav navbar-right"><li class="menu-item current-menu-item"><a href=../>Start Here</a></li><li class=menu-item><a href=../blog/>Essays</a></li><li class=menu-item><a href=../categories/career-advice/>Career Advice</a></li><li class=menu-item><a href=../categories/software-engineering/>Software Engineering</a></li></ul></div></div></div></div></nav><style type=text/css>header.intro-header{background-image:url(https://images.unsplash.com/photo-1560787338-43fcd3b87500?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)}</style><header class=intro-header><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class=post-heading><div class=tags></div><h1>Authenticating AI Platform Notebooks against BigQuery in Python</h1><h2 class=subheading></h2><span class=meta>Posted by
-Zain Rizvi
-on
-Tuesday, October 15, 2019</span></div></div></div></div></header><article><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2
-col-md-10 col-md-offset-1
-post-container"><p>When you use <a href=https://cloud.google.com/ai-platform-notebooks/>AI Platform Notebooks</a> by default any API calls you make to GCP use the default compute service account that your notebook runs under. This makes it easy to start getting stuff done, but sometimes you may want to use BigQuery to query data that your service account doesn’t have access to.</p><p>The below instructions describe how to use your personal account to authenticate with BigQuery. This specifically applies to authentication when using a python based notebook. If you want to authenticate on a R based notebook you can find <a href=__GHOST_URL__/blog/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/>instructions for that here</a>.</p><p>Normally you would use <code>gcloud auth login</code> from the jupyer lab terminal to login to your personal user account and call Google apis, but the BigQuery library auth works differently for some reason.</p><p>Instead, you need to create a credential object containing your user credentials and pass that to the bigquery library.</p><p>Install the <code>pydata_google_auth</code> package:</p><p><code>%pip install pydata_goog_auth</code></p><p>Restart the kernel: Kernel -> Resart Kernel</p><link rel=stylesheet href=../css/hugo-easy-gallery.css><div class=box><figure itemprop=associatedMedia itemscope itemtype=http://schema.org/ImageObject><div class=img><img itemprop=thumbnail src=https://screenshot.googleplex.com/SXzOG3pCaBk.png></div><a href=https://screenshot.googleplex.com/SXzOG3pCaBk.png itemprop=contentUrl></a></figure></div><p>Import the library and create your credentials:</p><pre tabindex=0><code>import pydata_google_auth credentials = pydata_google_auth.get_user_credentials( [&#39;https://www.googleapis.com/auth/bigquery&#39;], )
-</code></pre><p>When you execute the above cell you’ll see an output with an authentication link and a text box</p><div class=box><figure itemprop=associatedMedia itemscope itemtype=http://schema.org/ImageObject><div class=img><img itemprop=thumbnail src=https://screenshot.googleplex.com/KJ13JmkmkLd.png></div><a href=https://screenshot.googleplex.com/KJ13JmkmkLd.png itemprop=contentUrl></a></figure></div><p>Copy that link, paste it into a browser, and authenticate with google. You’ll see an authorization code similar to the below:</p><div class=box><figure itemprop=associatedMedia itemscope itemtype=http://schema.org/ImageObject><div class=img><img itemprop=thumbnail src=https://screenshot.googleplex.com/1g35DesEv29.png></div><a href=https://screenshot.googleplex.com/1g35DesEv29.png itemprop=contentUrl></a></figure></div><p>Copy that code and paste it into the authentication code input box you saw in your notebook</p><div class=box><figure itemprop=associatedMedia itemscope itemtype=http://schema.org/ImageObject><div class=img><img itemprop=thumbnail src=https://screenshot.googleplex.com/v6cAGhKSn3S.png></div><a href=https://screenshot.googleplex.com/v6cAGhKSn3S.png itemprop=contentUrl></a></figure></div><p>Next you’ll want to reload the bigquery magic in your notebook. You ‘reload’ instead of ‘load’ because AI Platform Notebooks already loads the bigquery magic for you by default:</p><pre tabindex=0><code>%reload_ext google.cloud.bigquery from google.cloud.bigquery import magics magics.context.credentials = credentials
-</code></pre><p>Now when you use the bigquery magic it’ll use your personal credentials instead of the service account ones:</p><p>%%bigquery SELECT name, SUM(number) as count FROM <code>my-private-project.usa_names.usa_1910_current</code> GROUP BY name ORDER BY count DESC LIMIT 10</p><p>And that’s all there is to it!</p><p>If you’d rather use the python code than invoke the bigquery magic just create a client with the user credentials and query away!</p><pre tabindex=0><code>from google.cloud import bigquery as bq
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Zain Rizvi">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://images.unsplash.com/photo-1560787338-43fcd3b87500?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1560787338-43fcd3b87500?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" />
+    
+
+    
+    <meta name="title" content="Authenticating AI Platform Notebooks against BigQuery in Python" />
+    <meta property="og:title" content="Authenticating AI Platform Notebooks against BigQuery in Python" />
+    <meta property="twitter:title" content="Authenticating AI Platform Notebooks against BigQuery in Python" />
+    
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="" />
+    <meta property="twitter:description" content="" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <title>Authenticating AI Platform Notebooks against BigQuery in Python | </title>
+
+    <link rel="canonical" href="../authenticating-ai-platform-notebooks-against-bigquery-in-python/">
+
+    
+    
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="../css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="../css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="../css/font-awesome.all.min.css">
+
+    
+    <link rel="stylesheet" href="http://localhost:1313/blog/css/custom.css">
+
+    
+    <script src="../js/jquery.min.js"></script>
+
+    
+    <script src="../js/bootstrap.min.js"></script>
+
+    
+    <script src="../js/hux-blog.min.js"></script>
+
+    
+    <script src="../js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="site-header-inside">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="site-branding">
+                    <h1 class="site-title"><a class="navbar-brand" href="../">Zain Rizvi</a></h1>
+                </div>
+            </div>
+
+            
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="menu-item current-menu-item"><a href="../">Start Here</a></li>
+                        <li class="menu-item"><a href="../blog/">Essays</a></li>
+                        <li class="menu-item"><a href="../categories/career-advice/">Career Advice</a></li>
+                        <li class="menu-item"><a href="../categories/software-engineering/">Software Engineering</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('https://images.unsplash.com/photo-1560787338-43fcd3b87500?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Authenticating AI Platform Notebooks against BigQuery in Python</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    Zain Rizvi
+                             
+                            on 
+                            Tuesday, October 15, 2019
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>When you use <a href="https://cloud.google.com/ai-platform-notebooks/">AI Platform Notebooks</a> by default any API calls you make to GCP use the default compute service account that your notebook runs under. This makes it easy to start getting stuff done, but sometimes you may want to use BigQuery to query data that your service account doesn’t have access to.</p>
+<p>The below instructions describe how to use your personal account to authenticate with BigQuery. This specifically applies to authentication when using a python based notebook. If you want to authenticate on a R based notebook you can find <a href="__GHOST_URL__/blog/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/">instructions for that here</a>.</p>
+<p>Normally you would use <code>gcloud auth login</code> from the jupyer lab terminal to login to your personal user account and call Google apis, but the BigQuery library auth works differently for some reason.</p>
+<p>Instead, you need to create a credential object containing your user credentials and pass that to the bigquery library.</p>
+<p>Install the <code>pydata_google_auth</code> package:</p>
+<p><code>%pip install pydata_goog_auth</code></p>
+<p>Restart the kernel: Kernel -&gt; Resart Kernel</p>
+
+<link rel="stylesheet" href="../css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://screenshot.googleplex.com/SXzOG3pCaBk.png" />
+    </div>
+    <a href="https://screenshot.googleplex.com/SXzOG3pCaBk.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Import the library and create your credentials:</p>
+<pre tabindex="0"><code>import pydata_google_auth credentials = pydata_google_auth.get_user_credentials( [&#39;https://www.googleapis.com/auth/bigquery&#39;], )
+</code></pre><p>When you execute the above cell you’ll see an output with an authentication link and a text box</p>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://screenshot.googleplex.com/KJ13JmkmkLd.png" />
+    </div>
+    <a href="https://screenshot.googleplex.com/KJ13JmkmkLd.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Copy that link, paste it into a browser, and authenticate with google. You’ll see an authorization code similar to the below:</p>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://screenshot.googleplex.com/1g35DesEv29.png" />
+    </div>
+    <a href="https://screenshot.googleplex.com/1g35DesEv29.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Copy that code and paste it into the authentication code input box you saw in your notebook</p>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://screenshot.googleplex.com/v6cAGhKSn3S.png" />
+    </div>
+    <a href="https://screenshot.googleplex.com/v6cAGhKSn3S.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Next you’ll want to reload the bigquery magic in your notebook. You ‘reload’ instead of ‘load’ because AI Platform Notebooks already loads the bigquery magic for you by default:</p>
+<pre tabindex="0"><code>%reload_ext google.cloud.bigquery from google.cloud.bigquery import magics magics.context.credentials = credentials
+</code></pre><p>Now when you use the bigquery magic it’ll use your personal credentials instead of the service account ones:</p>
+<p>%%bigquery SELECT name, SUM(number) as count FROM <code>my-private-project.usa_names.usa_1910_current</code> GROUP BY name ORDER BY count DESC LIMIT 10</p>
+<p>And that’s all there is to it!</p>
+<p>If you’d rather use the python code than invoke the bigquery magic just create a client with the user credentials and query away!</p>
+<pre tabindex="0"><code>from google.cloud import bigquery as bq
 client = bq.Client(project=&#34;project-name&#34;, credentials=credentials)
-</code></pre><p>Thanks to Anthony Brown for <a href=https://medium.com/john-lewis-software-engineering/authenticating-jupyter-notebook-against-bigquery-957884f78527>sharing instructions</a> on how to use BigQuery with Jupyter Notebooks</p><hr><ul class=pager><li class=previous><a href=../a-more-beautiful-question-summary/ data-toggle=tooltip data-placement=top title="Become Creative by Asking Better Questions">&larr;
-Previous Post</a></li><li class=next><a href=../jupyter-notebooks-best-practices-use-virtual-environments/ data-toggle=tooltip data-placement=top title="Use Virtual Environments Inside Jupyter Notebooks & Jupter Lab [Best Practices]">Next
-Post &rarr;</a></li></ul></div><div class="col-lg-2 col-lg-offset-0
-visible-lg-block
-sidebar-container
-catalog-container"><div class=side-catalog><hr class="hidden-sm hidden-xs"><h5><a class=catalog-toggle href=#>CATALOG</a></h5><ul class=catalog-body></ul></div></div><div class="col-lg-8 col-lg-offset-2
-col-md-10 col-md-offset-1
-sidebar-container"></div></div></div></article><footer><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><ul class="list-inline text-center"></ul><p class="copyright text-muted">Copyright &copy; Zain Rizvi 2025</p></div></div></div></footer><script>function loadAsync(e,t){var s=document,o="script",n=s.createElement(o),i=s.getElementsByTagName(o)[0];n.src=e,t&&n.addEventListener("load",function(e){t(null,e)},!1),i.parentNode.insertBefore(n,i)}</script><script>$("#tag_cloud").length!==0&&loadAsync("/js/jquery.tagcloud.js",function(){$.fn.tagcloud.defaults={color:{start:"#bbbbee",end:"#0085a1"}},$("#tag_cloud a").tagcloud()})</script><script>loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js",function(){var e=document.querySelector("nav");e&&FastClick.attach(e)})</script><script type=text/javascript>function generateCatalog(e){_containerSelector="div.post-container";var t,n,s,o,i,a=$(_containerSelector),r=a.find("h1,h2,h3,h4,h5,h6");return $(e).html(""),r.each(function(){n=$(this).prop("tagName").toLowerCase(),o="#"+$(this).prop("id"),t=$(this).text(),i=$('<a href="'+o+'" rel="nofollow" title="'+t+'">'+t+"</a>"),s=$('<li class="'+n+'_nav"></li>').append(i),$(e).append(s)}),!0}generateCatalog(".catalog-body"),$(".catalog-toggle").click(function(e){e.preventDefault(),$(".side-catalog").toggleClass("fold")}),loadAsync("/js/jquery.nav.js",function(){$(".catalog-body").onePageNav({currentClass:"active",changeHash:!1,easing:"swing",filter:"",scrollSpeed:700,scrollOffset:0,scrollThreshold:.2,begin:null,end:null,scrollChange:null,padding:80})})</script></body></html>
+</code></pre><p>Thanks to Anthony Brown for <a href="https://medium.com/john-lewis-software-engineering/authenticating-jupyter-notebook-against-bigquery-957884f78527">sharing instructions</a> on how to use BigQuery with Jupyter Notebooks</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="../a-more-beautiful-question-summary/" data-toggle="tooltip" data-placement="top" title="Become Creative by Asking Better Questions">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="../jupyter-notebooks-best-practices-use-virtual-environments/" data-toggle="tooltip" data-placement="top" title="Use Virtual Environments Inside Jupyter Notebooks &amp; Jupter Lab [Best Practices]">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Zain Rizvi 2025
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
