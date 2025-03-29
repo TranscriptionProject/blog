@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Zain Rizvi</title>
+    <link>http://localhost:1313/blog/blog/</link>
+    <description>Recent content in Blog on Zain Rizvi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Aug 2022 19:10:53 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Want to make a feature change to PyTorch?</title>
+      <link>http://localhost:1313/blog/blog/want-to-make-a-feature-change-to-pytorch/</link>
+      <pubDate>Mon, 22 Aug 2022 19:10:53 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/want-to-make-a-feature-change-to-pytorch/</guid>
+      <description>With such a large number of commits coming in, PyTorch needs a process for managing it all to keep the codebase maintainable. For smaller changes, like a five line bug fix, this takes the form of a regular PR review.  For larger changes, we prefer a Request for Comments</description>
+    </item>
+    <item>
+      <title>The Software Engineer&#39;s Career Ladder</title>
+      <link>http://localhost:1313/blog/blog/the-software-engineers-career-ladder/</link>
+      <pubDate>Sat, 11 Jun 2022 05:00:11 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/the-software-engineers-career-ladder/</guid>
+      <description>What&amp;rsquo;s expected of you when you&amp;rsquo;re a junior, senior, or staff software engineer, and what it takes to rise up in the ranks.</description>
+    </item>
+    <item>
+      <title>Insider&#39;s Guide to Passing FAANG Interviews</title>
+      <link>http://localhost:1313/blog/blog/insiders-guide-to-passing-faang-interviews/</link>
+      <pubDate>Tue, 07 Jun 2022 00:22:27 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/insiders-guide-to-passing-faang-interviews/</guid>
+      <description>My 12+ years as both the interviewer and interviewee at Google, Microsoft, and Stripe taught me one thing:&#xA;Standard interviewing advice falls woefully short. Grinding interview questions isn&amp;rsquo;t enough. Here&amp;rsquo;s what to do.</description>
+    </item>
+    <item>
+      <title>PARA vs Zettelkasten: The false binary</title>
+      <link>http://localhost:1313/blog/blog/para-vs-zettelkasten-the-false-binary/</link>
+      <pubDate>Sun, 23 Jan 2022 10:48:23 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/para-vs-zettelkasten-the-false-binary/</guid>
+      <description>&lt;p&gt;I started practicing PARA and Zettelkasten &lt;a href=&#34;__GHOST_URL__/blog/remembering-what-you-read-zettelkasten-vs-para/&#34;&gt;two years ago&lt;/a&gt;.  Here&amp;rsquo;s what I&amp;rsquo;ve realized after twenty four months of practice:&lt;/p&gt;&#xA;&lt;h1 id=&#34;change-the-system-not-yourself&#34;&gt;Change the system, not yourself&lt;/h1&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a common mistake people made when following popular note taking or productivity systems, be it PARA, Zettelkasten, GTD, Bullet Journals, or anything else.&lt;/p&gt;&#xA;&lt;p&gt;They assume each system is universal.&lt;/p&gt;&#xA;&lt;p&gt;Those systems weren&amp;rsquo;t built for mass consumption. Rather, their inventors had each felt a gap in their &lt;em&gt;own&lt;/em&gt; abilities, where their previous systems didn&amp;rsquo;t match their personalities. Like two jigsaw pieces that don&amp;rsquo;t quite fit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Software Engineers like Woodworking</title>
+      <link>http://localhost:1313/blog/blog/why-software-engineers-like-woodworking/</link>
+      <pubDate>Thu, 25 Feb 2021 02:44:34 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/why-software-engineers-like-woodworking/</guid>
+      <description>&lt;p&gt;The smell of fresh pine sawdust filled the air, with more floating up as I sanded the last rough corner of the stool. My toddler was happily sanding her own block off to the side.&lt;/p&gt;&#xA;&lt;p&gt;Woodworking was a new hobby I&amp;rsquo;d picked up. My old ones, coding, reading, writing, had kept me stuck to my laptop, holed up by myself. Not very toddler friendly.&lt;/p&gt;&#xA;&lt;p&gt;A surprise &lt;a href=&#34;https://www.amazon.com/Decker-Junior-Workbench-Workshop-Realistic/dp/B0016DE80I&#34;&gt;gift&lt;/a&gt; laid the seeds of an idea. As a boy, the best summer days were when my dad and I would transform scratch wood into bird houses, planes, and eventually even rube goldberg devices. It was time to rekindle the flame.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Your confusion is the litmus test</title>
+      <link>http://localhost:1313/blog/blog/your-confusion-is-the-litmus-test/</link>
+      <pubDate>Fri, 18 Dec 2020 16:44:14 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/your-confusion-is-the-litmus-test/</guid>
+      <description>&lt;p&gt;I was fumbling in the dark. Groping blindly.&lt;/p&gt;&#xA;&lt;p&gt;It seemed so much simpler a month ago.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Hey, could you integrate this tool into our service?&amp;rdquo; my manager had asked. &amp;ldquo;Sure,&amp;rdquo; I&amp;rsquo;d replied. &amp;ldquo;How hard could it be?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Famous last words.&lt;/p&gt;&#xA;&lt;p&gt;Now it was my job to take this &lt;a href=&#34;__GHOST_URL__/blog/the-truth-about-vpc-security-controls/&#34;&gt;convoluted&lt;/a&gt; piece of security infrastructure, which I knew nothing about, which itself was still under active development, and wrangle it into submission.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s just code, right?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to slay a Hydra: Finishing projects</title>
+      <link>http://localhost:1313/blog/blog/how-i-started-finishing-more-side-projects/</link>
+      <pubDate>Thu, 12 Nov 2020 17:28:09 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/how-i-started-finishing-more-side-projects/</guid>
+      <description>This project was supposed to be easy, why do I keep running into brick walls?!? Ok, how do I work around this one without compromising my vision?</description>
+    </item>
+    <item>
+      <title>Falsehoods programmers believe about time zones</title>
+      <link>http://localhost:1313/blog/blog/falsehoods-programmers-believe-about-time-zones/</link>
+      <pubDate>Thu, 22 Oct 2020 15:57:40 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/falsehoods-programmers-believe-about-time-zones/</guid>
+      <description>I decided to make a time zone converter. It had seemed like an easy project, but I was horribly mistaken</description>
+    </item>
+    <item>
+      <title>How banks help scammers with their bad UI</title>
+      <link>http://localhost:1313/blog/blog/how-banks-help-scammers-with-their-bad-ui/</link>
+      <pubDate>Wed, 30 Sep 2020 16:41:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/how-banks-help-scammers-with-their-bad-ui/</guid>
+      <description>My sister wanted a summer job before starting college. Instead she was scammed out of thousands</description>
+    </item>
+    <item>
+      <title>Never Focus on the User</title>
+      <link>http://localhost:1313/blog/blog/never-focus-on-the-user/</link>
+      <pubDate>Fri, 11 Sep 2020 18:21:44 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/never-focus-on-the-user/</guid>
+      <description>User focused design is wasteful. Every business knows this, but they&amp;rsquo;re afraid to admit it. It&amp;rsquo;s is a PR friendly way to say they focus on their buyers</description>
+    </item>
+    <item>
+      <title>You&#39;re all set</title>
+      <link>http://localhost:1313/blog/blog/double_opt_in_confirmation/</link>
+      <pubDate>Tue, 01 Sep 2020 01:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/double_opt_in_confirmation/</guid>
+      <description>&lt;h3 id=&#34;theres-a-welcome-email-waiting-in-your-inbox-with-your-salary-negotiation-tips&#34;&gt;There&amp;rsquo;s a welcome email waiting in your inbox with your salary negotiation tips&lt;/h3&gt;&#xA;&lt;p&gt;I won&amp;rsquo;t hide it, I&amp;rsquo;m excited to have you onboard 😀&lt;/p&gt;&#xA;&lt;p&gt;Enjoy!&lt;/p&gt;&#xA;&#xD;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;../css/hugo-easy-gallery.css&#34; /&gt;&#xD;&#xA;&lt;div class=&#34;box&#34; &gt;&#xD;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xD;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=2000&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&#34; alt=&#34;Photo by &amp;lt;a href=&amp;#34;https://unsplash.com/@theexplorerdad?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Joshua Ness&amp;lt;/a&amp;gt; / &amp;lt;a href=&amp;#34;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Unsplash&amp;lt;/a&amp;gt;&#34;/&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;a href=&#34;https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=2000&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xD;&#xA;      &lt;figcaption align=&#34;center&#34;&gt;&#xD;&#xA;          &lt;p&gt;Photo by &amp;lt;a href=&amp;#34;https://unsplash.com/@theexplorerdad?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Joshua Ness&amp;lt;/a&amp;gt; / &amp;lt;a href=&amp;#34;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Unsplash&amp;lt;/a&amp;gt;&lt;/p&gt;&#xD;&#xA;      &lt;/figcaption&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Taking my own Advice</title>
+      <link>http://localhost:1313/blog/blog/grow-by-giving-feedback/</link>
+      <pubDate>Fri, 21 Aug 2020 18:13:17 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/grow-by-giving-feedback/</guid>
+      <description>&lt;p&gt;You’ve heard how the best way to learn is by teaching, right?&lt;/p&gt;&#xA;&lt;p&gt;Wrong.&lt;/p&gt;&#xA;&lt;p&gt;Try grading instead. The single biggest practice that improved my writing was reviewing &lt;em&gt;other&lt;/em&gt; people&amp;rsquo;s essays. &lt;a href=&#34;https://www.perell.com/&#34;&gt;David Perell&lt;/a&gt; made me do it.&lt;/p&gt;&#xA;&lt;p&gt;I took his class Write of Passage, and on the very first day we were told to write an essay. And give feedback.&lt;/p&gt;&#xA;&lt;p&gt;To random strangers.&lt;/p&gt;&#xA;&lt;p&gt;About their essays.&lt;/p&gt;&#xA;&lt;p&gt;That didn’t seem right.&lt;/p&gt;&#xA;&lt;p&gt;He expected &lt;em&gt;me&lt;/em&gt; to give advice? Wasn’t &lt;em&gt;he&lt;/em&gt; the teacher? I &lt;a href=&#34;__GHOST_URL__/blog/the-impostors-advantage/&#34;&gt;wasn’t qualified&lt;/a&gt; to do this, I barely knew how to write my own. That’s why I was taking the class!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I learned to turn Impostor Syndrome into an Advantage - The Impostor&#39;s Advantage</title>
+      <link>http://localhost:1313/blog/blog/the-impostors-advantage/</link>
+      <pubDate>Fri, 14 Aug 2020 07:06:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/the-impostors-advantage/</guid>
+      <description>My heart was racing. My palms sweating. I was going to be fired.&#xA;Performance reviews had just ended, and it was time to meet my manager and be told my results. Except I knew what it would say. How else do you rate a programmer who doesn’t code?</description>
+    </item>
+    <item>
+      <title>I couldn’t abandon another side project</title>
+      <link>http://localhost:1313/blog/blog/do-more-by-doing-less/</link>
+      <pubDate>Fri, 07 Aug 2020 17:03:06 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/do-more-by-doing-less/</guid>
+      <description>I didn&amp;rsquo;t want this to become another abandoned project. By trying to do less stuff, I got more done</description>
+    </item>
+    <item>
+      <title>Effective Altruism is Suboptimal</title>
+      <link>http://localhost:1313/blog/blog/the-most-effective-altruism/</link>
+      <pubDate>Thu, 30 Jul 2020 18:04:11 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/the-most-effective-altruism/</guid>
+      <description>What a homeless cametaught me about caring for others</description>
+    </item>
+    <item>
+      <title>Dangerous Professionals: Hacking the Bureaucracy to Get Stuff Done</title>
+      <link>http://localhost:1313/blog/blog/hacking-the-bureaucracy-to-get-stuff-done/</link>
+      <pubDate>Fri, 24 Jul 2020 07:08:17 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/hacking-the-bureaucracy-to-get-stuff-done/</guid>
+      <description>The Dangerous Professional finds the seams between the policies, and slips inside them to Get Stuff Done</description>
+    </item>
+    <item>
+      <title>Welcome to the Newsletter!</title>
+      <link>http://localhost:1313/blog/blog/email_signup_success/</link>
+      <pubDate>Sun, 19 Jul 2020 07:46:19 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/email_signup_success/</guid>
+      <description>&lt;h1 id=&#34;theres-a-welcome-email-waiting-in-your-inbox-&#34;&gt;There&amp;rsquo;s a welcome email waiting in your inbox 😀&lt;/h1&gt;&#xA;&lt;p&gt;So what can  you expect? I&amp;rsquo;ll be sending you an email no more than once a week sharing the most interesting lessons I learn.&lt;/p&gt;&#xA;&lt;p&gt;Enjoy!&lt;/p&gt;&#xA;&#xD;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;../css/hugo-easy-gallery.css&#34; /&gt;&#xD;&#xA;&lt;div class=&#34;box&#34; &gt;&#xD;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xD;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=2000&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&#34; alt=&#34;Photo by &amp;lt;a href=&amp;#34;https://unsplash.com/@theexplorerdad?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Joshua Ness&amp;lt;/a&amp;gt; / &amp;lt;a href=&amp;#34;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Unsplash&amp;lt;/a&amp;gt;&#34;/&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;a href=&#34;https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=2000&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xD;&#xA;      &lt;figcaption align=&#34;center&#34;&gt;&#xD;&#xA;          &lt;p&gt;Photo by &amp;lt;a href=&amp;#34;https://unsplash.com/@theexplorerdad?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Joshua Ness&amp;lt;/a&amp;gt; / &amp;lt;a href=&amp;#34;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Unsplash&amp;lt;/a&amp;gt;&lt;/p&gt;&#xD;&#xA;      &lt;/figcaption&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>What&#39;s it like as a Senior Engineer at Google?</title>
+      <link>http://localhost:1313/blog/blog/whats-it-like-as-a-senior-engineer/</link>
+      <pubDate>Thu, 16 Jul 2020 07:09:37 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/whats-it-like-as-a-senior-engineer/</guid>
+      <description>&lt;p&gt;When I started working at Microsoft, fresh out of college, coding was my life. Writing code was the easiest way to build any cool thing that my brain could imagine.  When I thought about what I’d want to do for the rest of my life I thought that I just wanted to keep coding.&lt;/p&gt;&#xA;&lt;p&gt;I was wrong&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Interview advice that got me offers from Google, Microsoft, and Stripe</title>
+      <link>http://localhost:1313/blog/blog/the-interviewing-advice-no-one-shares/</link>
+      <pubDate>Wed, 08 Jul 2020 01:36:05 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/the-interviewing-advice-no-one-shares/</guid>
+      <description>&lt;p&gt;“What would you say if I asked you to design me a service capable of responding to thousands of user requests every second and latency was critical?”&lt;/p&gt;&#xA;&lt;p&gt;“Umm&amp;hellip;that you have to solve this problem at work. But you’re out of ideas, and are looking to interviewees for suggestions”&lt;/p&gt;&#xA;&lt;p&gt;That’s the actual response I gave the interviewer the first time I was asked a design question. He had a good laugh. But then still made me design the service.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Remembering what you Read: Zettelkasten vs P.A.R.A.</title>
+      <link>http://localhost:1313/blog/blog/remembering-what-you-read-zettelkasten-vs-para/</link>
+      <pubDate>Sat, 09 May 2020 09:23:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/remembering-what-you-read-zettelkasten-vs-para/</guid>
+      <description>I spent over a year researching better ways to take notes and remember what I read. Here&amp;rsquo;s what I found.</description>
+    </item>
+    <item>
+      <title>Quickly Building Products for ACTUAL Customers</title>
+      <link>http://localhost:1313/blog/blog/quickly-building-products-for-actual-customers/</link>
+      <pubDate>Sat, 11 Apr 2020 01:05:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/quickly-building-products-for-actual-customers/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is my&lt;/em&gt;  &lt;a href=&#34;https://twitter.com/ZainRzv/status/1248271817258622978&#34;&gt;&lt;em&gt;tweetstorm&lt;/em&gt;&lt;/a&gt;   &lt;em&gt;on key aspects to focus on when you’re building a SaaS service. It details how features that seem critical may not actually be that important. Experiment to see what your &lt;strong&gt;&lt;strong&gt;actual&lt;/strong&gt;&lt;/strong&gt; customers are demanding, and focus 100% of your effort on that. It’s okay to acquire technical debt along the way&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34; data-width=&#34;550&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/ &lt;a href=&#34;https://twitter.com/Google?ref_src=twsrc%5Etfw&#34;&gt;@Google&lt;/a&gt; SREs released a free book on Building Secure and Reliable Systems&lt;a href=&#34;https://t.co/qr725ptjpQ&#34;&gt;https://t.co/qr725ptjpQ&lt;/a&gt;&lt;br&gt;&lt;br&gt;It&amp;#39;s a great book, but not all the requirements of a huge international company with 100,000 employees will apply to your company&lt;br&gt;&lt;br&gt;Carefully pick &amp;amp; choose what&amp;#39;s relevant to you&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Truth about VPC Security Controls</title>
+      <link>http://localhost:1313/blog/blog/the-truth-about-vpc-security-controls/</link>
+      <pubDate>Sat, 22 Feb 2020 02:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/the-truth-about-vpc-security-controls/</guid>
+      <description>&lt;p&gt;GCP’s &lt;a href=&#34;https://cloud.google.com/vpc-service-controls&#34;&gt;VPC Service Controls&lt;/a&gt; protection is often described as a virtual firewall for your GCP projects. That’s a useful mental model for your company’s decision makers to think with, but the analogy quickly breaks down if you’re an engineer trying to actually implement VPC-SC protection for your GCP projects.&lt;/p&gt;&#xA;&lt;p&gt;I learned that the hard way.&lt;/p&gt;&#xA;&lt;p&gt;Here I’ll describe just what VPC-SC is, why it was needed, and a big mistake I made which you reeeally want to make sure you avoid.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So you want to do Deep Work?</title>
+      <link>http://localhost:1313/blog/blog/so-you-want-to-deep-work/</link>
+      <pubDate>Fri, 24 Jan 2020 02:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/so-you-want-to-deep-work/</guid>
+      <description>In this information era where all mechanical tasks are being automated, in order to be successful you need to be able to do what machines cannot: be creative. And creativity is something you can generate on demand through deep work, and in his book “Deep Work” Cal explains how you can achieve it.</description>
+    </item>
+    <item>
+      <title>How to setup a Free Custom Domain Email Address</title>
+      <link>http://localhost:1313/blog/blog/how-to-setup-a-free-custom-domain-email-address/</link>
+      <pubDate>Wed, 15 Jan 2020 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/how-to-setup-a-free-custom-domain-email-address/</guid>
+      <description>&lt;p&gt;I recently discovered that it’s possible to combine any domain that you own with your Gmail account and a free MailGun account to get a free custom domain email address!&lt;/p&gt;&#xA;&lt;p&gt;When you’re done following the below instructions you’ll be able to send and receive emails addressed to &lt;a href=&#34;mailto:you@yourdomain.com&#34;&gt;you@yourdomain.com&lt;/a&gt; directly from your Gmail inbox.&lt;/p&gt;&#xA;&lt;h1 id=&#34;step-1---buy-a-domain&#34;&gt;Step 1 - Buy a domain&lt;/h1&gt;&#xA;&#xD;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;../css/hugo-easy-gallery.css&#34; /&gt;&#xD;&#xA;&lt;div class=&#34;box&#34; &gt;&#xD;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xD;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;../__GHOST_URL__/content/images/2020/07/2020-01-14-namecheap-20logo-1-.png&#34; /&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;a href=&#34;__GHOST_URL__/content/images/2020/07/2020-01-14-namecheap-20logo-1-.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Okay, so you still have to pay to own your domain, but the rest is free. And if you want a custom domain email address, then chances are you’re interested in your professional reputation. Owning your own domain is a good idea even if you don’t plan to start your own sure just yet. I held off on it a couple years and that was enough for a law student to grab zainrizvi.com -_-&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Create Customized Deep Learning Containers</title>
+      <link>http://localhost:1313/blog/blog/create-custom-deep-learning-containers/</link>
+      <pubDate>Tue, 17 Dec 2019 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/create-custom-deep-learning-containers/</guid>
+      <description>&lt;p&gt;Ever find yourself needing to install the same packages on all your deep learning notebooks? Or maybe wishing you could send your exact setup to someone else who could run your notebook? Or perhaps you’re a corporation which wants all your data scientists to have some internal libraries on all their notebooks.&lt;/p&gt;&#xA;&lt;p&gt;Turns out you can. GCP’s &lt;a href=&#34;https://cloud.google.com/ai-platform-notebooks/&#34;&gt;AI Platform Notebooks team&lt;/a&gt; offers &lt;a href=&#34;https://cloud.google.com/ai-platform/deep-learning-containers/&#34;&gt;Deep Learning Containers&lt;/a&gt;, which is a containerized version of the exact same images you get when you create a regular AI Platform Notebook (full disclosure: that’s &lt;a href=&#34;https://zainrizvi.io/about/&#34;&gt;my team&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Use GPUs with R in Jupyter Lab</title>
+      <link>http://localhost:1313/blog/blog/using-gpus-with-r-in-jupyter-lab/</link>
+      <pubDate>Wed, 27 Nov 2019 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/using-gpus-with-r-in-jupyter-lab/</guid>
+      <description>&lt;p&gt;Have you ever tried installing drivers for your Nvidia GPUs? The first time I tried, I spent the better half of an afternoon trying to get that done.&lt;/p&gt;&#xA;&lt;p&gt;And once I realized I also had to recompile multiple packages to actually use those GPUs, I was one error message away from being this guy:&lt;/p&gt;&#xA;&#xD;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;../css/hugo-easy-gallery.css&#34; /&gt;&#xD;&#xA;&lt;div class=&#34;box&#34; &gt;&#xD;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xD;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;../__GHOST_URL__/content/images/2020/07/2019-11-26-frustration-1-.jpg&#34; /&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;a href=&#34;__GHOST_URL__/content/images/2020/07/2019-11-26-frustration-1-.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Things have gotten a lot better since then.&lt;/p&gt;&#xA;&lt;p&gt;In this post I’ll share an easy way to setup your R language Jupyter Notebooks to use GPUs. (Though if you prefer to use R outside of a notebook, these steps let you do that too)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Essential Git Cheat Sheet</title>
+      <link>http://localhost:1313/blog/blog/git-cheat-sheet/</link>
+      <pubDate>Wed, 27 Nov 2019 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/git-cheat-sheet/</guid>
+      <description>&lt;p&gt;Quick cheat sheet of commonly used git commands that I’d otherwise have to keep Googling to remember&lt;/p&gt;&#xA;&lt;h1 id=&#34;rebase-your-branch-to-the-latest-master&#34;&gt;Rebase your branch to the latest master&lt;/h1&gt;&#xA;&lt;p&gt;If your current branch was branched off of master and you want to pull the latest updates pushed to master since then:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git pull --rebase origin master&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;pull-a-branch-other-than-the-one-youre-on&#34;&gt;Pull a branch other than the one you&amp;rsquo;re on&lt;/h1&gt;&#xA;&lt;p&gt;For example, if you&amp;rsquo;re not on the master branch but want to pull and merge master&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Use Virtual Environments Inside Jupyter Notebooks &amp; Jupter Lab [Best Practices]</title>
+      <link>http://localhost:1313/blog/blog/jupyter-notebooks-best-practices-use-virtual-environments/</link>
+      <pubDate>Fri, 08 Nov 2019 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/jupyter-notebooks-best-practices-use-virtual-environments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authenticating AI Platform Notebooks against BigQuery in Python</title>
+      <link>http://localhost:1313/blog/blog/authenticating-ai-platform-notebooks-against-bigquery-in-python/</link>
+      <pubDate>Tue, 15 Oct 2019 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/authenticating-ai-platform-notebooks-against-bigquery-in-python/</guid>
+      <description>&lt;p&gt;When you use &lt;a href=&#34;https://cloud.google.com/ai-platform-notebooks/&#34;&gt;AI Platform Notebooks&lt;/a&gt; by default any API calls you make to GCP use the default compute service account that your notebook runs under. This makes it easy to start getting stuff done, but sometimes you may want to use BigQuery to query data that your service account doesn’t have access to.&lt;/p&gt;&#xA;&lt;p&gt;The below instructions describe how to use your personal account to authenticate with BigQuery. This specifically applies to authentication when using a python based notebook. If you want to authenticate on a R based notebook you can find &lt;a href=&#34;__GHOST_URL__/blog/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/&#34;&gt;instructions for that here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Become Creative by Asking Better Questions</title>
+      <link>http://localhost:1313/blog/blog/a-more-beautiful-question-summary/</link>
+      <pubDate>Fri, 09 Aug 2019 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/a-more-beautiful-question-summary/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;These are the key lessons I discovered while reading Warren Berger’s &lt;a href=&#34;https://www.amazon.com/More-Beautiful-Question-Inquiry-Breakthrough/dp/1632861054/&#34;&gt;A More Beautiful Question&lt;/a&gt;. Most material is directly from the book with a few of my own ideas interspersed&lt;/p&gt;&lt;/blockquote&gt;&#xA;&#xD;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;../css/hugo-easy-gallery.css&#34; /&gt;&#xD;&#xA;&lt;div class=&#34;box&#34; &gt;&#xD;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xD;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;../__GHOST_URL__/content/images/2020/07/2019-08-10-book-20question-20details-2-1-.jpg&#34; /&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;a href=&#34;__GHOST_URL__/content/images/2020/07/2019-08-10-book-20question-20details-2-1-.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;h1 id=&#34;why-do-we-need-to-ask-questions&#34;&gt;Why do we need to ask questions?&lt;/h1&gt;&#xA;&lt;p&gt;The economic model of the world is shifting. The nature of knowledge, work, and employment is changing.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What business are we in now?&lt;/li&gt;&#xA;&lt;li&gt;Will my jobs still be needed in a few years?&lt;/li&gt;&#xA;&lt;li&gt;Is “knowing” obsolete in the age of Google?&lt;/li&gt;&#xA;&lt;li&gt;How do you move from asking to action?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;The Power of Inquiry:&lt;/strong&gt;&lt;/strong&gt; Asking questions is now more important than knowing&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So Good They Can&#39;t Ignore You - Key Ideas</title>
+      <link>http://localhost:1313/blog/blog/so-good-they-can-t-ignore-you-key-ideas/</link>
+      <pubDate>Wed, 07 Aug 2019 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/so-good-they-can-t-ignore-you-key-ideas/</guid>
+      <description>&lt;p&gt;These are my notes from Cal Newport’s book &lt;a href=&#34;https://www.amazon.com/dp/B0076DDBJ6/&#34;&gt;So Good They Can’t Ignore You: Why Skills Trump Passion in the Quest for Work You Love&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’m going to skip the persuasive arguments that Cal listed and jump straight to the conclusions that resonated with me&lt;/p&gt;&#xA;&lt;h1 id=&#34;value-your-autonomy&#34;&gt;Value your Autonomy&lt;/h1&gt;&#xA;&lt;p&gt;“Find your Passion” is a lie. That’s not how humans work&lt;/p&gt;&#xA;&lt;p&gt;Reality: We become passionate about any work that can meet certain requirements&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using BigRQuery on GCP AI Platform Notebooks</title>
+      <link>http://localhost:1313/blog/blog/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/</link>
+      <pubDate>Mon, 05 Aug 2019 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/</guid>
+      <description>&lt;p&gt;Note: These instructions can be used whenever you’re using Jupyter Lab on a remote machine&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/ai-platform-notebooks/&#34;&gt;GCP AI Platform Notebooks&lt;/a&gt; makes it really easy to run notebooks on Jupyter Lab and even offers R language notebooks. R is great for crunching large data sets, and a popular place for people to store their data is on BigQuery.&lt;/p&gt;&#xA;&lt;p&gt;The most popular library for accessing BigQuery in R is the open source library &lt;a href=&#34;https://github.com/r-dbi/bigrquery&#34;&gt;BigRQuery&lt;/a&gt;. It’s an extremely useful library, but it has the downside that the authentication step will try one of two things:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Five Tactics for Tackling Complex Problems at Work</title>
+      <link>http://localhost:1313/blog/blog/five-tactics-for-tackling-complex-problems/</link>
+      <pubDate>Sat, 10 Nov 2018 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/five-tactics-for-tackling-complex-problems/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;“The definition of genius is taking the complex and making it simple.” –Albert Einstein&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;In today’s world the most valuable employees are the ones who can tackle complex problems. And the best of those are the ones who can make the complex problems look simple.&lt;/p&gt;&#xA;&lt;p&gt;But how can someone actually do that? Below are some tactics I’ve used which can make a big difference.&lt;/p&gt;&#xA;&lt;p&gt;These tactics are designed to get me thinking about the problem space in different ways. The different perspectives often yield insights that help separate the core components into smaller, more manageable units (and of course this list is always a work in progress)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 Habits for Better Learning</title>
+      <link>http://localhost:1313/blog/blog/five-habits-for-better-learning/</link>
+      <pubDate>Tue, 28 Aug 2018 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/five-habits-for-better-learning/</guid>
+      <description>&lt;p&gt;These mental habits were developed to teach school children how to think critically and become problems solvers. It’s a valuable skill for adults to learn as well.&lt;/p&gt;&#xA;&lt;p&gt;When presented with any new information think about:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Evidence&lt;/strong&gt;&lt;/strong&gt;: Why do you think this information is true or false? What should count? What do you think you know and why?&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Viewpoints&lt;/strong&gt;&lt;/strong&gt;: How would this look from other perspectives? How would other people or companies think about this differently?&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Connections&lt;/strong&gt;&lt;/strong&gt;: Noticing any patterns? Have you seen something like this before?&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Conjecture&lt;/strong&gt;&lt;/strong&gt;: What if something about this was different? How would that impact things?&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Relevance&lt;/strong&gt;&lt;/strong&gt;: Why does this matter?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&#34;https://www.amazon.com/More-Beautiful-Question-Inquiry-Breakthrough/dp/1632861054/&#34;&gt;A More Beautiful Question&lt;/a&gt; by Warren Berger)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Salary Negotiation Tips</title>
+      <link>http://localhost:1313/blog/blog/salary-negotiation-tips/</link>
+      <pubDate>Fri, 20 Jul 2018 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/salary-negotiation-tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How to: Redirect the default *.azurewebsites.net domain to your custom domain on Azure Web Apps</title>
+      <link>http://localhost:1313/blog/blog/block-default-azure-websites-domain/</link>
+      <pubDate>Sat, 07 May 2016 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/block-default-azure-websites-domain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deploy Statically Generated Sites with Yeoman</title>
+      <link>http://localhost:1313/blog/blog/deploy-statically-generated-sites-with-yeoman/</link>
+      <pubDate>Tue, 13 Oct 2015 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/deploy-statically-generated-sites-with-yeoman/</guid>
+      <description>&lt;p&gt;There are a lot of awesome static site generators out there. It’s not always easy to figure out how to setup continuous deployment for them though.&lt;/p&gt;&#xA;&lt;p&gt;This post will describe how to deploy a statically generated site using yeoman angular to Azure Web Apps, but these steps can be applied to deploy any statically generated site to Azure Web Apps.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;deploying-the-initial-site&#34;&gt;Deploying the initial site&lt;/h4&gt;&#xA;&lt;p&gt;I tried using yeoman’s gulp-angular generator. I made a quick site following their &lt;a href=&#34;http://yeoman.io/codelab/index.html&#34;&gt;tutorial&lt;/a&gt;, setup &lt;a href=&#34;https://azure.microsoft.com/en-us/documentation/articles/web-sites-publish-source-control/&#34;&gt;continuous deployment via github&lt;/a&gt;, navigated to the newly deployed site and I saw…huh?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Backup just the Important Parts of your Site with Azure Web Apps</title>
+      <link>http://localhost:1313/blog/blog/creating-partial-backups-of-your-site-with-azure-web-apps/</link>
+      <pubDate>Fri, 05 Jun 2015 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blog/creating-partial-backups-of-your-site-with-azure-web-apps/</guid>
+      <description>&lt;p&gt;Introducting a way to backup just the parts of your website that matter most.&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Azure Web Apps provides powerful &lt;a href=&#34;https://azure.microsoft.com/en-us/documentation/articles/web-sites-backup/&#34;&gt;backup/restore functionality&lt;/a&gt;. (Because disasters can &lt;a href=&#34;http://blog.codinghorror.com/international-backup-awareness-day/&#34;&gt;happen to anyone&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;However, sometimes you don’t want to backup everything on your site, especially if you backup your site regularly, or if your site has over 10GB of content (that’s the max amount you can backup at a time).&lt;/p&gt;&#xA;&lt;p&gt;For example, you probably don’t want to back up the log files. Or if you &lt;a href=&#34;https://azure.microsoft.com/en-us/documentation/articles/web-sites-backup/#configure-automated-backups&#34;&gt;setup weekly backups&lt;/a&gt; you won’t want to fill up your storage account with static content that never changes like old blog posts or images.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
