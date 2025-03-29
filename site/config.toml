@@ -13,6 +13,8 @@ canonifyURLs = true
 
 [params]
   custom_css = ["css/custom.css"]
+  header_image = "https://www.zainrizvi.io/content/images/2020/07/larisa-birta-77vhoasr6-c-unsplash.jpg"
+  slogan = "Interested in software engineering, business, or psychology? You're in the right place"
 
 [menu]
   [[menu.main]]
