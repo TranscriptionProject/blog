@@ -96,9 +96,9 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="../__GHOST_URL__/content/images/2020/07/2019-08-10-book-20question-20details-2-1-.jpg" />
+ &lt;img itemprop="thumbnail" src="../img/a-more-beautiful-question-summary/2019-08-10-book-20question-20details-2-1-.jpg" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/07/2019-08-10-book-20question-20details-2-1-.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;a href="../img/a-more-beautiful-question-summary/2019-08-10-book-20question-20details-2-1-.jpg" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 
