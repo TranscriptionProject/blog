@@ -1,0 +1,11 @@
+{{ define "main" }}
+<!-- Header section -->
+<header class="intro-header" style="background-image: url('{{ .Site.Params.header_image }}')">
+    <!-- ... header content ... -->
+</header>
+
+<!-- Include the partial with the custom content -->
+{{ partial "homepage-content.html" . }}
+
+<!-- ... rest of the template ... -->
+{{ end }}
