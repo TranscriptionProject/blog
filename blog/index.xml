@@ -9,7 +9,7 @@ Standard interviewing advice falls woefully short. Grinding interview questions 
 &lt;p>It seemed so much simpler a month ago.&lt;/p>
 &lt;p>&amp;ldquo;Hey, could you integrate this tool into our service?&amp;rdquo; my manager had asked. &amp;ldquo;Sure,&amp;rdquo; I&amp;rsquo;d replied. &amp;ldquo;How hard could it be?&amp;rdquo;&lt;/p>
 &lt;p>Famous last words.&lt;/p>
-&lt;p>Now it was my job to take this &lt;a href="__GHOST_URL__/blog/the-truth-about-vpc-security-controls/">convoluted&lt;/a> piece of security infrastructure, which I knew nothing about, which itself was still under active development, and wrangle it into submission.&lt;/p>
+&lt;p>Now it was my job to take this &lt;a href="../blog/the-truth-about-vpc-security-controls/">convoluted&lt;/a> piece of security infrastructure, which I knew nothing about, which itself was still under active development, and wrangle it into submission.&lt;/p>
 &lt;p>It&amp;rsquo;s just code, right?&lt;/p></description></item><item><title>How to slay a Hydra: Finishing projects</title><link>https://transcriptionproject.github.io/blog/blog/how-i-started-finishing-more-side-projects/</link><pubDate>Thu, 12 Nov 2020 17:28:09 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/how-i-started-finishing-more-side-projects/</guid><description>This project was supposed to be easy, why do I keep running into brick walls?!? Ok, how do I work around this one without compromising my vision?</description></item><item><title>Falsehoods programmers believe about time zones</title><link>https://transcriptionproject.github.io/blog/blog/falsehoods-programmers-believe-about-time-zones/</link><pubDate>Thu, 22 Oct 2020 15:57:40 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/falsehoods-programmers-believe-about-time-zones/</guid><description>I decided to make a time zone converter. It had seemed like an easy project, but I was horribly mistaken</description></item><item><title>How banks help scammers with their bad UI</title><link>https://transcriptionproject.github.io/blog/blog/how-banks-help-scammers-with-their-bad-ui/</link><pubDate>Wed, 30 Sep 2020 16:41:48 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/how-banks-help-scammers-with-their-bad-ui/</guid><description>My sister wanted a summer job before starting college. Instead she was scammed out of thousands</description></item><item><title>Never Focus on the User</title><link>https://transcriptionproject.github.io/blog/blog/never-focus-on-the-user/</link><pubDate>Fri, 11 Sep 2020 18:21:44 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/never-focus-on-the-user/</guid><description>User focused design is wasteful. Every business knows this, but they&amp;rsquo;re afraid to admit it. It&amp;rsquo;s is a PR friendly way to say they focus on their buyers</description></item><item><title>You're all set</title><link>https://transcriptionproject.github.io/blog/blog/double_opt_in_confirmation/</link><pubDate>Tue, 01 Sep 2020 01:27:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/double_opt_in_confirmation/</guid><description>&lt;h3 id="theres-a-welcome-email-waiting-in-your-inbox-with-your-salary-negotiation-tips">There&amp;rsquo;s a welcome email waiting in your inbox with your salary negotiation tips&lt;/h3>
 &lt;p>I won&amp;rsquo;t hide it, I&amp;rsquo;m excited to have you onboard 😀&lt;/p>
 &lt;p>Enjoy!&lt;/p>
@@ -62,9 +62,9 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="../__GHOST_URL__/content/images/2020/07/2020-01-14-namecheap-20logo-1-.png" />
+ &lt;img itemprop="thumbnail" src="../img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-namecheap-20logo-1-.png" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/07/2020-01-14-namecheap-20logo-1-.png" itemprop="contentUrl">&lt;/a>
+ &lt;a href="../img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-namecheap-20logo-1-.png" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 
@@ -76,9 +76,9 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="../__GHOST_URL__/content/images/2020/07/2019-11-26-frustration-1-.jpg" />
+ &lt;img itemprop="thumbnail" src="../img/using-gpus-with-r-in-jupyter-lab/2019-11-26-frustration-1-.jpg" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/07/2019-11-26-frustration-1-.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;a href="../img/using-gpus-with-r-in-jupyter-lab/2019-11-26-frustration-1-.jpg" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 

@@ -56,7 +56,7 @@ Standard interviewing advice falls woefully short. Grinding interview questions 
 &lt;p>It seemed so much simpler a month ago.&lt;/p>
 &lt;p>&amp;ldquo;Hey, could you integrate this tool into our service?&amp;rdquo; my manager had asked. &amp;ldquo;Sure,&amp;rdquo; I&amp;rsquo;d replied. &amp;ldquo;How hard could it be?&amp;rdquo;&lt;/p>
 &lt;p>Famous last words.&lt;/p>
-&lt;p>Now it was my job to take this &lt;a href="__GHOST_URL__/blog/the-truth-about-vpc-security-controls/">convoluted&lt;/a> piece of security infrastructure, which I knew nothing about, which itself was still under active development, and wrangle it into submission.&lt;/p>
+&lt;p>Now it was my job to take this &lt;a href="./blog/the-truth-about-vpc-security-controls/">convoluted&lt;/a> piece of security infrastructure, which I knew nothing about, which itself was still under active development, and wrangle it into submission.&lt;/p>
 &lt;p>It&amp;rsquo;s just code, right?&lt;/p></description></item><item><title>#21 Help yourself by helping others</title><link>https://transcriptionproject.github.io/blog/newsletter/newsletter-21-help-yourself-by-helping-others/</link><pubDate>Wed, 02 Dec 2020 18:16:32 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/newsletter/newsletter-21-help-yourself-by-helping-others/</guid><description>&lt;p>In economics class they told us people work harder as they paid more. That greed was a virtue.&lt;/p>
 &lt;p>It sounded iffy.&lt;/p>
 &lt;p>You may have noticed the opposite yourself:&lt;/p>
@@ -81,9 +81,9 @@ Standard interviewing advice falls woefully short. Grinding interview questions 
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="./__GHOST_URL__/content/images/2020/11/04f.gif" />
+ &lt;img itemprop="thumbnail" src="./img/newsletter-19-productivity-tips-from-jeff-bezos-and-huge-jackman/04f.gif" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/11/04f.gif" itemprop="contentUrl">&lt;/a>
+ &lt;a href="./img/newsletter-19-productivity-tips-from-jeff-bezos-and-huge-jackman/04f.gif" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 
@@ -94,9 +94,9 @@ Standard interviewing advice falls woefully short. Grinding interview questions 
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="./__GHOST_URL__/content/images/2020/11/04f-1.gif" />
+ &lt;img itemprop="thumbnail" src="./img/19-productivity-tips-from-jeff-bezos-and-huge-jackman/04f-1.gif" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/11/04f-1.gif" itemprop="contentUrl">&lt;/a>
+ &lt;a href="./img/19-productivity-tips-from-jeff-bezos-and-huge-jackman/04f-1.gif" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 
@@ -138,9 +138,9 @@ Standard interviewing advice falls woefully short. Grinding interview questions 
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="./__GHOST_URL__/content/images/2020/09/bat-signal-1.jpg" />
+ &lt;img itemprop="thumbnail" src="./img/newsletter-11/bat-signal-1.jpg" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/09/bat-signal-1.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;a href="./img/newsletter-11/bat-signal-1.jpg" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 
@@ -274,9 +274,9 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="./__GHOST_URL__/content/images/2020/07/2020-01-14-namecheap-20logo-1-.png" />
+ &lt;img itemprop="thumbnail" src="./img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-namecheap-20logo-1-.png" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/07/2020-01-14-namecheap-20logo-1-.png" itemprop="contentUrl">&lt;/a>
+ &lt;a href="./img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-namecheap-20logo-1-.png" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 
@@ -288,9 +288,9 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
- &lt;img itemprop="thumbnail" src="./__GHOST_URL__/content/images/2020/07/2019-11-26-frustration-1-.jpg" />
+ &lt;img itemprop="thumbnail" src="./img/using-gpus-with-r-in-jupyter-lab/2019-11-26-frustration-1-.jpg" />
  &lt;/div>
- &lt;a href="__GHOST_URL__/content/images/2020/07/2019-11-26-frustration-1-.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;a href="./img/using-gpus-with-r-in-jupyter-lab/2019-11-26-frustration-1-.jpg" itemprop="contentUrl">&lt;/a>
  &lt;/figure>
 &lt;/div>
 
