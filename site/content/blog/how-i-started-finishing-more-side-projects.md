@@ -42,7 +42,7 @@ That was _why_ I was building. But _what_ was I going to build in particular?
 
 I wrote it down:
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--3-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--3-.png" >}}
 
 I've learned through experience that I tend to only stick with [my side projects for two weeks](__GHOST_URL__/blog/do-more-by-doing-less/). So I had to narrow down the vision to something that fits in that time frame. Anything unlikely to fit in that time frame got listed as a stretch goal. I’ll probably never do them, but writing those ideas down helps relax my brain, reassuring it that the cool features I just thought of aren’t being ignored (i.e., I’m using the [Zeigarnik effect](https://www.psychologistworld.com/memory/zeigarnik-effect-interruptions-memory) to my advantage).
 
@@ -58,7 +58,7 @@ This was the user persona I kept in mind as my target audience.
 
 My solution: Let them be able to simply type out the link from memory.
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--4-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--4-.png" >}}
 
 # Designing the Interface
 
@@ -80,7 +80,7 @@ For a couple minutes I stared at a blinking cursor until I thought of another fo
 
 And then something clicked in my brain and the idea floodgates opened. I jotted down each variation that occurred and some thoughts about them:
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--5-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--5-.png" >}}
 
 We've come a long way from event.at#2009-05-20/4:22pm/PST seeming perfect!
 
@@ -88,11 +88,11 @@ At this point I realized I actually had three components to plan for: time, date
 
 I could design each of them independently, and mix and match the best options. This gave me a bunch of possible alternatives, and more importantly, highlighted the many ways people might make mistakes while typing the url by hand.
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--6-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--6-.png" >}}
 
 Analysis completed, the simplest interface I found was:
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--7-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--7-.png" >}}
 
 People would definitely make mistakes with it though, so I planned to add support for all the other date/time formats I’d discovered. But those were filed away under “stretch goals”. For v1, I’d just focus on this one format.
 
@@ -114,7 +114,7 @@ Thatwould let me discover all the different ways people might type the urls in p
 
 I jotted down the "stretch goal" and stopped worrying about it
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--8-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--8-.png" >}}
 
 Tech stack chosen, time to start coding.
 
@@ -130,7 +130,7 @@ I could tweak the tool to auto-fix the time zone, by guessing whether or not DST
 
 I could change how the time zone is specified. Instead of specifying a time zone abbreviation, I could ask people to specify the city. Out of the 1000 most populated cities in the world, only 6 have the same name. I’d be limiting who gets to use the app, but still be catering to most of the population. But then I’d need a solution for cities with a space in their name.
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--9-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--9-.png" >}}
 
 I chatted with a friend about this and he asked “why not just redirect everyone to Google?”
 
@@ -142,7 +142,7 @@ Sure, I’m not building a super cool time zone conversion logic, but that wasn�
 
 Suddenly the problem became very simple. When someone visits my site at [event.at/4pm/CST](https://localtime.azurewebsites.net/4pm/CST), I’d redirect them to Google with the search term “4pm CST”. Google would automatically convert this to their own local time
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--10-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--10-.png" >}}
 
 Incidentally, while testing out the google urls I happened upon a site called [http://mytime.io/](http://mytime.io/), which was almost exactly like what I’d originally set out to do, except with slightly better graphics. It’s clearly also a v1 someone built and then didn’t take it further. They ran into the same set of issues that I did.
 
@@ -161,7 +161,7 @@ So..
 
 Mission Accomplished!
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/pasted-image-0--11-.png" >}}
+{{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--11-.png" >}}
 
 If you want to play around with what I built, here’s the horribly messy [source code](https://github.com/ZainRizvi/LocalTime) and the [live site](https://localtime.azurewebsites.net/).
 

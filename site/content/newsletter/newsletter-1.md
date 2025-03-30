@@ -18,7 +18,7 @@ It’s an intensive 5 week class teaching how to extract all those thoughts in y
 
 What I wrote:
 
-# **[The Interview Advice No One Gives You](__GHOST_URL__/blog/the-interview-advice-no-one-gives-you/)**
+# **[The Interview Advice No One Gives You](/blog/the-interview-advice-no-one-gives-you/)**
 
 “What would you say if I asked you to design me a service capable of responding to millions of user requests every second and latency was critical?”
 

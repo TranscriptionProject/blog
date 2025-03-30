@@ -25,7 +25,7 @@ What if event organizers could share a link that would do the work for you? If s
 
 I began coding.
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/image-5.png" caption="I later discovered mytime.io had already implemented a very similar thing, and run into the same pitfalls" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/image-5.png" caption="I later discovered mytime.io had already implemented a very similar thing, and run into the same pitfalls" >}}
 
 I knew trying to manage time [is a fool's errand](https://www.youtube.com/watch?v=-5wpm-gesOY), but that's what datetime libraries are for. I would merely build an extra time zone conversion layer on top.
 
@@ -49,7 +49,7 @@ Why that crazy range? That was a result of pacific islanders decided they wanted
 
 It makes for a very jagged international date line
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/pasted-image-0--1-.png" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/pasted-image-0--1-.png" caption="I later discovered mytime.io had already implemented a very similar thing, and run into the same pitfalls" >}}
 
 ### Misconception #2: Every UTC offset corresponds to exactly one time zone
 
@@ -101,7 +101,7 @@ Why does that extra 15 minutes matter so much to them? Because [they really want
 
 But it makes you wonder: what would happen if the mountain ever shifted?
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/mountain-moved-3.jpeg" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/mountain-moved-3.jpeg" >}}
 
 ### Misconception #7: **A country stays at the same UTC offset all year long**
 
@@ -133,7 +133,7 @@ Full time zone names come with naming complications, which we discussed above. I
 
 Some developers took the safer route and identified time zones only by the name of a prominent city in it, not bothering to map it to a common name. That's why the Ubuntu time zone picker makes you select "New York'' instead of Eastern Standard Time.
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/image-4.png" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/image-4.png" >}}
 
 #### Forget time zones, use the raw UTC offset
 
@@ -159,7 +159,7 @@ Samoan citizens had one less day to celebrate the holidays that year.
 
 On the plus side, just 40 miles away the American Samoa Islands stayed on the other side of the international date line. Now Samoans can celebrate new years on the Western Island, and then boat over to American Samoa for a second new year’s party the next night.
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/pasted-image-0--2-.png" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/pasted-image-0--2-.png" >}}
 
 ### Misconception #11: **A country stays in the same time zone during Daylight Saving Time**
 
@@ -171,7 +171,7 @@ Texas goes from Central Standard Time to Central Daylight Time.
 
 Chile goes from Chile Standard Time to Chile Summer Time
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/dst-shift.jpeg" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/dst-shift.jpeg" >}}
 
 ### Misconception #12: **Daylight Saving Time starts around March and ends around October**
 
@@ -195,7 +195,7 @@ And remember how the time zone name changes during Daylight Saving Time? Many pe
 
 If there's no standard name for time zones, can you really expect one for the abbreviations?
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/fake-franks.jpeg" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/fake-franks.jpeg" >}}
 
 ### Misconception #15: **There is always an unambiguous conversion from one time zone to another**
 
@@ -209,7 +209,7 @@ What if the date and time are 1:30 am on Nov 1st, 2020, right when US DST ends a
 
 1:30am occurs twice that morning, how do you know which instance was intended?
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/deja-vu.jpeg" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/deja-vu.jpeg" >}}
 
 ### Misconception #16: **Your time zone library can recognize any time zone (you are using a library for this, right?)**
 
@@ -225,13 +225,13 @@ Remember, if time zones can change based on the whims of a local government, the
 
 In the US, Arizona doesn't practice Daylight Saving Time
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/arizona-dst.jpeg" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/arizona-dst.jpeg" >}}
 
 ### Misconception #18: **The entire state always shifts during Daylight Saving Time**
 
 Within Arizona, the Navajo Nation happily follows Daylight Saving Time
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/navajo-nation.jpeg" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/navajo-nation.jpeg" >}}
 
 ### Misconception #19: **Other than DST, every city within a state follows the same time zone**
 
@@ -243,7 +243,7 @@ A few times in history, state line or time zone lies got drawn without paying at
 
 This enables some really unusual sleep schedules
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/Wake-up.jpeg" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/Wake-up.jpeg" >}}
 
 It is also why GPS coordinates are more reliable than city names to determine the time zone
 

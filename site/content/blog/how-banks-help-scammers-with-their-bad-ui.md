@@ -44,7 +44,7 @@ Why does it take so long? Here’s a peek behind the scenes:
 3. Their bank verifies if the check is legitimate and the account actually contains the funds. At small or international banks this step is often manual and could take _weeks_.
 4. Their bank lets your bank know it's legit. That's when the check has "cleared".
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/Check-lifecycle-large.jpeg" caption="The life cycle of a check" >}}
+{{< figure src="/img/how-banks-help-scammers-with-their-bad-ui/Check-lifecycle-large.jpeg" caption="The life cycle of a check" >}}
 
 I skipped one step though:
 
@@ -58,7 +58,7 @@ When Sana called up Chase, the bank heard her out. But instead of stopping the s
 
 _Edit: Chase customer support had one clarification to make. I'd originally said it might take weeks for the check to clear, but they explained it could actually take more than six months. And you'll have no idea when that magic moment occurs._
 
-<img src="__GHOST_URL__/content/images/2020/10/IMG_1399.jpg" class="kg-image" alt="" srcset="__GHOST_URL__/content/images/size/w600/2020/10/IMG_1399.jpg 600w, __GHOST_URL__/content/images/2020/10/IMG_1399.jpg 828w" sizes="(min-width: 525px) 525px" style="display:block;margin:auto">
+{{< figure src="/img/how-banks-help-scammers-with-their-bad-ui/IMG_1399.jpg">}}
 <br/>
 
 ## And she's not the only one who's been hit by this scam.
@@ -97,7 +97,7 @@ And instead of taking responsibility, what did Chase actually do?
 
 ### Chase took option #3: Shakedown their customers
 
-{{< figure src="__GHOST_URL__/content/images/2020/09/Ya340FffaeszEwIQ0ZPdxC9WQbRbN4kGKmcgTWiXLUiifzyqYvwzQSr4nwR3-jR--TS_Z-WrSDyVCcx4G37knBt171ds1zqYgfJ9hB4m-rUHKsDrCMG_N_2u6uTVCOreTRlc32iw.png" >}}
+{{< figure src="/img/how-banks-help-scammers-with-their-bad-ui/Ya340FffaeszEwIQ0ZPdxC9WQbRbN4kGKmcgTWiXLUiifzyqYvwzQSr4nwR3-jR--TS_Z-WrSDyVCcx4G37knBt171ds1zqYgfJ9hB4m-rUHKsDrCMG_N_2u6uTVCOreTRlc32iw.png" >}}
 
 Chase acted like the mafia, shaking down whoever they could to get their money back.
 
@@ -117,7 +117,7 @@ And now that Chase is no longer losing money on this scam, customer support tell
 
 With every step Chase made sure it got paid, one way or another. Vito Corleone would be proud.
 
-{{< figure src="__GHOST_URL__/content/images/2020/09/image-3-1.png" >}}
+{{< figure src="/img/how-banks-help-scammers-with-their-bad-ui/image-3-1.png" >}}
 
 And if the bank has no skin in the game, why worry about fixing some misleading UI? They seem to think people don’t bother switching banks, and that it can treat its customers as captive users.
 

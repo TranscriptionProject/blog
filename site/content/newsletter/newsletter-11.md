@@ -24,7 +24,7 @@ Slava and I try to find that line in:
 2. Make others comfortable with giving feedback
 3. Use a **bat signal** to attract like minds
 
-{{< figure src="__GHOST_URL__/content/images/2020/09/bat-signal-1.jpg" >}}
+{{< figure src="/img/newsletter-11/bat-signal-1.jpg" >}}
 
 ---
 
@@ -40,7 +40,7 @@ _"Your boss wants you to push back. Your boss is expecting you to think through 
 
 FBI Negotiator [Chris Voss](https://twitter.com/VossNegotiation) shares a trick for making the other person feel at ease with sharing their real concerns.What does he do? He invites corrections, and then says something which he _knows_ is wrong about them
 
-{{< figure src="__GHOST_URL__/content/images/2020/09/chris-voss-emotions.png" >}}
+{{< figure src="/img/newsletter-11/chris-voss-emotions.png" >}}
 
 ## [#3 Use a bat signal to attract like minds](https://charity.wtf/2020/09/06/if-management-isnt-a-promotion-then-engineering-isnt-a-demotion/)
 
@@ -55,7 +55,7 @@ A couple examples:
 
 _Via [If management isn't a promotion, then engineering isn't a demotion](https://charity.wtf/2020/09/06/if-management-isnt-a-promotion-then-engineering-isnt-a-demotion/?utm_source=zainrizvi.io&utm_medium=newsletter)_
 
-{{< figure src="__GHOST_URL__/content/images/2020/09/management-isnt-a-promotion.png" >}}
+{{< figure src="/img/newsletter-11/management-isnt-a-promotion.png" >}}
 
 ## Your Turn 👊
 

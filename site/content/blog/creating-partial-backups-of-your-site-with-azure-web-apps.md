@@ -35,9 +35,9 @@ I’ve got a site that contains log files and static images from past years that
 
 I already have a full backup of the site which includes the old images. Now I want to backup the site every day, but I don’t want to pay for storing log files or the static image files that never change.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/Logs-1-1-.PNG" >}}
+{{< figure src="/img/creating-partial-backups-of-your-site-with-azure-web-apps/Logs-1-1-.PNG" >}}
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/Images-2-1-.PNG" >}}
+{{< figure src="/img/creating-partial-backups-of-your-site-with-azure-web-apps/Images-2-1-.PNG" >}}
 
 The below steps show how I’d exclude those files from the backup.
 
@@ -120,7 +120,7 @@ WHAT???
 
 Turns out, in the [Ghost upgrade notes](http://support.ghost.org/how-to-upgrade/) there’s this warning:
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/Ghost--upgrade-warning-1-.PNG" >}}
+{{< figure src="/img/creating-partial-backups-of-your-site-with-azure-web-apps/Ghost--upgrade-warning-1-.PNG" >}}
 
 If you try to backup the data while Ghost is running…the data doesn’t actually get backed up.
 

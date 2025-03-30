@@ -42,7 +42,7 @@ This method uses the Jupter Lab terminal to run the interactive commands and cac
 
 First, start R in a Terminal
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-05-b1-1-.png" >}}
+{{< figure src="/img/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/2019-08-05-b1-1-.png" >}}
 
 Run `R`
 
@@ -127,11 +127,11 @@ xdg-open: no method available for opening 'https://accounts.google.com/o/oauth2/
 
 Here’s where it gets tricky. It’ll look like it’s only giving a list of errors. But if you look closely the error contains a url you see an https://accounts.google.com url in their. Copy/paste that url into a new window and you’ll see the usual Google Auth page.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-05-b2-1-.png" >}}
+{{< figure src="/img/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/2019-08-05-b2-1-.png" >}}
 
 Log in and give Tidyverse the permissions it’s requesting. It’ll take you to a screen giving you a secret code:
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-05-b3-1-.png" >}}
+{{< figure src="/img/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/2019-08-05-b3-1-.png" >}}
 
 Copy that code and paste it into your JupyterLab terminal and hit Enter.
 
@@ -186,7 +186,7 @@ Now you can create a new R notebook within Jupyter Lab and authenticate yourself
 
 Create a new R notebook:
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-05-b4-1-.png" >}}
+{{< figure src="/img/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/2019-08-05-b4-1-.png" >}}
 
 Run the following code within your notebook. It’ll pull the authentication credentials for the given email addresses from the cache saved earlier:
 

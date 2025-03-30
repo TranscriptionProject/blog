@@ -78,7 +78,7 @@ Remember there is no “company.” All of the company’s decisions are actuall
 
 You don’t have to fight the entire company.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/there-is-no-spoon.png" caption="There is no company" >}}
+{{< figure src="/img/hacking-the-bureaucracy-to-get-stuff-done/there-is-no-spoon.png" caption="There is no company" >}}
 
 Hidden incentives exist in your own company too. Is a team resisting doing something you’re asking for? Learn why. Find the fulcrum point. New paths will emerge.
 

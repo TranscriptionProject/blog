@@ -229,17 +229,17 @@ To use your newly created image on AI Platform Notebooks:
 
 1. Go to the [notebooks page](https://console.cloud.google.com/ai-platform/notebooks/) -> New Instance -> Customize Instance
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-12-13-custom-instance-1-.png" >}}
+{{< figure src="/img/create-custom-deep-learning-containers/2019-12-13-custom-instance-1-.png" >}}
 
 1. Under the environment drop down select “Custom container”
 
 Then in the “Docker container image” box enter the path to the registry you pushed your image to. Mine is: zainrizvi/deeplearning-container-tf2-with-r:latest-gpu
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-12-13-custom-container-1-.png" >}}
+{{< figure src="/img/create-custom-deep-learning-containers/2019-12-13-custom-container-1-.png" >}}
 
 Click create, and in few minutes your notebook will be ready. You can open it up and see that TensorFlow is ready to go
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-12-13-running-notebook-1-1-.png" >}}
+{{< figure src="/img/create-custom-deep-learning-containers/2019-12-13-running-notebook-1-1-.png" >}}
 
 And there you go, you now have an R notebook that can run Tensorflow on GPUs!
 

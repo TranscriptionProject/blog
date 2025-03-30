@@ -18,7 +18,7 @@ It seemed so much simpler a month ago.
 
 Famous last words.
 
-Now it was my job to take this [convoluted](__GHOST_URL__/blog/the-truth-about-vpc-security-controls/) piece of security infrastructure, which I knew nothing about, which itself was still under active development, and wrangle it into submission.
+Now it was my job to take this [convoluted](/blog/the-truth-about-vpc-security-controls/) piece of security infrastructure, which I knew nothing about, which itself was still under active development, and wrangle it into submission.
 
 It's just code, right?
 
@@ -110,7 +110,7 @@ These are three guidelines for when it's worth going deep:
 2. **Use your confusion as a litmus test**. You've found a gap in your mental model of the world, time to fill it.
 3. **There's always a bigger picture**. Go broad, traveling across tangential nodes to understand the problem space better.
 
-I ignored these principles to my own peril. But turning around and digging deeper helped me not only solidify my own understanding of the problem, I later [shared my newfound understanding](__GHOST_URL__/blog/the-truth-about-vpc-security-controls/) with others, helping over hundreds of people both inside and outside Google to understand this highly niche problem.
+I ignored these principles to my own peril. But turning around and digging deeper helped me not only solidify my own understanding of the problem, I later [shared my newfound understanding](/blog/the-truth-about-vpc-security-controls/) with others, helping over hundreds of people both inside and outside Google to understand this highly niche problem.
 
 And yes, the feature shipped on time.
 

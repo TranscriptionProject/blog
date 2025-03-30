@@ -40,7 +40,7 @@ Each one is optimized for a specific use case, but unless you have an infinite b
 
 Anyone who's had to choose a storage layer on AWS knows what it's like to understand your tools, figure out what they're best for, and which one most closely matches your needs.
 
-{{< figure src="__GHOST_URL__/content/images/2021/02/0_V5AvyPtgGhHLXZF2.png" >}}
+{{< figure src="/img/why-software-engineers-like-woodworking/0_V5AvyPtgGhHLXZF2.png" >}}
 
 ## 3. Finite (non-monetary) Budget
 
@@ -60,7 +60,7 @@ Otherwise, you might have to throw away days worth of work because you took a sl
 
 ## 5. Waiting
 
-{{< figure src="__GHOST_URL__/content/images/2021/02/compiling.png" >}}
+{{< figure src="/img/why-software-engineers-like-woodworking/compiling.png" >}}
 
 Except with woodworking, you yell "The glue's drying!"
 

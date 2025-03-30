@@ -43,7 +43,7 @@ A few weeks ago I [suggested](https://click.mailerlite.com/link/c/YT0xNTM3NzgzOT
 
 He [recommends](https://click.mailerlite.com/link/c/YT0xNTM3NzgzOTE2OTgxNjU1NTE0JmM9dTR0OSZiPTQzNjkyNDU2MSZkPWg3ZDF6OHc=.4dW7hETu3cBQl_HRuzHez5ajkkVLrpcug_vxFkK9tuk) expanding the audience to other stake holders and adding a fun tidbit to that newsletter, such as **including something you're learning**
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/image-6.png" >}}
+{{< figure src="/img/newsletter-15/image-6.png" >}}
 
 I see a couple potential benefits of this approach:
 
@@ -62,13 +62,13 @@ Will Larson cautions engineers to be careful about [which companies they join](h
 
 Different companies value different traits, and it pays to make sure you join one which values yours.
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/image-7.png" >}}
+{{< figure src="/img/newsletter-15/image-7.png" >}}
 
 ## #**3 What does independent thinking look like?**
 
 Paul Graham offers a litmus test. The test isn't perfect, but it's a good rule of thumb:
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/image-8.png" >}}
+{{< figure src="/img/newsletter-15/image-8.png" >}}
 
 ## Y**our Turn 👊**
 

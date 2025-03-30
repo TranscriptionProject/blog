@@ -19,7 +19,7 @@ As I stood up from my desk, my eyes fell on my Ship-it plaque, congratulating me
 
 The plaque was a lie. Just like me.
 
-{{< figure src="__GHOST_URL__/content/images/2020/08/cropped-plaque.png" >}}
+{{< figure src="/img/the-impostors-advantage/cropped-plaque.png" >}}
 
 My manager had booked a private conference room to share the results, far away from ears that might overhear anything said. Or begged. The long walk began, each step echoing down the corridor.
 
@@ -83,7 +83,7 @@ During orientation, Google spent a lot of time discussing Impostor Syndrome, the
 
 As I started working, impostor syndrome came up constantly. It was mentioned at company meetings, folks made memes admitting to it. It was everywhere.
 
-{{< figure src="__GHOST_URL__/content/images/2020/08/when-someone-comments-on-my-design-doc.gif" >}}
+{{< figure src="/img/the-impostors-advantage/when-someone-comments-on-my-design-doc.gif" >}}
 
 People freely admitted to not knowing stuff. Teammates admitted to not understanding the code, or having no idea how a tool worked. All the stuff I didn’t know, many others didn’t get either.
 
@@ -105,7 +105,7 @@ Every project still started with the thought, “I have no idea what to do here.
 
 They embrace the impostor’s advantage.
 
-{{< figure src="__GHOST_URL__/content/images/2020/08/i-feel-like-an-impostor.png" >}}
+{{< figure src="/img/the-impostors-advantage/i-feel-like-an-impostor.png" >}}
 
 Looking back, I realize now that in my early days I'd been evaluating myself with biased glasses. **I was comparing myself to people much more senior than me**. Of course there would be a skill gap. **If one person understood something, I assumed everyone knew it**. That was false. As the “systems grow it’s impossible for one person to keep it all in their head”[1]; each person just knew the areas they had personally worked on.
 

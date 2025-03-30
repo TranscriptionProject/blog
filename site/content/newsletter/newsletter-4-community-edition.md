@@ -30,7 +30,7 @@ I don't have an answer yet, but I found some hints. Sharing them below in this n
 
 ## What I'm writing
 
-**[Effective Altruism is not Effective Enough](__GHOST_URL__/blog/the-most-effective-altruism/)**
+**[Effective Altruism is not Effective Enough](/blog/the-most-effective-altruism/)**
 
 _"Your community can be anything you want it to be, but it won’t be real until you know their stories and they know yours."_
 
@@ -38,7 +38,7 @@ Visiting a homeless camp led me down a path of deciphering why it felt better to
 
 Build your Community. Support each other.
 
-Read the [full story here](__GHOST_URL__/blog/the-most-effective-altruism/)
+Read the [full story here](/blog/the-most-effective-altruism/)
 
 ---
 
@@ -82,7 +82,7 @@ How would you design an online community that would **help people form deeper ti
 
 It would need to be something that understood that people can only have close ties to a small group, something that facilitated deeper ties between you and everyone else, where you know their stories and they know yours.
 
-I saw hints of [how this could be done](__GHOST_URL__/blog/the-most-effective-altruism/#community-is-key) in Write of Passage, and in the family Zoom call, but there's a lot more untapped potential
+I saw hints of [how this could be done](/blog/the-most-effective-altruism/#community-is-key) in Write of Passage, and in the family Zoom call, but there's a lot more untapped potential
 
 What have you seen that helps tie communities together tightly?
 

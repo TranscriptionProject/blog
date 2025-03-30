@@ -89,7 +89,7 @@ And eventually, you might just find your ideas gaining traction
 
 _This article started out [as a viral tweet](https://twitter.com/ZainRzv/status/1502550200396750851). If you want more content like this, follow me [on twitter](https://twitter.com/ZainRzv/) or sign up to my newsletter below._
 
-_If you want to learn about how to get a better paying software engineering job, you might appreciate [The Interview Advice that got me offers from Microsoft, Google and Stripe](__GHOST_URL__/blog/the-interviewing-advice-no-one-shares/)_
+_If you want to learn about how to get a better paying software engineering job, you might appreciate [The Interview Advice that got me offers from Microsoft, Google and Stripe](/blog/the-interviewing-advice-no-one-shares/)_
 
 
 

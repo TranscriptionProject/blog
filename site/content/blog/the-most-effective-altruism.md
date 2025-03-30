@@ -19,7 +19,7 @@ It was the third week of November. My team at work had decided to forgo our trad
 
 We loaded the van with 80 pounds of turkey goodness and drove down to [Tent City 3](http://www.sharewheel.org/Home/tent-cities).
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/tent-city-home-1-.jpg" >}}
+{{< figure src="/img/the-most-effective-altruism/tent-city-home-1-.jpg" >}}
 
 I got out of the van feeling a bit awkward. I’d never done anything like this before, what do you talk to a homeless person about? Fortunately for me, someone had already contacted Tent City.  A couple folks were waiting for us, ready to help unload the food.
 

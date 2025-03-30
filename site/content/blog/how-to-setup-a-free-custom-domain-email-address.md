@@ -16,7 +16,7 @@ When you’re done following the below instructions you’ll be able to send and
 
 # Step 1 - Buy a domain
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-01-14-namecheap-20logo-1-.png" >}}
+{{< figure src="/img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-namecheap-20logo-1-.png" >}}
 
 Okay, so you still have to pay to own your domain, but the rest is free. And if you want a custom domain email address, then chances are you’re interested in your professional reputation. Owning your own domain is a good idea even if you don’t plan to start your own sure just yet. I held off on it a couple years and that was enough for a law student to grab zainrizvi.com -_-
 
@@ -24,7 +24,7 @@ I prefer to buy my domains through namecheap.com, though pretty much any company
 
 # Step 2 - Sign up for a [mailgun.com](http://mailgun.com/) account
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-01-14-mailgun-20logo-1-.png" >}}
+{{< figure src="/img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-mailgun-20logo-1-.png" >}}
 
 _Edit: Mailgun now charges for mail forwarding, but at the bottom of this email I've listed other services which let you do the same thing for free. Just replace Mailgun with your chosen service._
 
@@ -48,7 +48,7 @@ Within MailGun go to the [Receiving section](https://app.mailgun.com/app/receivi
 
 Set the “Expression Type” to “match recipient” and then for the recipient enter the exact email address you’d like to have (I’m using example@zainrizvi.io). Ensure the checkbox under “forward” is checked, and enter your gmail address there. Let’s pretend my gmail address is youraddress@gmail.com.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-01-14-new_route2-1-.png" >}}
+{{< figure src="/img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-new_route2-1-.png" >}}
 
 Once you hit save, any emails that get sent to that recipient email address (in this case ‘example@zainrizvi.io’) will get forwarded to your Gmail address.
 
@@ -64,17 +64,17 @@ In Gmail, go to Settings -> Accounts and Import -> “Add another email address�
 
 Enter the custom domain email address you created a route for in mailgun and click “Next Step)
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-01-14-add-20gmail-20account-1-.png" >}}
+{{< figure src="/img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-add-20gmail-20account-1-.png" >}}
 
 The next screen asks you to input your mailgun SMTP credentials.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-01-14-add-20gmail-202-1-.png" >}}
+{{< figure src="/img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-add-20gmail-202-1-.png" >}}
 
 You can get those from mailgun by navigating in Mailgun to Sending -> Domain Settings -> SMTP Credentials, and ensuring you’re using the correct domain from the drop down menu at the top
 
 Click the “Reset Password” button to get a new password which you can let Gmail use to log into the SMTP server. You’ll also find the username and SMTP Server to use on that page
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-01-14-Smtp-20credentials-1-.png" >}}
+{{< figure src="/img/how-to-setup-a-free-custom-domain-email-address/2020-01-14-Smtp-20credentials-1-.png" >}}
 
 Enter the relevant information into the gmail window and click “Add Account”. Gmail will then send your custom domain email address a message asking to confirm that it’s okay with gmail sending emails on it’s behalf. Since you’ve already set up email forwarding, that email will land right in your gmail inbox :)
 

@@ -24,7 +24,7 @@ And now for your nuggets
 
 # **What I'm writing**
 
-### [Taking my own advice](__GHOST_URL__/blog/grow-by-giving-feedback/)
+### [Taking my own advice](/blog/grow-by-giving-feedback/)
 
 You’ve heard how the best way to learn is by teaching, right?
 
@@ -36,7 +36,7 @@ And now I'm realizing I can apply this at work. You can too.
 
 **Everything is an opportunity to learn**
 
-**[Read the full essay here](__GHOST_URL__/blog/grow-by-giving-feedback/)**
+**[Read the full essay here](/blog/grow-by-giving-feedback/)**
 
 ---
 
@@ -83,7 +83,7 @@ Lego used all of those when painting its toys
 
 # **The Takeaway**
 
-I was amazed when I noticed how much [reviewing other's works](__GHOST_URL__/blog/grow-by-giving-feedback/) helped me improve my own.
+I was amazed when I noticed how much [reviewing other's works](/blog/grow-by-giving-feedback/) helped me improve my own.
 
 It started with essays, but now I'm trying to notice how people deliver lectures, write design documents, and even bug descriptions. I'm certain I haven't yet noticed all the things I could be learning from.
 

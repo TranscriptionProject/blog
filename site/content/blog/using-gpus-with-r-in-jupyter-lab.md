@@ -14,7 +14,7 @@ Have you ever tried installing drivers for your Nvidia GPUs? The first time I tr
 
 And once I realized I also had to recompile multiple packages to actually use those GPUs, I was one error message away from being this guy:
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-11-26-frustration-1-.jpg" >}}
+{{< figure src="/img/using-gpus-with-r-in-jupyter-lab/2019-11-26-frustration-1-.jpg" >}}
 
 Things have gotten a lot better since then.
 
@@ -101,7 +101,7 @@ The steps start to seem a bit iffy here (add a new key? a new repository?), but 
 
 (Still feels like 👇)
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-11-27-safe-1-.jpg" >}}
+{{< figure src="/img/using-gpus-with-r-in-jupyter-lab/2019-11-27-safe-1-.jpg" >}}
 
 ## 3. Integrate with Jupyter Lab/Jupyter Notebooks
 

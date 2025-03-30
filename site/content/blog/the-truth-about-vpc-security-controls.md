@@ -20,7 +20,7 @@ Here I’ll describe just what VPC-SC is, why it was needed, and a big mistake I
 
 The core problem VPC-SC is meant to solve is to protect companies against ****data exfiltration****. That’s a fancy way to describe preventing adversaries from copying your private data off of your servers and onto their own.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-02-21-vpc-sc-truth-1-1-.png" >}}
+{{< figure src="/img/the-truth-about-vpc-security-controls/2020-02-21-vpc-sc-truth-1-1-.png" >}}
 
 You can setup many types of protections to prevent attackers from getting access to your machines (let’s strong with decent passwords, shall we?), but following the principle of [defense in depth](https://www.imperva.com/learn/application-security/defense-in-depth/), enterprises with more critical data protection requirements sometimes need an additional layer of protection which says “Even if someone hacks into our machines, joke’s on them. They still can’t steal our data!” That’s the core problem we’re trying to solve here.
 
@@ -30,23 +30,23 @@ Back then, companies would have a private corporate network. All employee comput
 
 This way, even if an attacker gained access to a machine they still would not be able to send a copy of the data to themselves. The firewall would block any such attempts.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-02-21-vpc-sc-truth-2-1-.png" >}}
+{{< figure src="/img/the-truth-about-vpc-security-controls/2020-02-21-vpc-sc-truth-2-1-.png" >}}
 
 Now what changes if you move to the cloud? Not too much actually!
 
 You can define firewall rules for your cloud VMs as well and you can set those up to match very similar rules to what your local company network had.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-02-21-vpc-sc-truth-3-1-.png" >}}
+{{< figure src="/img/the-truth-about-vpc-security-controls/2020-02-21-vpc-sc-truth-3-1-.png" >}}
 
 But what if you wanted to use any of the other mouth watering array of services GCP offers? Things like blob storage, pub sub, or juptyer notebooks as a service?
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-02-21-vpc-sc-truth-4-1-.png" >}}
+{{< figure src="/img/the-truth-about-vpc-security-controls/2020-02-21-vpc-sc-truth-4-1-.png" >}}
 
 Those services live outside the reach of your firewalls. They’re run on servers which are the entry point for resources owned by all GCP customers.
 
 The usual solution of opening up a firewall hole to allow traffic just to those services doesn’t quite work. Take Google Cloud Storage (GCS) for example, it’s specifically designed to store data so it would be trivial for an attacker to take your secret data, push it to their own GCS bucket and then download the data from there at their leisure.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-02-21-vpc-sc-truth-5-1-.png" >}}
+{{< figure src="/img/the-truth-about-vpc-security-controls/2020-02-21-vpc-sc-truth-5-1-.png" >}}
 
 Some companies worked around this problem by self-hosting their own versions of these services within their private corporate networks. That’s an option, but it’s expensive. You have to run, debug, maintain, and upgrade both the software and servers, all by yourself. Your dev ops team is cursed to toil away in the kitchen making boiled chicken, while longingly looking upon the [duck confit](https://images.app.goo.gl/KedFe6Tui7kKR7cc7) delivered to their neighbor’s doorsteps.
 
@@ -73,7 +73,7 @@ So you’ve combined the traditional firewall + DNS rules that were used to prot
 
 How? Now, the only way to access your project’s data is from your VM, which is protected by your custom firewall rules. Even if an adversary manages to get a hold of your GCP credentials they still wouldn’t be able to steal your data. They would first have to breach your firewall to enter your VPC-SC perimeter! (Defense in depth!)
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-02-21-vpc-sc-truth-6-1-.png" >}}
+{{< figure src="/img/the-truth-about-vpc-security-controls/2020-02-21-vpc-sc-truth-6-1-.png" >}}
 
 And that’s how you get the virtual firewall!
 
@@ -91,7 +91,7 @@ In fact, if you don’t add a service to your VPC-SC perimeter then you’ve bas
 
 Here comes the fox ready to exfiltrate your data!
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-02-21-vpc-sc-truth-7-1-.png" >}}
+{{< figure src="/img/the-truth-about-vpc-security-controls/2020-02-21-vpc-sc-truth-7-1-.png" >}}
 
 In case that wasn’t clear: *You must to ****opt-in**** to ****every__ service ***_that you want to have locked-down_. Opting-out means **zero**** protection.
 

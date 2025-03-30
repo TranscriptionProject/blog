@@ -56,7 +56,7 @@ Or were your eyes glazing over?
 
 The right words create magic
 
-{{< figure src="__GHOST_URL__/content/images/2020/08/image.png" caption="David Perell loves to share this color coded example" >}}
+{{< figure src="/img/grow-by-giving-feedback/image.png" caption="David Perell loves to share this color coded example" >}}
 
 ### Dissect the text
 
@@ -74,7 +74,7 @@ Let the problem simmer in your head.
 
 As you become more conscious about the emotions—both good and bad—different writing styles evoke in you, **you'll notice patterns**  **hiding in plain sight**. You’ll spot techniques being used. The structure of the Matrix will be revealed.
 
-{{< figure src="__GHOST_URL__/content/images/2020/08/image-1.png" caption="" >}}
+{{< figure src="/img/grow-by-giving-feedback/image-1.png">}}
 
 The text will transform from words dropped on a page into a set of tools you can recognize, pick up and wield.
 

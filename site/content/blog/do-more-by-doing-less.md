@@ -60,7 +60,7 @@ Watching deer was definitely a “for fun” project. That meant **I had a deadl
 
 I had a clock to beat.
 
-{{< figure src="__GHOST_URL__/content/images/2020/08/pasted_image_0-1-.png" >}}
+{{< figure src="/img/do-more-by-doing-less/pasted_image_0-1-.png" >}}
 
 How do I do that? There’s no way I could build that many features in two weeks.
 
@@ -96,7 +96,7 @@ But the urge to add “useful” features doesn’t go away. There’s even a na
 
 It’s the insistent urge that you should add one more thing. “I should make it easier to code this” “What if I do that with a different tool instead?”
 
-{{< figure src="__GHOST_URL__/content/images/2020/08/one-more-thing.png" >}}
+{{< figure src="/img/do-more-by-doing-less/one-more-thing.png" >}}
 
 Scope creep happens naturally, and **if I didn’t fight it the timer would run out**.
 

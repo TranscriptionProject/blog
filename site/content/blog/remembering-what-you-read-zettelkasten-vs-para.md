@@ -19,7 +19,7 @@ I hated the idea of wasting all that time I spent reading, so a year ago I start
 
 My first attempt led me to Farnam Street’s tips on [remembering what you read](https://fs.blog/2014/05/remembering-what-you-read/). Their concept of writing your notes on the book itself was liberating (it’s okay to WRITE in my book?!?). Actively writing down notes helped me get more insights out of the text, but those thoughts would then be trapped in the analogue world, locked away until I happened to peruse the book some time in the future.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-05-08-Remember-20what-20you-20read-20-1--1-.png" >}}
+{{< figure src="/img/remembering-what-you-read-zettelkasten-vs-para/2020-05-08-Remember-20what-20you-20read-20-1--1-.png" >}}
 
 FS also suggested writing down the book’s core ideas from memory right after you finish the book, but this is a process that requires discipline (unless you like testing yourself?) and things requiring discipline have a distressing tendency to not happen.
 
@@ -27,7 +27,7 @@ Those tips were exciting, but I couldn’t stick with it. I needed something dif
 
 Next I came across the [Zettelkasten note taking method](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125). Its core idea is to create atomic notes, where each note is about exactly one topic (not more than a few paragraphs tops) and nothing more. Then you file the away in your system by linking that note to other notes which seem most relevant to it. All the notes are written in your own words, so you’re really writing down your own thoughts here.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-05-08-Remember-20what-20you-20read-20-2--1-.png" >}}
+{{< figure src="/img/remembering-what-you-read-zettelkasten-vs-para/2020-05-08-Remember-20what-20you-20read-20-2--1-.png" >}}
 
 The key here is that the linking process ****groups relevant notes together****. Now when you’re interested in browsing your notes on a given topic, you’ll easily find them. You get to see how your ideas relate to each other as well as discover interesting ways they may play off against or even contradict one another.
 
@@ -45,7 +45,7 @@ Finally I discovered Building a Second Brain and it’s [P.A.R.A](https://fortel
 
 With P.A.R.A. you organize all your notes by purpose, not by category. Let’s say you’re trying to build an app. You’ll have a folder called ‘app’ for all notes about it. Now if you study databases in order to build it, you’ll file any notes you take inside the ‘app’ folder, not in a separate ‘databases’ folder.
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2020-05-08-Remember-20what-20you-20read-20-3--1-.png" >}}
+{{< figure src="/img/remembering-what-you-read-zettelkasten-vs-para/2020-05-08-Remember-20what-20you-20read-20-3--1-.png" >}}
 
 What does this do? By creating purpose-based folders and putting all notes related to that _purpose_ inside it, we’ve created a new way to group relevant notes together. All your notes related to that purpose are available front and center when you open the folder. This lets you avoid the time consuming process of sorting, organizing, and linking your notes in order to make them useful. Just drop the note in the right folder and BAM, that’s it.
 

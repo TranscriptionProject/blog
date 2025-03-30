@@ -13,7 +13,7 @@ title = "#19 Productivity tips from Jeff Bezos and Hugh Jackman"
 
 Ever study something, but when you try to explain it realize that you'd understood nothing?
 
-{{< figure src="__GHOST_URL__/content/images/2020/11/04f-1.gif" >}}
+{{< figure src="/img/19-productivity-tips-from-jeff-bezos-and-huge-jackman/04f-1.gif" >}}
 
 A few sips from the pool of knowledge and we think we know it all!
 
