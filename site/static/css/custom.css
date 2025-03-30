@@ -18,9 +18,13 @@
 }
 
 .navbar-custom .site-title {
-    font-size: 22px;
+    font-size: 18px;
     margin: 0;
-    line-height: 1.2;
+    line-height: 1.25;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .navbar-custom .navbar-brand {
