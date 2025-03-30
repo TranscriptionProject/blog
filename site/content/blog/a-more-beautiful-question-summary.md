@@ -12,7 +12,7 @@ title = "Become Creative by Asking Better Questions"
 
 > These are the key lessons I discovered while reading Warren Berger’s [A More Beautiful Question](https://www.amazon.com/More-Beautiful-Question-Inquiry-Breakthrough/dp/1632861054/). Most material is directly from the book with a few of my own ideas interspersed
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-10-book-20question-20details-2-1-.jpg" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-10-book-20question-20details-2-1-.jpg" >}}
 
 # Why do we need to ask questions?
 
@@ -34,13 +34,13 @@ Everything starts with “why?”
 3. ****Stage 3: How**** can this idea be implemented?
 4. ****Implement**** the solution
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-08-question-20stages-1-.jpg" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-08-question-20stages-1-.jpg" >}}
 
 These are described in more detail further down
 
 # Fighting Information Overload
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-09-surrounded-1-.jpg" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-09-surrounded-1-.jpg" >}}
 
 With Information Overload we need to ****Focus on the Context**** (tips from [John Seely Brown](http://www.johnseelybrown.com/))
 
@@ -75,7 +75,7 @@ When you have a question, let it brew in your head. It’ll lead you to [combina
 
 Start with ****Why****? => Ask ****What if****? => Figure out ****How****?
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-09-question-mark-2123967_1920-1-.jpg" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-09-question-mark-2123967_1920-1-.jpg" >}}
 
 ## Stage 1: Why?
 
@@ -119,7 +119,7 @@ This gradually leads you to the ****“What If?”**** stage
 
 Here are some tactics that can help you come up with ideas when you’re in the “What If” stage
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-09-brainstorm-4222728_1920-1-.jpg" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-09-brainstorm-4222728_1920-1-.jpg" >}}
 
 ### Connective Inquiry
 
@@ -165,7 +165,7 @@ What impact would that have?
 
 You came up with many ideas in Step 2. Now chose one idea to pursue. It’s time for [convergent thinking](https://www.youtube.com/watch?v=cmBf1fBRXms)
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-10-construction-1-.png" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-10-construction-1-.png" >}}
 
 ### Quickly Identify Bad Ideas via Feedback
 
@@ -210,7 +210,7 @@ Questions belong to everyone
 
 # Questioning in Business
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-09-meeting-1-.png" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-09-meeting-1-.png" >}}
 
 * Why are we in business? And what business are we _really_ in?
 * What if our company didn’t exist?
@@ -220,7 +220,7 @@ Questions belong to everyone
 
 # Living Better by Asking the Right Questions
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-09-peace-1-.jpg" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-09-peace-1-.jpg" >}}
 
 * What if we start with what we already have?
 * What if you made one small change?
@@ -258,7 +258,7 @@ If we can’t agree on an answer, can we instead agree on a question?
 
 Interesting Teaching Style: Activity-Permissive Education by Mayo Clinic. Lets kids move as they learn
 
-{{< figure src="__GHOST_URL__/content/images/2020/07/2019-08-09-The-Classroom-Teacher-Teach-Blackboard-Clipart-2799822-1-.jpg" >}}
+{{< figure src="/img/a-more-beautiful-question-summary/2019-08-09-The-Classroom-Teacher-Teach-Blackboard-Clipart-2799822-1-.jpg" >}}
 
 ### How can parents teach their kids to question?
 
