@@ -1,56 +1,36 @@
 {{ define "main" }}
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="site-heading">
-                <h1>{{ .Title }}</h1>
-                <span class="subheading">Articles tagged with "{{ .Title }}"</span>
-            </div>
-            
-            {{ range .Pages.ByPublishDate.Reverse }}
-            <div class="post-preview">
-                <a href="{{ .Permalink }}">
-                    <h2 class="post-title">
-                        {{ .Title }}
-                    </h2>
-                    <h3 class="post-subtitle">
-                        {{ .Params.subtitle }}
-                    </h3>
-                    <div class="post-content-preview">
-                        {{ if .Description }}
-                            {{ .Description }}
-                        {{ else }}
-                            {{ .Summary }}
-                        {{ end }}
+<main class="site-main">
+    <div class="site-content">
+        <div class="inner-wide">
+            <div class="post-grid">
+                {{ range .Pages.ByPublishDate.Reverse }}
+                <article class="grid-item tag-{{ .Title | urlize }}">
+                    <header class="post-header">
+                        <div class="post-tags">
+                            {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" rel="tag">{{ . }}</a>
+                            {{ end }}
+                        </div>
+                        <h2 class="post-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h2>
+                    </header>
+                    <div class="post-content">
+                        <p class="post-excerpt dots">{{ .Content | plainify | truncate 200 "..." }}</p>
+                        <p class="read-more"><a class="button light" href="{{ .Permalink }}" title="{{ .Title }}">Read More</a></p>
                     </div>
-                </a>
-                <p class="post-meta">
-                    Posted on {{ .Date.Format "Monday, January 2, 2006" }}
-                    {{ if .Params.tags }}
-                    <br/>
-                    {{ range .Params.tags }}
-                    <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-                    {{ end }}
-                    {{ end }}
-                </p>
+                </article>
+                {{ end }}
             </div>
-            <hr>
-            {{ end }}
-            
-            <!-- Pager -->
-            <ul class="pager">
-                {{ if .Paginator.HasPrev }}
-                <li class="previous">
-                    <a href="{{ .Paginator.Prev.URL | relURL }}">&larr; Newer Posts</a>
-                </li>
-                {{ end }}
+
+            <nav class="pagination">
+                <span class="page-number">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
                 {{ if .Paginator.HasNext }}
-                <li class="next">
-                    <a href="{{ .Paginator.Next.URL | relURL }}">Older Posts &rarr;</a>
-                </li>
+                <a class="older-posts square" href="{{ .Paginator.Next.URL }}"><span class="screen-reader-text">Older Posts</span><span class="icon-angle-right" aria-hidden="true"></span></a>
                 {{ end }}
-            </ul>
+                {{ if .Paginator.HasPrev }}
+                <a class="newer-posts square" href="{{ .Paginator.Prev.URL }}"><span class="screen-reader-text">Newer Posts</span><span class="icon-angle-left" aria-hidden="true"></span></a>
+                {{ end }}
+            </nav>
         </div>
     </div>
-</div>
+</main>
 {{ end }}
