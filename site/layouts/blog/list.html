@@ -17,15 +17,11 @@
                         {{ .Params.subtitle }}
                     </h3>
                     <div class="post-content-preview">
-                        {{ if .Description }}
-                            {{ .Description }}
-                        {{ else }}
-                            {{ .Summary }}
-                        {{ end }}
+                        {{ .Content | plainify | truncate 200 "..." }}
                     </div>
                 </a>
                 <p class="post-meta">
-                    Posted by {{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }} on {{ .Date.Format "Monday, January 2, 2006" }}
+                    {{ .Date.Format "Monday, January 2, 2006" }}
                     {{ if .Params.tags }}
                     <br/>
                     {{ range .Params.tags }}
