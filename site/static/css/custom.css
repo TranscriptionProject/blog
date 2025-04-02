@@ -43,19 +43,20 @@
     color: #5c6773;
     font-weight: 600;
     font-size: 14px;
-    padding: 20px 15px;
+    padding: 10px 15px; /* Reduced from 20px to 10px for top/bottom padding */
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-    color: #3eb0ef;
-    background-color: transparent;
+    color: #33383f;
+    background-color: #ffeb3b; /* Bright yellow background on hover */
 }
 
-.navbar-custom .nav li.current-menu-item a {
-    color: #3eb0ef;
+.navbar-custom .nav li.current-menu-item a:hover {
+    color: #33383f; /* Change text color when current menu item is hovered */
 }
 
 /* Mobile menu styles */
