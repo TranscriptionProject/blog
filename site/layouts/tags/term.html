@@ -12,6 +12,7 @@
                             {{ end }}
                         </div>
                         <h2 class="post-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h2>
+                        <div class="post-date">{{ .Date.Format "January 2, 2006" }}</div>
                     </header>
                     <div class="post-content">
                         <p class="post-excerpt dots">{{ .Content | plainify | truncate 200 "..." }}</p>

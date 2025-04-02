@@ -266,3 +266,10 @@ header.intro-header {
 .post-title a:hover::after {
     width: 100%;
 }
+
+.post-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+    font-style: italic;
+}
