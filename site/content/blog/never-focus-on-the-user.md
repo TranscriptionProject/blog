@@ -45,7 +45,7 @@ This leads to **products that seem cruddy yet are extremely popular**. Ever had 
 
 How do they not get beaten by competitors? The thing is:
 
-{{< figure src="https://lh5.googleusercontent.com/_r-f7xPdmLf2LNy-5yj2fg5yvFFPVQ5YjOk2ANuPcOHiPYvl69PqnRKpj9qoVZaMamXIhT3eiwOApCCnMiFhvpydTb618Jx7tvsVO8F0gkJ6Lb_jhWqaae0970_M6St5x8MaTVC0" >}}
+{{< figure src="/img/never-focus-on-the-user/unnamed.png" >}}
 
 Software is made for the people who actually pay money: The buyers.
 
@@ -57,7 +57,7 @@ Captive users don’t get a vote.
 
 For them, life could be terrible. But it’s okay as long as the buyers remain happy.
 
-{{< figure src="https://lh5.googleusercontent.com/NRwB6BXKhhSy2peEfWPOXJPsP9r9tkVFCRArIif_KdP5j9uyTNfbjdRz-hVOqRoCeWg07Io0GvRTv5C1L994WaFcpsdV5EkpWZl_p2THKsl5G_BtoEHFiItoJ1fcKmUC8chD9_bt" >}}
+{{< figure src="/img/never-focus-on-the-user/unnamed (1).png" >}}
 
 # This goes against everything taught in UX school!
 
@@ -114,7 +114,7 @@ Who is Jira’s target customer? It’s certainly not the poor developer who [st
 
 Take a look at [Jira’s site](https://www.atlassian.com/software/jira/features) and see what they emphasize:
 
-{{< figure src="https://lh5.googleusercontent.com/t-EJzBkZs4xR2GuFEsKfkeNZ6K18LH1xyMYP3eSX4Wvq1Qm0xodYPOoyNJB8oGMi7a3v3ZThYMqU7TIYTle8heE5wkeeI2thfeyH_-4vY_eswZgD_HvjRJ2FVa9rKCozqO0AzpAf" >}}
+{{< figure src="/img/never-focus-on-the-user/sn84SeOGkMUd7s3VPJtWYRWVFsRTvWxkbcpc44MrmuIrn-OuWfR0ySQ-jhmJFSfveZt2ITnNHVZfNbJkMAeHkj0NLRDrp6cNdBHFwPs4k_PbT_hDzxCzkrgqDsw-iRDdBhoEVENr.png" >}}
 
 Those pages glamorize having an overview of what work your employees are doing. It’s a tool made for _managers_. Especially higher level ones. The VP won’t be filing work items, but they’ll be very interested in the insights those dashboards offer.
 
