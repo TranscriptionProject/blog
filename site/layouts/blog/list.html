@@ -1,51 +1,57 @@
 {{ define "main" }}
+
 <div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="site-heading">
-                <h1>{{ .Title }}</h1>
-                <span class="subheading">{{ .Site.Params.description }}</span>
-            </div>
-            
-            {{ range .Pages.ByPublishDate.Reverse }}
-            <div class="post-preview">
-                <a href="{{ .Permalink }}">
-                    <h2 class="post-title">
-                        {{ .Title }}
-                    </h2>
-                    <h3 class="post-subtitle">
-                        {{ .Params.subtitle }}
-                    </h3>
-                    <div class="post-content-preview">
-                        {{ .Content | plainify | truncate 200 "..." }}
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="post-grid blog-grid">
+                {{ range .Pages.ByPublishDate.Reverse }}
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        {{ if .Params.image }}
+                            <a href="{{ .Permalink }}">
+                                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                            </a>
+                        {{ else }}
+                            <a href="{{ .Permalink }}" class="blog-card-image-link no-image">
+                                <div class="blog-card-image-placeholder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><path fill="none" d="M0 0h24v24H0z"/><path d="M5 11.1l2-2 5.5 5.5 3.5-3.5 3 3V5H5v6.1zm0 2.829V19h3.1l2.856-2.856L8 13.1l-3 2.829zm7.856 2.856L15.9 19H19v-2.9l-3-3-3.144 3.144zM4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="rgba(125,125,125,0.5)"/></svg>
+                                </div>
+                            </a>
+                        {{ end }}
                     </div>
-                </a>
-                <p class="post-meta">
-                    {{ .Date.Format "Monday, January 2, 2006" }}
-                    {{ if .Params.tags }}
-                    <br/>
-                    {{ range .Params.tags }}
-                    <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-                    {{ end }}
-                    {{ end }}
-                </p>
+                    <div class="blog-card-content">
+                        {{ if .Params.tags }}
+                        <div class="blog-card-tags">
+                            {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="blog-tag">{{ . }}</a>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                        <h2 class="blog-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                        <div class="blog-card-meta">
+                            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                        </div>
+                        <div class="blog-card-excerpt">
+                            {{ .Content | plainify | truncate 200 "..." }}
+                        </div>
+                        <a href="{{ .Permalink }}" class="read-more-link">Read more →</a>
+                    </div>
+                </article>
+                {{ end }}
             </div>
-            <hr>
-            {{ end }}
-            
+
             <!-- Pager -->
-            <ul class="pager">
+            <div class="pagination-container">
                 {{ if .Paginator.HasPrev }}
-                <li class="previous">
-                    <a href="{{ .Paginator.Prev.URL | relURL }}">&larr; Newer Posts</a>
-                </li>
+                <a href="{{ .Paginator.Prev.URL | relURL }}" class="pagination-button prev">← Newer Posts</a>
                 {{ end }}
+                
+                <span class="pagination-info">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+                
                 {{ if .Paginator.HasNext }}
-                <li class="next">
-                    <a href="{{ .Paginator.Next.URL | relURL }}">Older Posts &rarr;</a>
-                </li>
+                <a href="{{ .Paginator.Next.URL | relURL }}" class="pagination-button next">Older Posts →</a>
                 {{ end }}
-            </ul>
+            </div>
         </div>
     </div>
 </div>
