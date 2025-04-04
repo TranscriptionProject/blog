@@ -65,4 +65,3 @@ client = bq.Client(project="project-name", credentials=credentials)
 ```
 
 Thanks to Anthony Brown for [sharing instructions](https://medium.com/john-lewis-software-engineering/authenticating-jupyter-notebook-against-bigquery-957884f78527) on how to use BigQuery with Jupyter Notebooks
-
