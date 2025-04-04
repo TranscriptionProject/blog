@@ -1,0 +1,8 @@
+<figure style="text-align: center; margin: 2rem auto;">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" | default "Image" }}" style="max-width: 100%; height: auto;">
+    <figcaption style="text-align: center; color: rgba(0,0,0,0.6); font-size: 1.5rem; text-transform: uppercase;">
+      PHOTO BY 
+      <a href="{{ .Get "photographer_url" }}" style="color: rgba(0,0,0,0.8); text-decoration: underline; text-transform: uppercase;">{{ .Get "photographer" }}</a> / 
+      <a href="{{ .Get "source_url" }}" style="color: rgba(0,0,0,0.8); text-decoration: underline; text-transform: uppercase;">{{ .Get "source" }}</a>
+    </figcaption>
+</figure>

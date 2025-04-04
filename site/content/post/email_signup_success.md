@@ -4,7 +4,7 @@ description = ""
 draft = false
 image = "https://images.unsplash.com/photo-1581043144435-ebcd25885809?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
 slug = "email_signup_success"
-url = "/blog/email_signup_success"
+url = "/email_signup_success"
 title = "Welcome to the Newsletter!"
 
 +++
