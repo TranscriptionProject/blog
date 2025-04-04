@@ -6,6 +6,11 @@ theme = "hugo-theme-cleanwhite"
 relativeURLs = true
 canonifyURLs = true
 
+# New pagination format
+[pagination]
+  pagerSize = 10
+  path = "page"
+
 [taxonomies]
   tag = "tags"
   category = "categories"

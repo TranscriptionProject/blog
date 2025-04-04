@@ -7,7 +7,8 @@
                 <span class="subheading">{{ .Description }}</span>
             </div>
             
-            {{ range .Pages.ByPublishDate.Reverse }}
+            <!-- Change from .Pages to .Paginator.Pages -->
+            {{ range .Paginator.Pages }}
             <div class="post-preview">
                 <a href="{{ .Permalink }}">
                     <h2 class="post-title">

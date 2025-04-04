@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
             <div class="post-grid blog-grid">
-                {{ range .Pages.ByPublishDate.Reverse }}
+                {{ range .Paginator.Pages }}
                 <article class="blog-card">
                     <div class="blog-card-image">
                         {{ if .Params.image }}
