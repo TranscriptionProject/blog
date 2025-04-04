@@ -12,4 +12,62 @@
 &lt;/div></description></item><item><title>Got it</title><link>https://transcriptionproject.github.io/blog/snooze/</link><pubDate>Thu, 31 Dec 2020 06:16:03 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/snooze/</guid><description>&lt;p>You won&amp;rsquo;t get any emails from me for the next 30 days.&lt;/p>
 &lt;p>Looking forward to seeing you again after that!&lt;/p></description></item><item><title>I got your No vote!</title><link>https://transcriptionproject.github.io/blog/vote-no/</link><pubDate>Thu, 15 Oct 2020 16:28:05 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/vote-no/</guid><description>&lt;p>Thanks for responding!&lt;/p>
 &lt;p>Sorry this page doesn&amp;rsquo;t look fancier, my email service doesn&amp;rsquo;t support this kind of voting and I had to hack together this minimal alternative quickly&lt;/p></description></item><item><title>I got your Yes vote!</title><link>https://transcriptionproject.github.io/blog/vote-yes/</link><pubDate>Thu, 15 Oct 2020 16:27:38 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/vote-yes/</guid><description>&lt;p>Thanks for responding!&lt;/p>
-&lt;p>Sorry this page doesn&amp;rsquo;t look fancier, my email service doesn&amp;rsquo;t support this kind of voting and I had to hack together this minimal alternative quickly&lt;/p></description></item><item><title>Start Here</title><link>https://transcriptionproject.github.io/blog/home/</link><pubDate>Mon, 06 Jul 2020 17:49:58 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/home/</guid><description>Interested in software engineering, business, or psychology? You&amp;rsquo;re in the right place</description></item></channel></rss>
+&lt;p>Sorry this page doesn&amp;rsquo;t look fancier, my email service doesn&amp;rsquo;t support this kind of voting and I had to hack together this minimal alternative quickly&lt;/p></description></item><item><title>You're all set</title><link>https://transcriptionproject.github.io/blog/double_opt_in_confirmation/</link><pubDate>Tue, 01 Sep 2020 01:27:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/double_opt_in_confirmation/</guid><description>&lt;h3 id="theres-a-welcome-email-waiting-in-your-inbox-with-your-salary-negotiation-tips">There&amp;rsquo;s a welcome email waiting in your inbox with your salary negotiation tips&lt;/h3>
+&lt;p>I won&amp;rsquo;t hide it, I&amp;rsquo;m excited to have you onboard 😀&lt;/p>
+&lt;p>Enjoy!&lt;/p>
+&lt;figure style="text-align: center; margin: 2rem auto;">
+ &lt;img src="https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=2000&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Welcome image" style="max-width: 100%; height: auto;">
+ &lt;figcaption style="text-align: center; color: rgba(0,0,0,0.6); font-size: 1.5rem; text-transform: uppercase;">
+ PHOTO BY 
+ &lt;a href="https://unsplash.com/@theexplorerdad" style="color: rgba(0,0,0,0.8); text-decoration: underline; text-transform: uppercase;">Joshua Ness&lt;/a> / 
+ &lt;a href="https://unsplash.com" style="color: rgba(0,0,0,0.8); text-decoration: underline; text-transform: uppercase;">Unsplash&lt;/a>
+ &lt;/figcaption>
+&lt;/figure></description></item><item><title>Newsletter page images</title><link>https://transcriptionproject.github.io/blog/obscure-newsletter-page-images/</link><pubDate>Tue, 25 Aug 2020 08:50:36 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/obscure-newsletter-page-images/</guid><description>&lt;p>If you can read this page, oops.&lt;/p>
+&lt;p>Nothing to see here. It&amp;rsquo;s just random images I link to elsewhere on the site&lt;/p>
+
+&lt;link rel="stylesheet" href="../css/hugo-easy-gallery.css" />
+&lt;div class="box" >
+ &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="../img/obscure-newsletter-page-images/image-3.png" />
+ &lt;/div>
+ &lt;a href="../img/obscure-newsletter-page-images/image-3.png" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div>
+
+
+
+&lt;div class="box" >
+ &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="../img/obscure-newsletter-page-images/image-2.png" />
+ &lt;/div>
+ &lt;a href="../img/obscure-newsletter-page-images/image-2.png" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div>
+
+
+
+&lt;div class="box" >
+ &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="../img/obscure-newsletter-page-images/image-4.png" />
+ &lt;/div>
+ &lt;a href="../img/obscure-newsletter-page-images/image-4.png" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div></description></item><item><title>Welcome to the Newsletter!</title><link>https://transcriptionproject.github.io/blog/email_signup_success/</link><pubDate>Sun, 19 Jul 2020 07:46:19 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/email_signup_success/</guid><description>&lt;h1 id="theres-a-welcome-email-waiting-in-your-inbox-">There&amp;rsquo;s a welcome email waiting in your inbox 😀&lt;/h1>
+&lt;p>So what can you expect? I&amp;rsquo;ll be sending you an email no more than once a week sharing the most interesting lessons I learn.&lt;/p>
+&lt;p>Enjoy!&lt;/p>
+
+&lt;link rel="stylesheet" href="../css/hugo-easy-gallery.css" />
+&lt;div class="box" >
+ &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=2000&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Photo by &amp;lt;a href=&amp;#34;https://unsplash.com/@theexplorerdad?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Joshua Ness&amp;lt;/a&amp;gt; / &amp;lt;a href=&amp;#34;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Unsplash&amp;lt;/a&amp;gt;"/>
+ &lt;/div>
+ &lt;a href="https://images.unsplash.com/photo-1490111718993-d98654ce6cf7?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=2000&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption align="center">
+ &lt;p>Photo by &amp;lt;a href=&amp;#34;https://unsplash.com/@theexplorerdad?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Joshua Ness&amp;lt;/a&amp;gt; / &amp;lt;a href=&amp;#34;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&amp;#34;&amp;gt;Unsplash&amp;lt;/a&amp;gt;&lt;/p>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div></description></item><item><title>Start Here</title><link>https://transcriptionproject.github.io/blog/home/</link><pubDate>Mon, 06 Jul 2020 17:49:58 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/home/</guid><description>Interested in software engineering, business, or psychology? You&amp;rsquo;re in the right place</description></item></channel></rss>
