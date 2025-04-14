@@ -78,6 +78,147 @@
     }
 }
 
+/* Enhanced Mobile Menu Styles with explicit hamburger icon styling */
+.navbar-toggle {
+    border: none;
+    background: transparent !important;
+    margin-right: 0;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: block; /* Ensure it's always displayed */
+    float: right;
+}
+
+.visible-xs-block {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .visible-xs-block {
+        display: block !important;
+    }
+    
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        z-index: 100;
+    }
+}
+
+.navbar-toggle:focus {
+    outline: none;
+}
+
+/* Make the hamburger icon more visible with stronger styling */
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #333;
+    transition: all 0.3s;
+    margin-top: 4px;
+}
+
+.navbar-toggle .icon-bar:first-child {
+    margin-top: 0;
+}
+
+/* Hamburger animation */
+.navbar-toggle.active .icon-bar:nth-child(2) {
+    transform: rotate(45deg) translate(5px, 4px);
+}
+
+.navbar-toggle.active .icon-bar:nth-child(3) {
+    opacity: 0;
+}
+
+.navbar-toggle.active .icon-bar:nth-child(4) {
+    transform: rotate(-45deg) translate(5px, -4px);
+}
+
+/* Mobile menu dropdown - the rest remains the same */
+@media (max-width: 767px) {
+    .navbar-custom .site-header-inside {
+        padding: 0 15px;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .navbar-custom .navbar-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    
+    /* Make sure navbar brand and toggle have proper spacing */
+    .navbar-custom .navbar-brand {
+        padding-left: 0;
+    }
+    
+    #huxblog_navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        z-index: 100;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        width: 100%;
+    }
+    
+    #huxblog_navbar.in {
+        max-height: 500px;
+        overflow: visible;
+    }
+    
+    #huxblog_navbar .navbar-collapse {
+        padding: 0;
+        border: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    
+    #huxblog_navbar .navbar-collapse.in {
+        max-height: 500px;
+        overflow: visible;
+    }
+    
+    #huxblog_navbar .nav {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        float: none !important;
+    }
+    
+    #huxblog_navbar .nav li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+        float: none;
+    }
+    
+    #huxblog_navbar .nav li:last-child {
+        border-bottom: none;
+    }
+    
+    #huxblog_navbar .nav li a {
+        padding: 15px;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
 
 header.intro-header {
     position: relative;

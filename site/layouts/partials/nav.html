@@ -1,21 +1,24 @@
-<!-- Custom navbar for zainrizvi.io style -->
+<!-- Custom navbar with explicit mobile menu -->
+<link rel="stylesheet" href="{{ "css/mobile-menu.css" | relURL }}">
+
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
         <div class="site-header-inside" style="padding: 0 40px;">
             <!-- Brand and toggle -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <!-- Explicit mobile hamburger button -->
+                <button type="button" class="mobile-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </button>
+                
                 <div class="site-branding">
                     <h1 class="site-title"><a class="navbar-brand" href="{{ "/" | relLangURL }}" style="font-size: 1.5em;">{{ .Site.Title }}</a></h1>
                 </div>
             </div>
 
-            <!-- Nav links -->
+            <!-- Desktop Nav links -->
             <div id="huxblog_navbar">
                 <div class="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -30,3 +33,17 @@
         </div>
     </div>
 </nav>
+
+<!-- Mobile navigation menu -->
+<div id="mobile-nav">
+    <ul>
+        <li><a href="{{ "/" | relLangURL }}">Start Here</a></li>
+        <li><a href="{{ "/" | relLangURL }}blog/">Essays</a></li>
+        <li><a href="{{ "/" | relLangURL }}newsletter/">Newsletter</a></li>
+        <li><a href="https://www.thenonintuitivebits.com/">Podcast</a></li>
+        <li><a href="https://zainrizvi.gumroad.com/l/insider-advice-on-how-you-can-pass-faang-interviews/site_header">Insider's Guide to Passing FAANG Interviews</a></li>
+    </ul>
+</div>
+
+<!-- Include the mobile menu JavaScript -->
+<script src="{{ "js/mobile-menu.js" | relURL }}"></script>
