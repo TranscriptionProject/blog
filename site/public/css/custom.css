@@ -636,6 +636,22 @@ header.intro-header {
     letter-spacing: 0.5px;
 }
 
+figure figcaption {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #8f8f7f; 
+    font-weight: normal;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    padding-bottom: 0; 
+}
+
+figure figcaption::after {
+    display: none;
+}
+
 .author-box {
     display: flex;
     align-items: flex-start;
