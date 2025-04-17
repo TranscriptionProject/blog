@@ -39,3 +39,7 @@ canonifyURLs = true
     name = "Newsletter"
     url = "/newsletter/"
     weight = 3
+
+[services]
+  [services.disqus]
+    shortname = 'transcription-project-blog'
