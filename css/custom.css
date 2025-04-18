@@ -747,7 +747,7 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-a:not(.navbar-brand):not(.blog-card-title a):not(.post-title a):not(.button):not(.pagination-button):not(.blog-tag):not(.navbar-custom .nav li a)::after {
+a:not(.navbar-brand):not(.blog-card-title a):not(.post-title a):not(.button):not(.pagination-button):not(.blog-tag):not(.navbar-custom .nav li a):not(.blog-card-image a):not(.blog-card-image-link):not(.read-more-link):not(.post-preview a)::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -758,7 +758,7 @@ a:not(.navbar-brand):not(.blog-card-title a):not(.post-title a):not(.button):not
     transition: background-color 0.3s ease, height 0.3s ease;
 }
 
-a:not(.navbar-brand):not(.blog-card-title a):not(.post-title a):not(.button):not(.pagination-button):not(.blog-tag):not(.navbar-custom .nav li a):hover::after {
+a:not(.navbar-brand):not(.blog-card-title a):not(.post-title a):not(.button):not(.pagination-button):not(.blog-tag):not(.navbar-custom .nav li a):not(.blog-card-image a):not(.blog-card-image-link):not(.read-more-link):not(.post-preview a):hover::after {
     background-color: #ffea00;
     height: 2px;
 }
