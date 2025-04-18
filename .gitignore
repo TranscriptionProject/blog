@@ -167,3 +167,14 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 *.exe
+
+# Hugo build output
+public/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Hugo cache
+.hugo_build.lock
+resources/_gen/
