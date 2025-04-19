@@ -279,7 +279,7 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;p>Turns out you can. GCP’s &lt;a href="https://cloud.google.com/ai-platform-notebooks/">AI Platform Notebooks team&lt;/a> offers &lt;a href="https://cloud.google.com/ai-platform/deep-learning-containers/">Deep Learning Containers&lt;/a>, which is a containerized version of the exact same images you get when you create a regular AI Platform Notebook (full disclosure: that’s &lt;a href="https://zainrizvi.io/about/">my team&lt;/a>).&lt;/p></description></item><item><title>How to Use GPUs with R in Jupyter Lab</title><link>https://transcriptionproject.github.io/blog/blog/using-gpus-with-r-in-jupyter-lab/</link><pubDate>Wed, 27 Nov 2019 08:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/using-gpus-with-r-in-jupyter-lab/</guid><description>&lt;p>Have you ever tried installing drivers for your Nvidia GPUs? The first time I tried, I spent the better half of an afternoon trying to get that done.&lt;/p>
 &lt;p>And once I realized I also had to recompile multiple packages to actually use those GPUs, I was one error message away from being this guy:&lt;/p>
 
-
+&lt;link rel="stylesheet" href="./css/hugo-easy-gallery.css" />
 &lt;div class="box" >
  &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
  &lt;div class="img">
