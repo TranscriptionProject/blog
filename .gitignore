@@ -178,3 +178,6 @@ Thumbs.db
 # Hugo cache
 .hugo_build.lock
 resources/_gen/
+
+# Theme files
+themes/
