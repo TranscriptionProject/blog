@@ -26,10 +26,10 @@ jobs:
           hugo-version: '0.145.0'
           extended: true
           
-      - name: Clone theme
-        run: |
-          mkdir -p site/themes
-          git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git site/themes/hugo-theme-cleanwhite
+      # - name: Clone theme
+      #   run: |
+      #     mkdir -p site/themes
+      #     git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git site/themes/hugo-theme-cleanwhite
 
       - name: Build
         run: cd site && hugo --minify  # Change to site directory first
