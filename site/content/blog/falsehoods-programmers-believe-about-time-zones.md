@@ -49,7 +49,7 @@ Why that crazy range? That was a result of pacific islanders decided they wanted
 
 It makes for a very jagged international date line
 
-{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/pasted-image-0--1-.png" caption="I later discovered mytime.io had already implemented a very similar thing, and run into the same pitfalls" >}}
+{{< figure src="/img/falsehoods-programmers-believe-about-time-zones/pasted-image-0--1-.png" >}}
 
 ### Misconception #2: Every UTC offset corresponds to exactly one time zone
 
