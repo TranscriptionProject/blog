@@ -43,3 +43,5 @@ canonifyURLs = true
 [services]
   [services.disqus]
     shortname = 'transcription-project-blog'
+  [services.googleAnalytics]
+    id = 'G-01MTJ7LPG7'
