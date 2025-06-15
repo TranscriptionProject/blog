@@ -10,7 +10,7 @@ title = "PARA vs Zettelkasten: The false binary"
 +++
 
 
-I started practicing PARA and Zettelkasten [two years ago](__GHOST_URL__/blog/remembering-what-you-read-zettelkasten-vs-para/).  Here's what I've realized after twenty four months of practice:
+I started practicing PARA and Zettelkasten [two years ago](/blog/remembering-what-you-read-zettelkasten-vs-para/).  Here's what I've realized after twenty four months of practice:
 
 # Change the system, not yourself
 

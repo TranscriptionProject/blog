@@ -24,7 +24,7 @@ About their essays.
 
 That didn’t seem right.
 
-He expected _me_ to give advice? Wasn’t _he_ the teacher? I [wasn’t qualified](__GHOST_URL__/blog/the-impostors-advantage/) to do this, I barely knew how to write my own. That’s why I was taking the class!
+He expected _me_ to give advice? Wasn’t _he_ the teacher? I [wasn’t qualified](/blog/the-impostors-advantage/) to do this, I barely knew how to write my own. That’s why I was taking the class!
 
 But it was an assignment. And if school had drilled one lesson into me, it was to always do the assignments (yeah, I was _that_ kid). I opened up a classmate’s essay and started reading.
 

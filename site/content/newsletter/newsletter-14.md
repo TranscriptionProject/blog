@@ -56,7 +56,7 @@ Instead of trying to solve all the problems, Richard Hamming tried to **make it 
 
 _Excerpt from [The Art of Doing Science and Engineering](https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178?utm_source=zainrizvi.io&utm_medium=newsletter&utm_campaign=falsehoods_programmers_believe_about_timezones&utm_term=2020-10-15)_
 
-{{< figure src="__GHOST_URL__/content/images/2020/10/EkUMpCJU4AAXHPQ.jpg" >}}
+{{< figure src="/content/images/2020/10/EkUMpCJU4AAXHPQ.jpg" >}}
 
 ## #3 My missing five year plan
 

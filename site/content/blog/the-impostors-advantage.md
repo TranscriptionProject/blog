@@ -35,7 +35,7 @@ What made me think I could work at Microsoft?
 
 I reached the conference room, could I stall any longer? Huh, It’s the same room he interviewed me in two years ago. I doubt he remembers.
 
-Okay, this is it. Deep breath, poker face on. No matter what, I wouldn’t let him [see me sweat](__GHOST_URL__/blog/the-interviewing-advice-no-one-shares#tip-3-be-open-to-learning-during-the-interview).
+Okay, this is it. Deep breath, poker face on. No matter what, I wouldn’t let him [see me sweat](/blog/the-interviewing-advice-no-one-shares#tip-3-be-open-to-learning-during-the-interview).
 
 I stepped inside. Scott was sitting at the table, laptop carefully angled to hide the screen.
 
@@ -61,7 +61,7 @@ I spent the next few years preparing for that inevitable day, desperately trying
 
 I needed a stronger resume, with skills people cared about. I switched to a new team which built stuff for the cloud: Azure Web Apps. Companies love the cloud, right? Surely I’ll learn industry relevant skills there.
 
-Fast forward four years: I still didn’t feel like I was anything special, yet I kept getting promoted. I kept fooling them somehow, the [bureaucratic](__GHOST_URL__/blog/hacking-the-bureaucracy-to-get-stuff-done/) review process hiding my flaws. But something else also started happening, hinting that, just maybe, I wasn’t as clueless as I thought.
+Fast forward four years: I still didn’t feel like I was anything special, yet I kept getting promoted. I kept fooling them somehow, the [bureaucratic](/blog/hacking-the-bureaucracy-to-get-stuff-done/) review process hiding my flaws. But something else also started happening, hinting that, just maybe, I wasn’t as clueless as I thought.
 
 What changed?
 
@@ -73,7 +73,7 @@ It got really weird when the more senior engineers started asking _me_ about the
 
 I guess not, but they were still way above my league. It’s not like I knew enough to offer _them_ real advice.
 
-But still...my team seemed to think I was doing well. Would other companies think so too? Was I finally hireable? Only one way to find out: I started [applying](__GHOST_URL__/blog/the-interviewing-advice-no-one-shares).
+But still...my team seemed to think I was doing well. Would other companies think so too? Was I finally hireable? Only one way to find out: I started [applying](/blog/the-interviewing-advice-no-one-shares).
 
 I couldn’t believe the results when multiple job offers came in. And one was from Google! I couldn’t pass that one up. I made the switch.
 
@@ -99,7 +99,7 @@ The impostor’s advantage was a super power.
 
 And it offered new insights.
 
-That feeling of being an impostor is your subconscious telling you something: It’s saying you’re about to push yourself past your comfort zone and into the growth zone. Now when an opportunity shows up and impostor syndrome starts twitching in the pit of my stomach, **that’s a sign I should jump at it!** This led me to take on [bigger and more ambitious](__GHOST_URL__/blog/whats-it-like-as-a-senior-engineer/#research-like-a-detective) projects, without worrying about being exposed. Somehow I still delivered results, helped by the various people I was no longer afraid to reach out to.
+That feeling of being an impostor is your subconscious telling you something: It’s saying you’re about to push yourself past your comfort zone and into the growth zone. Now when an opportunity shows up and impostor syndrome starts twitching in the pit of my stomach, **that’s a sign I should jump at it!** This led me to take on [bigger and more ambitious](/blog/whats-it-like-as-a-senior-engineer/#research-like-a-detective) projects, without worrying about being exposed. Somehow I still delivered results, helped by the various people I was no longer afraid to reach out to.
 
 Every project still started with the thought, “I have no idea what to do here.” But then I’d remind myself, “no one else does either.” That was a surprising lesson about the more senior positions: **Their work is so valuable** _**precisely because**_ **no one knows exactly what needs to be done. It’s ambiguous.** And it requires people who can still push through the uncertainty and forge a path forward.
 

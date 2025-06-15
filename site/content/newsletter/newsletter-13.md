@@ -30,7 +30,7 @@ In his book, _A More Beautiful Question_, Warren Berge describes how we can rebu
 
 Here are the key ideas from that book along with some of my own thoughts interspersed. I wrote it last year, but it'll be new to most of you:
 
-### Essay: [Become creative by asking better questions](__GHOST_URL__/blog/a-more-beautiful-question-summary/)
+### Essay: [Become creative by asking better questions](/blog/a-more-beautiful-question-summary/)
 
 ---
 

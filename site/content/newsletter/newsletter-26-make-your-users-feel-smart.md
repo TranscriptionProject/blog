@@ -13,7 +13,7 @@ title = "Newsletter #26 - 2020 in Review"
 
 There goes 2020.
 
-This was the year I started writing seriously. It started off as a way to [remember what I read](__GHOST_URL__/#why-i-write), with this newsletter being an effective [forcing function](__GHOST_URL__/newsletter/newsletter-17/).
+This was the year I started writing seriously. It started off as a way to [remember what I read](/#why-i-write), with this newsletter being an effective [forcing function](/newsletter/newsletter-17/).
 
 So how did the year go?
 
@@ -25,14 +25,14 @@ So how did the year go?
 
 As for those six articles, chances are you found me through one of them:
 
-* [Interview advice that got me offers](__GHOST_URL__/blog/the-interviewing-advice-no-one-shares/) - Unconventional interview advice
-* [The impostor's advantage](__GHOST_URL__/blog/the-impostors-advantage/) - Turning impostor syndrome into a strength
-* [What's it like being a Senior Engineer?](__GHOST_URL__/blog/whats-it-like-as-a-senior-engineer/) - It's no longer about the code
-* [I didn't want to abandon yet another side project](__GHOST_URL__/blog/do-more-by-doing-less/) - Cut scope & get more done
+* [Interview advice that got me offers](/blog/the-interviewing-advice-no-one-shares/) - Unconventional interview advice
+* [The impostor's advantage](/blog/the-impostors-advantage/) - Turning impostor syndrome into a strength
+* [What's it like being a Senior Engineer?](/blog/whats-it-like-as-a-senior-engineer/) - It's no longer about the code
+* [I didn't want to abandon yet another side project](/blog/do-more-by-doing-less/) - Cut scope & get more done
 * [Remembering what you read: Zettelkasten vs P.A.R.A.](https://zainrizvi.io/blog/remembering-what-you-read-zettelkasten-vs-para/) - The note-taking philosophy that worked best for me
-* [Falsehoods Programmers Believe about Time Zones](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/)
+* [Falsehoods Programmers Believe about Time Zones](/blog/falsehoods-programmers-believe-about-time-zones/)
 
-I'm looking forward to continue learning, sharing, and meeting more folks. Some of the coolest stuff I've learned has been from [replies people sent](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/#misconception-23-redditors-will-agree-these-are-all-misconceptions).
+I'm looking forward to continue learning, sharing, and meeting more folks. Some of the coolest stuff I've learned has been from [replies people sent](/blog/falsehoods-programmers-believe-about-time-zones/#misconception-23-redditors-will-agree-these-are-all-misconceptions).
 
 **Now, your nuggets for the week:**
 

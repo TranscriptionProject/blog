@@ -22,13 +22,13 @@ I doubt I would've made that connection without putting pen to paper.
 
 **What I'm Writing**
 
-[Hacking the Bureaucracy to Get Stuff Done](__GHOST_URL__/blog/hacking-the-bureaucracy-to-get-stuff-done/?utm_source=twitter&utm_campaign=bureaucracy&utm_medium=email&utm_term=2020-07-30)
+[Hacking the Bureaucracy to Get Stuff Done](/blog/hacking-the-bureaucracy-to-get-stuff-done/?utm_source=twitter&utm_campaign=bureaucracy&utm_medium=email&utm_term=2020-07-30)
 
 The Dangerous Professional finds the seams between the policies and slips inside them. They'll dodge gatekeepers and dance around policies, doing whatever it takes to get the job done.
 
 I share various stories of when I did this myself or saw others do it.
 
-[Click here to read the full story](__GHOST_URL__/blog/hacking-the-bureaucracy-to-get-stuff-done/?utm_source=twitter&utm_campaign=bureaucracy&utm_medium=email&utm_term=2020-07-30)
+[Click here to read the full story](/blog/hacking-the-bureaucracy-to-get-stuff-done/?utm_source=twitter&utm_campaign=bureaucracy&utm_medium=email&utm_term=2020-07-30)
 
 ---
 

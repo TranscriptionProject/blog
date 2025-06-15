@@ -109,7 +109,7 @@ Let's see how it fares after a year of use.
 
 Ask me after March 2021
 
-**January 2022 Update:** It's a little late, but here are my reflections after two years: [PARA vs Zettelkasten: It's a false binary](__GHOST_URL__/blog/para-vs-zettelkasten-the-false-binary/)
+**January 2022 Update:** It's a little late, but here are my reflections after two years: [PARA vs Zettelkasten: It's a false binary](/blog/para-vs-zettelkasten-the-false-binary/)
 
 _Would you like to work at a FAANG company? I've worked at Google , Stripe, Facebook and Microsoft. Spending over 12 years as both the interviewer and interviewee. Over time, I realized one thing:_
 

@@ -84,7 +84,7 @@ You get the same fast feedback loops, close interaction with your users, while a
 
 I can see why [these](https://www.reddit.com/r/woodworking/comments/2mu7i4/how_many_of_you_guys_have_quit_your_day_job_to/cm7pppq?utm_source=share&utm_medium=web2x&context=3)  [guys](https://news.ycombinator.com/item?id=24541964) gave up software.
 
-That's not my path though, programming is too near to my heart and my day job lets me do more than [just write code](__GHOST_URL__/blog/whats-it-like-as-a-senior-engineer/).
+That's not my path though, programming is too near to my heart and my day job lets me do more than [just write code](/blog/whats-it-like-as-a-senior-engineer/).
 
 But it does help answer a question I've asked myself a lot:
 
@@ -94,7 +94,7 @@ And the answer is now clear:
 
 Find something to build.
 
-_I write a [newsletter](__GHOST_URL__/newsletter/) sharing insights on how to leverage lessons from across industries to become a better software engineer. Sign up below to get them in your inbox!_
+_I write a [newsletter](/newsletter/) sharing insights on how to leverage lessons from across industries to become a better software engineer. Sign up below to get them in your inbox!_
 
 _Want insights every day instead? Follow me on [twitter](https://twitter.com/zainrzv)_
 

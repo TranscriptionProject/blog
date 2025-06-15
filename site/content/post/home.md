@@ -2,7 +2,7 @@
 date = 2020-07-06T17:49:58Z
 description = ""
 draft = false
-image = "__GHOST_URL__/content/images/2020/07/larisa-birta-77vhoasr6-c-unsplash.jpg"
+image = "/content/images/2020/07/larisa-birta-77vhoasr6-c-unsplash.jpg"
 slug = "home"
 url = "home"
 summary = "Interested in software engineering, business, or psychology? You're in the right place"
@@ -65,7 +65,7 @@ title = "Start Here"
 # About Me 👨‍💻
 
 <div class="alignleft">
-<img src="__GHOST_URL__/content/images/2020/07/avatar-1.jpg" alt="Zain Rizvi" style="border-radius:50%;">
+<img src="/content/images/2020/07/avatar-1.jpg" alt="Zain Rizvi" style="border-radius:50%;">
 </div>
 
 I build the infrastructure used by millions of developers around the world.
@@ -85,14 +85,14 @@ You can usually find me on [Twitter](https://www.twitter.com/zainrzv) or co-host
 
 These got front page limelight on [Hacker News](https://hn.algolia.com/?q=zainrizvi.io) & Reddit's [/r/programming](https://www.reddit.com/domain/zainrizvi.io/top/?sort=top&t=all)
 
-* **[Interview advice that got me offers](__GHOST_URL__/blog/the-interviewing-advice-no-one-shares/) ** ([HN](https://news.ycombinator.com/item?id=25519718))- from multiple FAANG companies
-* [**The impostor's advantage**](__GHOST_URL__/blog/the-impostors-advantage/) ([HN](https://news.ycombinator.com/item?id=24376950), [reddit](https://www.reddit.com/r/programming/comments/tpz77u/software_engineer_keeps_growing_career_despite/)) - Turning impostor syndrome into a strength
-* [**What's it like being a senior engineer?**](__GHOST_URL__/blog/whats-it-like-as-a-senior-engineer/) ([HN](https://news.ycombinator.com/item?id=24277414), [reddit](https://www.reddit.com/r/programming/comments/igfn8p/whats_it_like_as_a_senior_engineer_my_experiences/)) - It's no longer about the code
-* [**Why software engineers like woodworking**](__GHOST_URL__/blog/why-software-engineers-like-woodworking/) ([HN](https://news.ycombinator.com/item?id=31687378)) - The dopamine rush is real
-* [**I didn't want to abandon yet another side project**](__GHOST_URL__/blog/do-more-by-doing-less/) ([reddit](https://www.reddit.com/r/programming/comments/iauwyt/how_i_stopped_abandoning_my_side_projects/)) - Cut scope & get more done
-* [**Falsehoods programmers believe about time zones**](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/) ([HN](https://news.ycombinator.com/item?id=24870376), [reddit](https://www.reddit.com/r/programming/comments/jggx3l/falsehoods_programmers_believe_about_time_zones/)) - The task had looked so simple...
+* **[Interview advice that got me offers](/blog/the-interviewing-advice-no-one-shares/) ** ([HN](https://news.ycombinator.com/item?id=25519718))- from multiple FAANG companies
+* [**The impostor's advantage**](/blog/the-impostors-advantage/) ([HN](https://news.ycombinator.com/item?id=24376950), [reddit](https://www.reddit.com/r/programming/comments/tpz77u/software_engineer_keeps_growing_career_despite/)) - Turning impostor syndrome into a strength
+* [**What's it like being a senior engineer?**](/blog/whats-it-like-as-a-senior-engineer/) ([HN](https://news.ycombinator.com/item?id=24277414), [reddit](https://www.reddit.com/r/programming/comments/igfn8p/whats_it_like_as_a_senior_engineer_my_experiences/)) - It's no longer about the code
+* [**Why software engineers like woodworking**](/blog/why-software-engineers-like-woodworking/) ([HN](https://news.ycombinator.com/item?id=31687378)) - The dopamine rush is real
+* [**I didn't want to abandon yet another side project**](/blog/do-more-by-doing-less/) ([reddit](https://www.reddit.com/r/programming/comments/iauwyt/how_i_stopped_abandoning_my_side_projects/)) - Cut scope & get more done
+* [**Falsehoods programmers believe about time zones**](/blog/falsehoods-programmers-believe-about-time-zones/) ([HN](https://news.ycombinator.com/item?id=24870376), [reddit](https://www.reddit.com/r/programming/comments/jggx3l/falsehoods_programmers_believe_about_time_zones/)) - The task had looked so simple...
 * **[Remembering what you read](https://zainrizvi.io/blog/remembering-what-you-read-zettelkasten-vs-para/) ** ([HN](https://news.ycombinator.com/item?id=24251068)) **** - The note-taking philosophy that worked best for me
-* [**Dangerous Professionals: Hacking the Bureaucracy to Get Stuff Done**](__GHOST_URL__/blog/hacking-the-bureaucracy-to-get-stuff-done/) ([HN](https://news.ycombinator.com/item?id=31454589)) - Some people draw red lines. Others dance around them
+* [**Dangerous Professionals: Hacking the Bureaucracy to Get Stuff Done**](/blog/hacking-the-bureaucracy-to-get-stuff-done/) ([HN](https://news.ycombinator.com/item?id=31454589)) - Some people draw red lines. Others dance around them
 
 # Why I Write ✍
 

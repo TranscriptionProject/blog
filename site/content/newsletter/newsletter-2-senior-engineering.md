@@ -40,7 +40,7 @@ Here are the tidbits of the week
 
 **What I'm Writing**
 
-**[What's it like as a Senior Engineer?](__GHOST_URL__/blog/whats-it-like-as-a-senior-engineer/?&utm_source=newsletter&utm_medium=email&utm_campaign=what_its_like_as_a_senior_engineer&utm_term=2020-07-22)**
+**[What's it like as a Senior Engineer?](/blog/whats-it-like-as-a-senior-engineer/?&utm_source=newsletter&utm_medium=email&utm_campaign=what_its_like_as_a_senior_engineer&utm_term=2020-07-22)**
 
 _Lessons I've learnt over the past 11 years working at Google, Microsoft, and Stripe_
 
@@ -50,7 +50,7 @@ But soon writing code became a minor part of the job.
 
 Ever built something no one used? I have. It sucked. At the senior levels most of your time goes into identifying what needs to be built and how to build it. You have to research what the problem looks like. You talk to others and get everyone to agree on what needs to be done...
 
-[Click here to read the full article](__GHOST_URL__/blog/whats-it-like-as-a-senior-engineer/?&utm_source=newsletter&utm_medium=email&utm_campaign=what_its_like_as_a_senior_engineer&utm_term=2020-07-22)
+[Click here to read the full article](/blog/whats-it-like-as-a-senior-engineer/?&utm_source=newsletter&utm_medium=email&utm_campaign=what_its_like_as_a_senior_engineer&utm_term=2020-07-22)
 
 ---
 

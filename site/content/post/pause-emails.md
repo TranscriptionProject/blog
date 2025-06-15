@@ -13,5 +13,5 @@ Got it, I'll not send you anything for the next 30 days.
 
 See you in a month!
 
-{{< figure src="__GHOST_URL__/content/images/2021/01/Za3R.gif" >}}
+{{< figure src="/content/images/2021/01/Za3R.gif" >}}
 

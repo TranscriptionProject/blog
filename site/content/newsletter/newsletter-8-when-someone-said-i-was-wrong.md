@@ -24,7 +24,7 @@ Here's one of my favorite episodes. We discuss:
 * How to be a senior and even **staff engineer** (we're still figuring out the latter)
 * How to have **great ideas** (is it even necessary?)
 
-If you've been on this newsletter from the beginning while, you might recognize those topics. I shared them in [issue #2](__GHOST_URL__/newsletter/newsletter-2-senior-engineering/) of this newsletter, and then afterwards I got to hear those guys disagreeing with what I said 🙂
+If you've been on this newsletter from the beginning while, you might recognize those topics. I shared them in [issue #2](/newsletter/newsletter-2-senior-engineering/) of this newsletter, and then afterwards I got to hear those guys disagreeing with what I said 🙂
 
 Listen to it here:
 

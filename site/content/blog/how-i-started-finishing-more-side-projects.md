@@ -19,9 +19,9 @@ _Take a deep breath...Phew. Alright, how do I work around this issue without com
 
 That was me a few weeks ago.
 
-After seeing [my aunt struggling](__GHOST_URL__/newsletter/newsletter-14/) to convert time zones, I’d taken up the quest to build a site that would make the task easier. I’m always looking for fun side projects to build, and this one seemed like an easy candidate.
+After seeing [my aunt struggling](/newsletter/newsletter-14/) to convert time zones, I’d taken up the quest to build a site that would make the task easier. I’m always looking for fun side projects to build, and this one seemed like an easy candidate.
 
-I was young and naïve. [Time zones are never easy](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/)
+I was young and naïve. [Time zones are never easy](/blog/falsehoods-programmers-believe-about-time-zones/)
 
 Here’s the story of how I designed the web app, the hurdles I faced building it, and the principles I used to keep making progress.
 
@@ -44,7 +44,7 @@ I wrote it down:
 
 {{< figure src="/img/how-i-started-finishing-more-side-projects/pasted-image-0--3-.png" >}}
 
-I've learned through experience that I tend to only stick with [my side projects for two weeks](__GHOST_URL__/blog/do-more-by-doing-less/). So I had to narrow down the vision to something that fits in that time frame. Anything unlikely to fit in that time frame got listed as a stretch goal. I’ll probably never do them, but writing those ideas down helps relax my brain, reassuring it that the cool features I just thought of aren’t being ignored (i.e., I’m using the [Zeigarnik effect](https://www.psychologistworld.com/memory/zeigarnik-effect-interruptions-memory) to my advantage).
+I've learned through experience that I tend to only stick with [my side projects for two weeks](/blog/do-more-by-doing-less/). So I had to narrow down the vision to something that fits in that time frame. Anything unlikely to fit in that time frame got listed as a stretch goal. I’ll probably never do them, but writing those ideas down helps relax my brain, reassuring it that the cool features I just thought of aren’t being ignored (i.e., I’m using the [Zeigarnik effect](https://www.psychologistworld.com/memory/zeigarnik-effect-interruptions-memory) to my advantage).
 
 I had my _what_ and my _why_. Now for the _how._
 
@@ -120,7 +120,7 @@ Tech stack chosen, time to start coding.
 
 # Face first into the brick wall
 
-And as I looked for a time zone conversion library I ran face first into [a brick wall of problems](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/). Turns out different time zones [can have the same abbreviation](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones#misconception-14-every-time-zone-has-its-own-abbreviation) (e.g CST is used for Central Standard Time and for China Standard Time), the correct abbreviation [changes during daylight savings time](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/#misconception-11-a-country-stays-in-the-same-time-zone-during-daylight-saving-time) (but most folks won’t know that and will enter the wrong time zone), and [there isn’t even always an unambiguous conversion](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/#misconception-15-there-is-always-an-unambiguous-conversion-from-one-time-zone-to-another) from one time zone to another.
+And as I looked for a time zone conversion library I ran face first into [a brick wall of problems](/blog/falsehoods-programmers-believe-about-time-zones/). Turns out different time zones [can have the same abbreviation](/blog/falsehoods-programmers-believe-about-time-zones#misconception-14-every-time-zone-has-its-own-abbreviation) (e.g CST is used for Central Standard Time and for China Standard Time), the correct abbreviation [changes during daylight savings time](/blog/falsehoods-programmers-believe-about-time-zones/#misconception-11-a-country-stays-in-the-same-time-zone-during-daylight-saving-time) (but most folks won’t know that and will enter the wrong time zone), and [there isn’t even always an unambiguous conversion](/blog/falsehoods-programmers-believe-about-time-zones/#misconception-15-there-is-always-an-unambiguous-conversion-from-one-time-zone-to-another) from one time zone to another.
 
 Given this ambiguity, what were my options?
 
@@ -183,7 +183,7 @@ But by being clear about what I actually wanted to get out of the work, I not on
 
 I didn't have to keep hacking away at the hydra's heads, the beast was already slain.
 
-_Want to learn more about how to leverage your own mindset to build better products? Sign up for my weekly [newsletter](__GHOST_URL__/newsletter/) below where I share insights on how to be a better software engineer using principles from psychology._
+_Want to learn more about how to leverage your own mindset to build better products? Sign up for my weekly [newsletter](/newsletter/) below where I share insights on how to be a better software engineer using principles from psychology._
 
 _Want daily insights? Follow me on [twitter](https://twitter.com/zainrzv)_
 

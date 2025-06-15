@@ -28,7 +28,7 @@ In this essay I show:
 * How to avoid this fate
 * A 6 step plan to help you choose exactly what to focus on
 
-Read the full essay here:** [Never Focus on the User](__GHOST_URL__/blog/never-focus-on-the-user/)**
+Read the full essay here:** [Never Focus on the User](/blog/never-focus-on-the-user/)**
 
 ---
 

@@ -21,7 +21,7 @@ And, for the less technically minded, it's also error-prone.
 
 It got me thinking:
 
-What if event organizers could share a link that would do the work for you? If someone clicked on [mytime.at/5pm/EST](__GHOST_URL__/blog/falsehoods-programmers-believe-about-time-zones/mytime.io/5pm/EST), they would see their local version of that time. It sounded simple enough.
+What if event organizers could share a link that would do the work for you? If someone clicked on [mytime.at/5pm/EST](/blog/falsehoods-programmers-believe-about-time-zones/mytime.io/5pm/EST), they would see their local version of that time. It sounded simple enough.
 
 I began coding.
 

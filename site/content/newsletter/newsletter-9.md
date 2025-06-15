@@ -12,7 +12,7 @@ title = "Newsletter #9 - How my coworker got senior leaders to consider his prop
 +++
 
 
-A couple weeks ago I suggested [repeating your message](__GHOST_URL__/newsletter/newsletter-7-everything-is-an-opportunity-to-learn?&utm_source=newsletter&utm_medium=email&utm_campaign=getting_senior_leaders_to_consider_your_proposals&utm_term=2020-09-09#try-to-over-communicate-i-dare-you) twenty one times for it to sink in. That might seem excessive, but my old manager [Viacheslav Kovalevskyi](https://twitter.com/b0noi) has used this tactic to **get senior leaders at Google to consider his proposals.**
+A couple weeks ago I suggested [repeating your message](/newsletter/newsletter-7-everything-is-an-opportunity-to-learn?&utm_source=newsletter&utm_medium=email&utm_campaign=getting_senior_leaders_to_consider_your_proposals&utm_term=2020-09-09#try-to-over-communicate-i-dare-you) twenty one times for it to sink in. That might seem excessive, but my old manager [Viacheslav Kovalevskyi](https://twitter.com/b0noi) has used this tactic to **get senior leaders at Google to consider his proposals.**
 
 He shares his tactics in the [The Nonintuitive Bits podcast, episode 31](http://www.thenonintuitivebits.com/673913/5360560-it-pays-to-over-communicate-episode-31?&utm_source=newsletter&utm_medium=email&utm_campaign=getting_senior_leaders_to_consider_your_proposals&utm_term=2020-09-09)
 

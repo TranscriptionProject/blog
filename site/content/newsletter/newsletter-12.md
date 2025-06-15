@@ -19,7 +19,7 @@ This is her story. And the story of hundreds of others who fall prey to the same
 
 You can read the full story here:
 
-**[How banks are helping scammers with their bad UI](__GHOST_URL__/blog/how-banks-help-scammers-with-their-bad-ui/?&utm_source=zainrizvi.io&utm_medium=newsletter&utm_campaign=my_sister_got_scammed_the_bank_helped_her_scammers&utm_term=2020-10-01)**
+**[How banks are helping scammers with their bad UI](/blog/how-banks-help-scammers-with-their-bad-ui/?&utm_source=zainrizvi.io&utm_medium=newsletter&utm_campaign=my_sister_got_scammed_the_bank_helped_her_scammers&utm_term=2020-10-01)**
 
 **And now your nuggets for the week:**
 
@@ -63,7 +63,7 @@ Something else that never changes:
 
 Scammers will take advantage of any hole in the system to exploit others
 
-[These scammers](__GHOST_URL__/blog/how-banks-help-scammers-with-their-bad-ui/?&utm_source=zainrizvi.io&utm_medium=newsletter&utm_campaign=my_sister_got_scammed_the_bank_helped_her_scammers&utm_term=2020-10-01) saw the bank was hiding a small bit of information from their customers and used it to scam people out of thousands of dollars
+[These scammers](/blog/how-banks-help-scammers-with-their-bad-ui/?&utm_source=zainrizvi.io&utm_medium=newsletter&utm_campaign=my_sister_got_scammed_the_bank_helped_her_scammers&utm_term=2020-10-01) saw the bank was hiding a small bit of information from their customers and used it to scam people out of thousands of dollars
 
 It's a small flaw. With a big impact
 
