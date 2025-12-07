@@ -22,9 +22,7 @@ Install the `pydata_google_auth` package:
 
 `%pip install pydata_goog_auth`
 
-Restart the kernel: Kernel -> Resart Kernel
-
-{{< figure src="https://screenshot.googleplex.com/SXzOG3pCaBk.png" >}}
+Restart the kernel: **Kernel → Restart Kernel** (from the Jupyter menu bar)
 
 Import the library and create your credentials:
 
@@ -32,17 +30,13 @@ Import the library and create your credentials:
 import pydata_google_auth credentials = pydata_google_auth.get_user_credentials( ['https://www.googleapis.com/auth/bigquery'], )
 ```
 
-When you execute the above cell you’ll see an output with an authentication link and a text box
+When you execute the above cell, the notebook will display:
+1. A clickable authentication URL (something like `https://accounts.google.com/o/oauth2/auth?...`)
+2. A text input box labeled "Enter verification code:"
 
-{{< figure src="https://screenshot.googleplex.com/KJ13JmkmkLd.png" >}}
+Click the authentication link (or copy and paste it into your browser) and sign in with your Google account. After authorizing the application, Google will display a verification/authorization code on a confirmation page.
 
-Copy that link, paste it into a browser, and authenticate with google. You’ll see an authorization code similar to the below:
-
-{{< figure src="https://screenshot.googleplex.com/1g35DesEv29.png" >}}
-
-Copy that code and paste it into the authentication code input box you saw in your notebook
-
-{{< figure src="https://screenshot.googleplex.com/v6cAGhKSn3S.png" >}}
+Copy that authorization code from the browser and paste it into the "Enter verification code" text box in your notebook, then press Enter.
 
 Next you’ll want to reload the bigquery magic in your notebook. You ‘reload’ instead of ‘load’ because AI Platform Notebooks already loads the bigquery magic for you by default:
 

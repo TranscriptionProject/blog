@@ -19,19 +19,19 @@ This post will describe how to deploy a statically generated site using yeoman a
 
 I tried using yeoman’s gulp-angular generator. I made a quick site following their [tutorial](http://yeoman.io/codelab/index.html), setup [continuous deployment via github](https://azure.microsoft.com/en-us/documentation/articles/web-sites-publish-source-control/), navigated to the newly deployed site and I saw…huh?
 
-{{< figure src="https://zainrizvi.io/images/2015/10/01-No-permission-to-site.png" >}}
+{{< figure src="/images/2015/10/01-No-permission-to-site.png" >}}
 
-What’s going on here?
+What's going on here?
 
 #### Using Kudu for debugging
 
 Luckily all Azure Web Apps come with a handy [Kudu site](https://github.com/projectkudu/kudu/wiki) that gives you command line access to your site. You can get to it at `https://<yourSiteName>.scm.azurewebsites.net\DebugConsole`.
 
-{{< figure src="https://zainrizvi.io/images/2015/10/02-Kudu-console.png" >}}
+{{< figure src="/images/2015/10/02-Kudu-console.png" >}}
 
-I navigated to the site’s `D:\home\site\wwwroot` folder and saw all the content was there. And that’s when I face-palmed and realized  _that statically generated site is saved to the `dist` folder, and that’s not even part of the deployment!!!_
+I navigated to the site's `D:\home\site\wwwroot` folder and saw all the content was there. And that's when I face-palmed and realized  _that statically generated site is saved to the `dist` folder, and that's not even part of the deployment!!!_
 
-Luckily, that’s easy enough to fix.
+Luckily, that's easy enough to fix.
 
 #### Check the static site into the source code
 
@@ -39,11 +39,11 @@ First issue was to include the `dist` folder in the source code. You just need t
 
 Now when you deploy your site to Azure Web Apps your site exists in the new `D:\home\site\wwwroot\dist` folder!
 
-{{< figure src="https://zainrizvi.io/images/2015/10/03-Dist-folder-appears.png" >}}
+{{< figure src="/images/2015/10/03-Dist-folder-appears.png" >}}
 
 (Fyi, with `yo angular` you have to run `grunt` once first before you check in your code to actually generate the `dist` folder).
 
-But your site still doesn’t work…because Azure Web Apps is expecting the site’s content to be in `D:\home\site\wwwroot`.
+But your site still doesn't work…because Azure Web Apps is expecting the site's content to be in `D:\home\site\wwwroot`.
 
 Darn.
 
@@ -57,11 +57,11 @@ project = dist
 
 ```
 
-This will tell Azure Web Sits that the root folder for your site is the `dist` folder. Now your sites will be hosted from the `D:\home\site\wwwroot\dist` folder. If your static site generator puts your site in some other folder, set project to that folder’s name.
+This will tell Azure Web Sits that the root folder for your site is the `dist` folder. Now your sites will be hosted from the `D:\home\site\wwwroot\dist` folder. If your static site generator puts your site in some other folder, set project to that folder's name.
 
 Check in the file, deploy it to Azure Web Apps, and see the magic happen.
 
-{{< figure src="https://zainrizvi.io/images/2015/10/04-Working-site.png" >}}
+{{< figure src="/images/2015/10/04-Working-site.png" >}}
 
 You can find a full copy of the sample code here on Github, with check-ins corresponding to each step of this tutorial: https://github.com/ZainRizvi/YoAngularOnAzureWebApps
 
