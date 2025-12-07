@@ -6,7 +6,56 @@ Zain Rizvi
 on
 Saturday, May 7, 2016</span></div></div></div></div></header><article><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2
 col-md-10 col-md-offset-1
-post-container"><hr><ul class=pager><li class=previous><a href=../../blog/deploy-statically-generated-sites-with-yeoman/ data-toggle=tooltip data-placement=top title="Deploy Statically Generated Sites with Yeoman">&larr;
+post-container"><p>When you create a new website using <a href=https://azure.microsoft.com/en-us/services/app-service/web/>Azure Web Apps</a> you get a default <code>&lt;sitename>.azurewebsites.net</code> domain assigned to your site. That&rsquo;s great, but what if you add a custom host name to your site and don&rsquo;t want people to be able to access your default *.azurewebsites.net domain anymore? (You paid good money for that custom domain.) This post explains how to redirect all traffic aimed at your site&rsquo;s default domain to your custom domain instead.</p><p>It&rsquo;s really simple. You just need to add a redirect rule to your site&rsquo;s web.config file. You can do that by adding the following rewrite rule to the web.config file in your wwwroot folder. If you don&rsquo;t have a web.config file, then you can create one and just paste the text below into it, just change the host names to match your site&rsquo;s host names:</p><pre tabindex=0><code>&lt;configuration&gt;
+  &lt;system.webServer&gt;
+    &lt;rewrite&gt;
+        &lt;rules&gt;
+          &lt;rule name=&#34;Redirect rquests to default azure websites domain&#34; stopProcessing=&#34;true&#34;&gt;
+            &lt;match url=&#34;(.*)&#34; /&gt;
+            &lt;conditions logicalGrouping=&#34;MatchAny&#34;&gt;
+              &lt;add input=&#34;{HTTP_HOST}&#34; pattern=&#34;^yoursite\.azurewebsites\.net$&#34; /&gt;
+            &lt;/conditions&gt;
+            &lt;action type=&#34;Redirect&#34; url=&#34;http://www.yoursite.com/{R:0}&#34; /&gt;
+          &lt;/rule&gt;
+        &lt;/rules&gt;
+    &lt;/rewrite&gt;
+  &lt;/system.webServer&gt;
+&lt;/configuration&gt;
+</code></pre><p>Basically we&rsquo;re telling IIS to take any request where the host name matches the RegEx pattern &ldquo;^yoursite.azurewebsites.net$&rdquo; and return an HTTP 301 response. The response will include the originally requested url, except it&rsquo;ll be pointing to your custom &ldquo;<a href=https://www.yoursite.com>www.yoursite.com</a>&rdquo; domain instead. When the user&rsquo;s browser reads that 301 response and the new url, it will automatically load that new url instead. It&rsquo;ll even change the address the user sees in the address bar.</p><p>That&rsquo;s great, so how do we parse the above code exactly? I&rsquo;m not a fan of copying code unless I know exactly what it&rsquo;s doing.</p><p>So let&rsquo;s see what&rsquo;s going on here:</p><pre tabindex=0><code>&lt;configuration&gt;
+  &lt;system.webServer&gt;
+  ...
+  &lt;/system.webServer&gt;
+&lt;/configuration&gt;
+</code></pre><p>This part tells IIS that we&rsquo;re modifying the web server&rsquo;s configuration settings. The next section is where it starts to get tricky:</p><pre tabindex=0><code>&lt;rewrite&gt;
+    &lt;rules&gt;
+    ...
+    &lt;/rules&gt;
+&lt;/rewrite&gt;
+</code></pre><p>The <code>&lt;rewrite></code> tag tells IIS that the elements it encloses are settings for the the <a href=http://www.iis.net/learn/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module>URL Rewrite</a> module. The <code>&lt;rules></code> tag lists all the rules that we want that module to follow. In our case, we want it to follow a rule that will return a HTTP 301 redirect response to the client (the user&rsquo;s web browser).</p><p>Now for the actual rule:</p><pre tabindex=0><code>&lt;rule name=&#34;Redirect rquests to default azure websites domain&#34; stopProcessing=&#34;true&#34;&gt;
+    &lt;match url=&#34;(.*)&#34; /&gt;
+    &lt;conditions logicalGrouping=&#34;MatchAny&#34;&gt;
+      &lt;add input=&#34;{HTTP_HOST}&#34; pattern=&#34;^yoursite\.azurewebsites\.net$&#34; /&gt;
+    &lt;/conditions&gt;
+    &lt;action type=&#34;Redirect&#34; url=&#34;http://www.yoursite.com/{R:0}&#34; /&gt;
+&lt;/rule&gt;
+</code></pre><p>The &ldquo;name&rdquo; attribute is just for human readability. It doesn&rsquo;t affect execution at all. StopProcessing=&ldquo;true&rdquo; tells the rewrite module that if this rule applies to the incomming request, then not to bother processing any other rules after this one becuase they won&rsquo;t matter. In our case we only have one rule, so this tag doesn&rsquo;t do anything, but it can save you some CPU if you have more rules defined.</p><p>Next is the <code>&lt;match url="(.*)" /></code> section. That&rsquo;s a regEx pattern inside, and since this regEx covers all possible inputs, it tells IIS to apply this rule to all requests, no matter what their url is.</p><p>Then comes the conditions section. We set <code>logicalGrouping="MatchAny"</code> to tell IIS to execute the rule if any of the following conditions hold true. Right now we only have one condition, so again it doesn&rsquo;t matter, but if you had multiple conditions (for example, multiple domain names you wanted to forward to your custom domain name) then you could list them all here. Alternatively, you could set it to &ldquo;MatchAll&rdquo; to tell IIS to only run the action if it matches all the conditons given.</p><p>Here&rsquo;s the condition we used:</p><pre tabindex=0><code>&lt;add input=&#34;{HTTP_HOST}&#34; pattern=&#34;^yoursite\.azurewebsites\.net$&#34; /&gt;
+</code></pre><p>It says to look at the http host and evaluate the condition as true if the host matches the given regEx pattern, which we set to your default azure domain name.</p><p>The last bit is the action, the meat of the whole rule:</p><pre tabindex=0><code>&lt;action type=&#34;Redirect&#34; url=&#34;http://www.yoursite.com/{R:0}&#34; /&gt;
+</code></pre><p>Here we&rsquo;re telling the Rewrite module what action to take (what it&rsquo;s actually supposed to do) when a request matches the above rules. The action we want is &ldquo;Redirect&rdquo;, which is where it&rsquo;ll return the HTTP 301 to the client, and when it returns a 301 we need to tell the client what url it should be redirected to. That&rsquo;s how we get to specify our desired domain name.</p><p>But we don&rsquo;t want to send the user to the root of the domain name, so we add in the <code>/{R:0}</code> bit, which (put simply) says &ldquo;Look at the orignal url we matched against in the <code>&lt;match></code> tag, and stick that in.&rdquo; A more thorough description is that we ran a regex expression in the <code>&lt;match></code> tag, and this <code>{R:0}</code> returns the first RegEx group.</p><p>And there you have it, that&rsquo;s how you can redirect all request for your default azure domain to your custom domain.</p><p>💡<em>Side note: you might also enjoy my article <a href=https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/>Interview Advice that got me offers from Google, Stripe, and Microsoft</a>. I share insider tactics I learned over 13+ years that&rsquo;s landed me jobs at multiple tech companies companies including Google, Facebook, Stripe and Microsoft.</em></p><p>As a final example, here&rsquo;s web.config file&rsquo;s conent for my site:</p><p>Final web.config contents</p><pre tabindex=0><code>&lt;configuration&gt;
+  &lt;system.webServer&gt;
+    &lt;rewrite&gt;
+        &lt;rules&gt;
+          &lt;rule name=&#34;Redirect rquests to default azure websites domain&#34; stopProcessing=&#34;true&#34;&gt;
+            &lt;match url=&#34;(.*)&#34; /&gt;
+            &lt;conditions logicalGrouping=&#34;MatchAny&#34;&gt;
+              &lt;add input=&#34;{HTTP_HOST}&#34; pattern=&#34;^zainrizvi\.azurewebsites\.net$&#34; /&gt;
+            &lt;/conditions&gt;
+            &lt;action type=&#34;Redirect&#34; url=&#34;http://www.zainrizvi.io/{R:0}&#34; /&gt;
+          &lt;/rule&gt;
+        &lt;/rules&gt;
+    &lt;/rewrite&gt;
+  &lt;/system.webServer&gt;
+&lt;/configuration&gt;
+</code></pre><hr><ul class=pager><li class=previous><a href=../../blog/deploy-statically-generated-sites-with-yeoman/ data-toggle=tooltip data-placement=top title="Deploy Statically Generated Sites with Yeoman">&larr;
 Previous Post</a></li><li class=next><a href=../../blog/salary-negotiation-tips/ data-toggle=tooltip data-placement=top title="Salary Negotiation Tips">Next
 Post &rarr;</a></li></ul><div id=disqus-comment></div><div id=disqus_thread></div><script>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//transcription-project-blog.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div><div class="col-lg-2 col-lg-offset-0
 visible-lg-block

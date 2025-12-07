@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Zain Rizvi</title><link>https://transcriptionproject.github.io/blog/blog/</link><description>Recent content in Blog on Zain Rizvi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 22 Aug 2022 19:10:53 +0000</lastBuildDate><atom:link href="https://transcriptionproject.github.io/blog/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Want to make a feature change to PyTorch?</title><link>https://transcriptionproject.github.io/blog/blog/want-to-make-a-feature-change-to-pytorch/</link><pubDate>Mon, 22 Aug 2022 19:10:53 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/want-to-make-a-feature-change-to-pytorch/</guid><description>With such a large number of commits coming in, PyTorch needs a process for managing it all to keep the codebase maintainable. For smaller changes, like a five line bug fix, this takes the form of a regular PR review. For larger changes, we prefer a Request for Comments</description></item><item><title>The Software Engineer's Career Ladder</title><link>https://transcriptionproject.github.io/blog/blog/the-software-engineers-career-ladder/</link><pubDate>Sat, 11 Jun 2022 05:00:11 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/the-software-engineers-career-ladder/</guid><description>What&amp;rsquo;s expected of you when you&amp;rsquo;re a junior, senior, or staff software engineer, and what it takes to rise up in the ranks.</description></item><item><title>Insider's Guide to Passing FAANG Interviews</title><link>https://transcriptionproject.github.io/blog/blog/insiders-guide-to-passing-faang-interviews/</link><pubDate>Tue, 07 Jun 2022 00:22:27 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/insiders-guide-to-passing-faang-interviews/</guid><description>My 12+ years as both the interviewer and interviewee at Google, Microsoft, and Stripe taught me one thing:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Zain Rizvi</title><link>https://transcriptionproject.github.io/blog/blog/</link><description>Recent content in Blog on Zain Rizvi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://transcriptionproject.github.io/blog/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>From Keyboard Warrior to Activist: The Agentic AI Upgrade</title><link>https://transcriptionproject.github.io/blog/blog/2025-03-31_from-keyboard-warrior-to-activist-the-agentic-ai-upgrade/</link><pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/2025-03-31_from-keyboard-warrior-to-activist-the-agentic-ai-upgrade/</guid><description>&lt;p>&lt;em>I wrote this quick response to explain Agentic AI to a friend. Posting it here since I&amp;rsquo;ll probably end up linking to it a lot—and because, let&amp;rsquo;s be honest, it&amp;rsquo;s been ages since I&amp;rsquo;ve posted anything. For extra fun, I took my first draft and asked ChatGPT to add punch. And repeated that step a few more times. You can &lt;a href="https://chatgpt.com/share/67e4c6a0-36b4-8008-9e3a-dd461ad57ef2">see the evolution here&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>Imagine chatting with a college student about their major. You ask a question—they fire back instantly. Confident. Usually right. Sometimes dead wrong. Ask them to solve something tricky? They’ll blurt out the first idea that pops into their head.&lt;/p></description></item><item><title>Want to make a feature change to PyTorch?</title><link>https://transcriptionproject.github.io/blog/blog/want-to-make-a-feature-change-to-pytorch/</link><pubDate>Mon, 22 Aug 2022 19:10:53 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/want-to-make-a-feature-change-to-pytorch/</guid><description>With such a large number of commits coming in, PyTorch needs a process for managing it all to keep the codebase maintainable. For smaller changes, like a five line bug fix, this takes the form of a regular PR review. For larger changes, we prefer a Request for Comments</description></item><item><title>The Software Engineer's Career Ladder</title><link>https://transcriptionproject.github.io/blog/blog/the-software-engineers-career-ladder/</link><pubDate>Sat, 11 Jun 2022 05:00:11 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/the-software-engineers-career-ladder/</guid><description>What&amp;rsquo;s expected of you when you&amp;rsquo;re a junior, senior, or staff software engineer, and what it takes to rise up in the ranks.</description></item><item><title>Insider's Guide to Passing FAANG Interviews</title><link>https://transcriptionproject.github.io/blog/blog/insiders-guide-to-passing-faang-interviews/</link><pubDate>Tue, 07 Jun 2022 00:22:27 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/insiders-guide-to-passing-faang-interviews/</guid><description>My 12+ years as both the interviewer and interviewee at Google, Microsoft, and Stripe taught me one thing:
 Standard interviewing advice falls woefully short. Grinding interview questions isn&amp;rsquo;t enough. Here&amp;rsquo;s what to do.</description></item><item><title>PARA vs Zettelkasten: The false binary</title><link>https://transcriptionproject.github.io/blog/blog/para-vs-zettelkasten-the-false-binary/</link><pubDate>Sun, 23 Jan 2022 10:48:23 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/para-vs-zettelkasten-the-false-binary/</guid><description>&lt;p>I started practicing PARA and Zettelkasten &lt;a href="../blog/remembering-what-you-read-zettelkasten-vs-para/">two years ago&lt;/a>. Here&amp;rsquo;s what I&amp;rsquo;ve realized after twenty four months of practice:&lt;/p>
 &lt;h1 id="change-the-system-not-yourself">Change the system, not yourself&lt;/h1>
 &lt;p>There&amp;rsquo;s a common mistake people made when following popular note taking or productivity systems, be it PARA, Zettelkasten, GTD, Bullet Journals, or anything else.&lt;/p>
@@ -58,7 +59,7 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;p>If your current branch was branched off of master and you want to pull the latest updates pushed to master since then:&lt;/p>
 &lt;pre tabindex="0">&lt;code>git pull --rebase origin master
 &lt;/code>&lt;/pre>&lt;h1 id="pull-a-branch-other-than-the-one-youre-on">Pull a branch other than the one you&amp;rsquo;re on&lt;/h1>
-&lt;p>For example, if you&amp;rsquo;re not on the master branch but want to pull and merge master&lt;/p></description></item><item><title>Use Virtual Environments Inside Jupyter Notebooks &amp; Jupter Lab [Best Practices]</title><link>https://transcriptionproject.github.io/blog/blog/jupyter-notebooks-best-practices-use-virtual-environments/</link><pubDate>Fri, 08 Nov 2019 08:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/jupyter-notebooks-best-practices-use-virtual-environments/</guid><description/></item><item><title>Authenticating AI Platform Notebooks against BigQuery in Python</title><link>https://transcriptionproject.github.io/blog/blog/authenticating-ai-platform-notebooks-against-bigquery-in-python/</link><pubDate>Tue, 15 Oct 2019 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/authenticating-ai-platform-notebooks-against-bigquery-in-python/</guid><description>&lt;p>When you use &lt;a href="https://cloud.google.com/ai-platform-notebooks/">AI Platform Notebooks&lt;/a> by default any API calls you make to GCP use the default compute service account that your notebook runs under. This makes it easy to start getting stuff done, but sometimes you may want to use BigQuery to query data that your service account doesn’t have access to.&lt;/p>
+&lt;p>For example, if you&amp;rsquo;re not on the master branch but want to pull and merge master&lt;/p></description></item><item><title>Use Virtual Environments Inside Jupyter Notebooks &amp; Jupter Lab [Best Practices]</title><link>https://transcriptionproject.github.io/blog/blog/jupyter-notebooks-best-practices-use-virtual-environments/</link><pubDate>Fri, 08 Nov 2019 08:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/jupyter-notebooks-best-practices-use-virtual-environments/</guid><description>&lt;p>Using Virtual Environments has become a standard best practice in the Python community. They allow you to work on multiple python projects at the same time, without one accidentally corrupting the dependencies of another. While using these Virtual Environments has become the norm with Python projects, they haven&amp;rsquo;t yet caught on in Python notebooks. However, they&amp;rsquo;re easy to add to your Jupyter Notebook or Jupyter Lab setup. This post will describe just how you can use them.&lt;/p></description></item><item><title>Authenticating AI Platform Notebooks against BigQuery in Python</title><link>https://transcriptionproject.github.io/blog/blog/authenticating-ai-platform-notebooks-against-bigquery-in-python/</link><pubDate>Tue, 15 Oct 2019 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/authenticating-ai-platform-notebooks-against-bigquery-in-python/</guid><description>&lt;p>When you use &lt;a href="https://cloud.google.com/ai-platform-notebooks/">AI Platform Notebooks&lt;/a> by default any API calls you make to GCP use the default compute service account that your notebook runs under. This makes it easy to start getting stuff done, but sometimes you may want to use BigQuery to query data that your service account doesn’t have access to.&lt;/p>
 &lt;p>The below instructions describe how to use your personal account to authenticate with BigQuery. This specifically applies to authentication when using a python based notebook. If you want to authenticate on a R based notebook you can find &lt;a href="../blog/authenticating-to-bigrquery-on-gcp-ai-platform-notebooks/">instructions for that here&lt;/a>.&lt;/p></description></item><item><title>Become Creative by Asking Better Questions</title><link>https://transcriptionproject.github.io/blog/blog/a-more-beautiful-question-summary/</link><pubDate>Fri, 09 Aug 2019 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/a-more-beautiful-question-summary/</guid><description>&lt;blockquote>
 &lt;p>These are the key lessons I discovered while reading Warren Berger’s &lt;a href="https://www.amazon.com/More-Beautiful-Question-Inquiry-Breakthrough/dp/1632861054/">A More Beautiful Question&lt;/a>. Most material is directly from the book with a few of my own ideas interspersed&lt;/p>&lt;/blockquote>
 
@@ -99,7 +100,108 @@ Performance reviews had just ended, and it was time to meet my manager and be to
 &lt;li>&lt;strong>&lt;strong>Conjecture&lt;/strong>&lt;/strong>: What if something about this was different? How would that impact things?&lt;/li>
 &lt;li>&lt;strong>&lt;strong>Relevance&lt;/strong>&lt;/strong>: Why does this matter?&lt;/li>
 &lt;/ol>
-&lt;p>&lt;em>(Source: &lt;a href="https://www.amazon.com/More-Beautiful-Question-Inquiry-Breakthrough/dp/1632861054/">A More Beautiful Question&lt;/a> by Warren Berger)&lt;/em>&lt;/p></description></item><item><title>Salary Negotiation Tips</title><link>https://transcriptionproject.github.io/blog/blog/salary-negotiation-tips/</link><pubDate>Fri, 20 Jul 2018 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/salary-negotiation-tips/</guid><description/></item><item><title>How to: Redirect the default *.azurewebsites.net domain to your custom domain on Azure Web Apps</title><link>https://transcriptionproject.github.io/blog/blog/block-default-azure-websites-domain/</link><pubDate>Sat, 07 May 2016 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/block-default-azure-websites-domain/</guid><description/></item><item><title>Deploy Statically Generated Sites with Yeoman</title><link>https://transcriptionproject.github.io/blog/blog/deploy-statically-generated-sites-with-yeoman/</link><pubDate>Tue, 13 Oct 2015 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/deploy-statically-generated-sites-with-yeoman/</guid><description>&lt;p>There are a lot of awesome static site generators out there. It’s not always easy to figure out how to setup continuous deployment for them though.&lt;/p>
+&lt;p>&lt;em>(Source: &lt;a href="https://www.amazon.com/More-Beautiful-Question-Inquiry-Breakthrough/dp/1632861054/">A More Beautiful Question&lt;/a> by Warren Berger)&lt;/em>&lt;/p></description></item><item><title>Salary Negotiation Tips</title><link>https://transcriptionproject.github.io/blog/blog/salary-negotiation-tips/</link><pubDate>Fri, 20 Jul 2018 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/salary-negotiation-tips/</guid><description>&lt;p>When I was applying for a new job a few years ago I read everything I could find on salary negotiation, a core life skill everyone &lt;a href="https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/?utm_source=zainrizvi.io">should know&lt;/a>.&lt;/p>
+&lt;p>Here&amp;rsquo;s what I found. At the bottom you&amp;rsquo;ll find more links, including ones with &lt;strong>word for word scripts&lt;/strong> on what to say:&lt;/p>
+&lt;h1 id="16-principles-to-remember-during-a-negotiation">16 Principles to Remember during a Negotiation&lt;/h1>
+&lt;h3 id="1-they-need-to-like-you">1. They need to like you&lt;/h3>
+&lt;ul>
+&lt;li>If you get an offer, these people like you and want to keep liking you (but you&amp;rsquo;re not the only person in their life)&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-they-have-to-believe-that-you-deserve-it">2. They have to believe that you deserve it&lt;/h3>
+&lt;ul>
+&lt;li>Don&amp;rsquo;t ever ask for something without saying why you deserve it&lt;/li>
+&lt;li>Sometimes saying why you deserve it might make them like you less (#1) so be careful&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-they-need-to-be-able-to-justify-and-act-on-it-internally">3. They need to be able to justify and act on it internally&lt;/h3>
+&lt;ul>
+&lt;li>Need to figure out where they&amp;rsquo;re flexible and where they are not flexible&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-you-need-to-be-flexible-about-which-currency-they-pay-you-in">4. You need to be flexible about which currency they pay you in&lt;/h3>
+&lt;ul>
+&lt;li>You shouldn&amp;rsquo;t care about salary, bonus, options, city, etc. Should focus on value of entire deal&lt;/li>
+&lt;li>The more ways you give them to pay you, the more likely you are to get paid&lt;/li>
+&lt;li>Including perhaps not rewarding you today, but rewarding you later on&lt;/li>
+&lt;li>They need to believe that they can get you&lt;/li>
+&lt;li>People won&amp;rsquo;t go fight for you and spend political capital for you if they think you&amp;rsquo;re going to refuse at the end of the day&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-avoid-the-minutia">5. Avoid the minutia&lt;/h3>
+&lt;ul>
+&lt;li>Think about the interests that are really important to you, but not haggle over every little thing (you don&amp;rsquo;t want to sour the negotiation and make them not like you: see point #1)&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-try-to-learn-as-much-as-you-can-at-every-moment">6. Try to learn as much as you can at every moment.&lt;/h3>
+&lt;ul>
+&lt;li>Need to understand the person across the table from you&lt;/li>
+&lt;li>Learn as much as you can before the negotiation&lt;/li>
+&lt;li>What do they want, need?&lt;/li>
+&lt;li>Talk to folks in the organization, friends interviewing there, etc&lt;/li>
+&lt;li>Anytime someone says something you didn&amp;rsquo;t expect or is ambiguous, try to figure out what is going on so you know which world you&amp;rsquo;re in.&lt;/li>
+&lt;/ul>
+&lt;h3 id="7-negotiate-multiple-issues-simultaneously">7. Negotiate multiple issues simultaneously&lt;/h3>
+&lt;ul>
+&lt;li>For example, if there are multiple things you don&amp;rsquo;t like about the offer, mention all those things at once&lt;/li>
+&lt;li>Don&amp;rsquo;t be the guy who says: Hey, can you fix this one thing? &amp;ldquo;ok&amp;rdquo; Great, can you do this too? &amp;ldquo;alright&amp;rdquo; Cool, can you do this too please?&lt;/li>
+&lt;li>When you mention the few things that you need, it&amp;rsquo;s important to signal to them what&amp;rsquo;s most important and what&amp;rsquo;s less important&lt;/li>
+&lt;li>If you don&amp;rsquo;t they may pick the two things that are easy for them but less important to you. They may think they&amp;rsquo;re meeting you half way when you&amp;rsquo;re not really satisfied&lt;/li>
+&lt;/ul>
+&lt;h3 id="8-what-is-not-negotiable-today-may-be-negotiable-tomorrow">8. What is not negotiable today may be negotiable tomorrow&lt;/h3>
+&lt;ul>
+&lt;li>Today they may be hiring 20 people just like you and they have a hard time differing between you. But 6 months down the line they might be convinced that you&amp;rsquo;re different, or they&amp;rsquo;re in a different phase of employment and they have more flexibility&lt;/li>
+&lt;li>What may not be negotiable on day 1 of the interview process may be negotiable on day 3&lt;/li>
+&lt;li>E.g., if they tell you we can&amp;rsquo;t delay the deadline date for you to respond to our offer. But as the deadline gets closer, at that point they may be able to change the deadline later on&lt;/li>
+&lt;li>When they say &amp;ldquo;no&amp;rdquo; to something, ask them &amp;ldquo;Can you help me understand why that is hard to do?&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Under what circumstances would you be able to do this?&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Have you ever done something like this for a person&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;h3 id="9-stay-at-the-table">9. Stay at the table&lt;/h3>
+&lt;ul>
+&lt;li>Stay in touch&lt;/li>
+&lt;li>Perhaps things they couldn&amp;rsquo;t share with you before the offer, they can share with you after the offer. Or after you have the job, or after you&amp;rsquo;ve worked there for 3 months, etc&lt;/li>
+&lt;/ul>
+&lt;h3 id="10-sometimes-the-other-side-might-bring-up-something-that-you-wish-they-didnt">10. Sometimes the other side might bring up something that you wish they didn&amp;rsquo;t&lt;/h3>
+&lt;ul>
+&lt;li>Examples:&lt;/li>
+&lt;li>Do you have an alternate job offer?&lt;/li>
+&lt;li>Did your summer internship give you a job offer?&lt;/li>
+&lt;li>Instead of hoping they don&amp;rsquo;t ask those questions, prepare in advance to answer those toughest questions&lt;/li>
+&lt;li>What could they ask to put you in a defensive position?&lt;/li>
+&lt;li>When they ask you questions you wish they hadn&amp;rsquo;t asked?&lt;/li>
+&lt;li>Don&amp;rsquo;t get stuck on what they&amp;rsquo;re asking you. Try to figure out you why they&amp;rsquo;re asking you that?&lt;/li>
+&lt;li>What is the intent of the question? Where are they going with this?&lt;/li>
+&lt;li>Step back, ask them &amp;ldquo;Can you help me understand where you&amp;rsquo;re going with this?&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;h3 id="11-avoidignoredownplay-ultimatums-of-any-kind-in-either-direction">11. Avoid/ignore/downplay ultimatums of any kind (in either direction)&lt;/h3>
+&lt;ul>
+&lt;li>Don&amp;rsquo;t make them either&lt;/li>
+&lt;li>If they make one, pretend it was never said&lt;/li>
+&lt;li>It&amp;rsquo;s possible that at some point they themselves will realize that the position they took will result in no deal, and the last thing you want is for them to feel like they&amp;rsquo;ve painted themselves into a corner without losing face. The only way to give them a way out is to pretend it wasn&amp;rsquo;t even said.&lt;/li>
+&lt;li>If it&amp;rsquo;s a real ultimatum, they&amp;rsquo;ll let you know (they&amp;rsquo;ll repeat it multiple times)&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-companies-dont-negotiate-people-negotiate">12. Companies don&amp;rsquo;t negotiate, people negotiate&lt;/h3>
+&lt;ul>
+&lt;li>Negotiating with your future boss is different from negotiating with HR&lt;/li>
+&lt;li>It&amp;rsquo;s okay if HR is slightly annoyed with you, your boss being annoyed may be a problem&lt;/li>
+&lt;li>HR is hiring 100s of people, your boss is hiring very few people and may be willing to go fight to get you&lt;/li>
+&lt;li>Don&amp;rsquo;t let one person in the company ruin your view of the company&lt;/li>
+&lt;/ul>
+&lt;h3 id="13-dont-be-in-a-mad-rush-to-get-offers">13. Don&amp;rsquo;t be in a mad rush to get offers&lt;/h3>
+&lt;ul>
+&lt;li>Sometimes you want the interview process to be a bit slow so that you have time to interview other places&lt;/li>
+&lt;li>You have to think about the portfolio of deals you&amp;rsquo;re negotiating, try to see if you can have the offers come in closer to each other&lt;/li>
+&lt;/ul>
+&lt;h3 id="14-tell-the-truth">14. Tell the truth&lt;/h3>
+&lt;ul>
+&lt;li>Deception isn&amp;rsquo;t worth it&lt;/li>
+&lt;/ul>
+&lt;h3 id="15-shoot-for-an-11-out-of-10">15. Shoot for an 11 out of 10&lt;/h3>
+&lt;ul>
+&lt;li>After the negotiation with you, your boss is going to think about how much do they look forward to working with you. You want them to think you&amp;rsquo;re an 11/10, not even a 10/10.&lt;/li>
+&lt;li>Negotiate in a way, openly, honestly, with empathy, with give and take, that afterwards they like you even more than they did before&lt;/li>
+&lt;/ul>
+&lt;h3 id="16-if-youre-thinking-about-how-happy-youll-be-in-life-how-you-negotiate-is-not-very-important">16. If you&amp;rsquo;re thinking about how happy you&amp;rsquo;ll be in life, how you negotiate is not very important&lt;/h3>
+&lt;ul>
+&lt;li>The job you choose, the industry you go into, etc are all much more important&lt;/li>
+&lt;/ul>
+&lt;p>💡&lt;em>If you&amp;rsquo;d like to learn how to get a job offer in the first place, you might like to read &lt;a href="https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/">Interview Advice that got me offers from Google, Stripe, and Microsoft&lt;/a>. I share insider tactics I learned over 13+ years that&amp;rsquo;s landed me jobs at multiple tech companies companies including Google, Facebook, Stripe and Microsoft.&lt;/em>&lt;/p></description></item><item><title>How to: Redirect the default *.azurewebsites.net domain to your custom domain on Azure Web Apps</title><link>https://transcriptionproject.github.io/blog/blog/block-default-azure-websites-domain/</link><pubDate>Sat, 07 May 2016 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/block-default-azure-websites-domain/</guid><description>&lt;p>When you create a new website using &lt;a href="https://azure.microsoft.com/en-us/services/app-service/web/">Azure Web Apps&lt;/a> you get a default &lt;code>&amp;lt;sitename&amp;gt;.azurewebsites.net&lt;/code> domain assigned to your site. That&amp;rsquo;s great, but what if you add a custom host name to your site and don&amp;rsquo;t want people to be able to access your default *.azurewebsites.net domain anymore? (You paid good money for that custom domain.) This post explains how to redirect all traffic aimed at your site&amp;rsquo;s default domain to your custom domain instead.&lt;/p></description></item><item><title>Deploy Statically Generated Sites with Yeoman</title><link>https://transcriptionproject.github.io/blog/blog/deploy-statically-generated-sites-with-yeoman/</link><pubDate>Tue, 13 Oct 2015 07:00:00 +0000</pubDate><guid>https://transcriptionproject.github.io/blog/blog/deploy-statically-generated-sites-with-yeoman/</guid><description>&lt;p>There are a lot of awesome static site generators out there. It’s not always easy to figure out how to setup continuous deployment for them though.&lt;/p>
 &lt;p>This post will describe how to deploy a statically generated site using yeoman angular to Azure Web Apps, but these steps can be applied to deploy any statically generated site to Azure Web Apps.&lt;/p>
 &lt;hr>
 &lt;h4 id="deploying-the-initial-site">Deploying the initial site&lt;/h4>
