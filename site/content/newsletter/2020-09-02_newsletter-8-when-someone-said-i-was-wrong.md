@@ -3,7 +3,7 @@ categories = ["Newsletter"]
 date = 2020-09-02T20:17:00Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1494797262163-102fae527c62?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+image = "/images/2020/09/newsletter-8-header.jpg"
 slug = "newsletter-8-when-someone-said-i-was-wrong"
 url = "/newsletter/newsletter-8-when-someone-said-i-was-wrong"
 tags = ["Newsletter"]
@@ -46,7 +46,7 @@ Before that moment, they're still open to possibilities.
 
 But once someone says "no", **they stop considering alternatives**
 
-{{< figure src="https://ci3.googleusercontent.com/proxy/a7ens7Mixa7zYcA1O9eA7eKOqjmbLMPa8FL2vQiO9c-N56uNfTqR4CNVlMSaDMGEQ67uAFrBfc-qmzkZ7_rQw7blqtdF-beMA2XKJbjVyU8LqTDuQaLHD1vReZ28VROKkMqGOWoyh0Pn_dmJYAU=s0-d-e1-ft#https://bucket.mlcdn.com/a/1765/1765926/images/e81c868d0f5221ebf9b6553ac5129e820ba8a708.png" >}}
+{{< figure src="/images/2020/09/newsletter-8-change-minds.png" >}}
 
 ## #3 Your Predictions are Wrong
 
@@ -62,7 +62,7 @@ Don’t expect to all.
 
 That's okay
 
-{{< figure src="https://ci6.googleusercontent.com/proxy/igYeJQTSW66KSUJyz-UeMpxqRGn9EE_l1kK6Zfab5Z59IAAdWC7i5ijPjTwxKK9s5Y35eOAVZeCqdVlihDfBoLAT7iDQXmGqBKCbUC7Hxg1vncbbSmMj4wDKVTcDWa9GfjhjVATqnlAHrA3hIMA=s0-d-e1-ft#https://bucket.mlcdn.com/a/1765/1765926/images/c3da5f9e596fae1e9c5fbc3aad2833e734ce7b1a.png" >}}
+{{< figure src="/images/2020/09/newsletter-8-predictions.png" >}}
 
 ## Your Turn 👊
 

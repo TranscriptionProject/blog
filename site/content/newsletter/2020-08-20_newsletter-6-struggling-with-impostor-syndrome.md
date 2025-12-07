@@ -3,7 +3,7 @@ categories = ["Newsletter"]
 date = 2020-08-20T21:24:21Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1483193722442-5422d99849bc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+image = "/images/2020/08/newsletter-6-header.jpg"
 slug = "newsletter-6-struggling-with-impostor-syndrome"
 url = "/newsletter/newsletter-6-struggling-with-impostor-syndrome"
 tags = ["Newsletter"]
@@ -16,7 +16,7 @@ Two years into my first job at Microsoft, I was expecting to be fired.
 
 I felt like I wasn't good enough, like I was only pretending to be smart. I spent years desperately trying to hide my incompetence from others.
 
-{{< figure src="https://ci5.googleusercontent.com/proxy/6p501NMwlr21LiQ0s_4y4qr2FbnvXS3Y4UIm9uFtep1TrM-lMb3lLc9XtTc4I73VCINTDdtK8BH0nsfZy1ip6W2NJKF8K60H6vjFpLoh4BD3OWRhovBW2VfMLdg1xiuiooVeQV7HVj6z4V2ndg=s0-d-e1-ft#https://www.zainrizvi.io/content/images/2020/08/when-someone-comments-on-my-design-doc.gif" >}}
+{{< figure src="/images/2020/08/newsletter-6-design-doc.gif" >}}
 
 Eventually I realized I had Impostor Syndrome, where qualified people belittle their own talents and are constantly being terrified of being discovered as a fraud.
 

@@ -3,7 +3,7 @@ categories = ["Newsletter"]
 date = 2020-09-09T17:58:00Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1467773648908-a0b47ccbe614?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+image = "/images/2020/09/newsletter-9-header.jpg"
 slug = "newsletter-9"
 url = "/newsletter/newsletter-9"
 tags = ["Newsletter"]
@@ -30,7 +30,7 @@ How can I expect my manager to remember everything I did all year when I barely 
 
 It makes a huge difference
 
-{{< figure src="https://bucket.mlcdn.com/a/1765/1765926/images/4d57a2392fdd6cf57d9edef86acb3a8b80b45b9e.png" >}}
+{{< figure src="/images/2020/09/newsletter-9-write-down.png" >}}
 
 # #2 Focus or flounder
 
@@ -38,7 +38,7 @@ If focus is critical when a few people can share the load
 
 What happens when you only have yourself?
 
-{{< figure src="https://bucket.mlcdn.com/a/1765/1765926/images/aee68c7bb297ef336829ba8d98dc9087679f0c50.jpeg" >}}
+{{< figure src="/images/2020/09/newsletter-9-focus.jpeg" >}}
 
 # #3 The medium limits the message
 
@@ -56,7 +56,7 @@ And we're not done yet.
 
 Licklider noticed this potential half a century ago:
 
-{{< figure src="https://bucket.mlcdn.com/a/1765/1765926/images/82043ff0413478427bdd0a555ca668448a1998db.png" >}}
+{{< figure src="/images/2020/09/newsletter-9-medium-limits.png" >}}
 
 New note taking tools like [Roam](https://roamresearch.com/?utm_source=zainrizvi.io&utm_medium=email&utm_campaign=getting_senior_leaders_to_consider_your_proposals&utm_term=2020-09-09) are removing some of those limits, but there's still a lot left to be decoupled.
 
